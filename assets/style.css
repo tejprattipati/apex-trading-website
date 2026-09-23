@@ -49,3 +49,13 @@
     height:137.5px;
   }
 }
+
+/* A prominent, responsive career-panel feature on About. */
+.mentorship-section{display:grid;grid-template-columns:.85fr 1.15fr;align-items:center;gap:clamp(32px,5vw,80px)}
+.mentorship-copy h2{font-size:clamp(2.7rem,4.4vw,4.5rem)}
+.mentorship-copy>p:not(.eyebrow){margin-top:var(--space-copy);font-size:16px;line-height:1.8;color:var(--navy);max-width:470px}
+.mentorship-photo{margin:0;min-width:0}
+.mentorship-photo img{width:100%;height:auto;aspect-ratio:1;object-fit:cover;object-position:center 68%}
+.mentorship-photo figcaption{font-size:12px;line-height:1.6;color:var(--navy);margin-top:12px}
+@media(max-width:900px){.mentorship-section{grid-template-columns:1fr;gap:32px}.mentorship-copy>p:not(.eyebrow){max-width:650px}.mentorship-photo img{aspect-ratio:6/5}}
+@media(max-width:480px){.mentorship-photo img{aspect-ratio:1}}
