@@ -150,7 +150,8 @@
         "optimized_width": 599,
         "optimized_height": 900,
         "file": "assets/images/oliver-kosinski.webp",
-        "zoom": 1.15
+        "zoom": 1.15,
+        "position": "center 65%"
       }
     },
     {
@@ -202,23 +203,6 @@
         "optimized_width": 900,
         "optimized_height": 572,
         "file": "assets/images/hadi-chamra.webp"
-      }
-    },
-    {
-      "name": "Charlie Sebestyen",
-      "role": "VP of Investments",
-      "email": "csebest@umich.edu",
-      "photo": {
-        "name": "charlie-sebestyen",
-        "category": "headshot",
-        "source_url": "https://static.wixstatic.com/media/044a0c_d7764fbab4824789a60ca9083c29db7a~mv2.jpg",
-        "source_alt": "IMG_4638.JPG",
-        "maxwidth": 900,
-        "page": "about",
-        "source_image_index": 8,
-        "optimized_width": 599,
-        "optimized_height": 900,
-        "file": "assets/images/charlie-sebestyen.webp"
       }
     }
   ],
@@ -409,6 +393,23 @@
         "optimized_width": 579,
         "optimized_height": 599,
         "file": "assets/images/christian-gojcaj.webp"
+      }
+    },
+    {
+      "name": "Charlie Sebestyen",
+      "role": "Finance Chair",
+      "email": "csebest@umich.edu",
+      "photo": {
+        "name": "charlie-sebestyen",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_d7764fbab4824789a60ca9083c29db7a~mv2.jpg",
+        "source_alt": "IMG_4638.JPG",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 8,
+        "optimized_width": 599,
+        "optimized_height": 900,
+        "file": "assets/images/charlie-sebestyen.webp"
       }
     }
   ],

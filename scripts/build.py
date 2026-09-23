@@ -100,8 +100,11 @@ def people(entries):
     cards=''
     for person in entries:
         email=person.get('email')
-        zoom=person['photo'].get('zoom')
-        photo_style=f'style="--photo-zoom:{zoom}"' if zoom else ''
+        photo=person['photo']
+        styles=[]
+        if photo.get('zoom'): styles.append(f"--photo-zoom:{photo['zoom']}")
+        if photo.get('position'): styles.append(f"object-position:{photo['position']}")
+        photo_style=f'style="{e(";".join(styles))}"' if styles else ''
         cards+=f'''<article class="person reveal"><div class="person-photo">{image(person['photo'],person['name'],extra=photo_style)}</div><div class="person-info"><p>{e(person['role'])}</p><h3>{e(person['name'])}</h3>{f'<a href="mailto:{email}">{email} <span>↗</span></a>' if email else ''}</div></article>'''
     return f'<div class="people-grid">{cards}</div>'
 
