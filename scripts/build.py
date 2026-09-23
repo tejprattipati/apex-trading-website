@@ -23,7 +23,7 @@ def ext(url, label, cls=''):
 
 def header(page):
     links=''.join(f'<a href="{path}"'+(' aria-current="page"' if path==page else '')+f'>{name}</a>' for path,name in PAGES)
-    forms='' if page=='prospective-members.html' else ext(INTEREST,'Interest form ↗','nav-interest')+ext(APPLICATION,'Application ↗','button small')
+    forms=ext(INTEREST,'Interest form ↗','nav-interest')+ext(APPLICATION,'Application ↗','button small')
     return f'''<a class="skip-link" href="#main">Skip to content</a><header class="site-header">
     <a class="brand" href="index.html" aria-label="Apex Trading Group home"><span class="brand-mark"><img src="{LOGO}" alt="ATG" width="{D['branding']['preferred_white_wordmark']['optimized_width']}" height="{D['branding']['preferred_white_wordmark']['optimized_height']}"></span><span class="brand-name">APEX<br>TRADING GROUP</span></a>
     <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">☰</span></button><nav id="main-nav" aria-label="Main navigation">{links}{forms}</nav></header>'''
