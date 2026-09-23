@@ -100,7 +100,9 @@ def people(entries):
     cards=''
     for person in entries:
         email=person.get('email')
-        cards+=f'''<article class="person reveal"><div class="person-photo">{image(person['photo'],person['name'])}</div><div class="person-info"><p>{e(person['role'])}</p><h3>{e(person['name'])}</h3>{f'<a href="mailto:{email}">{email} <span>↗</span></a>' if email else ''}</div></article>'''
+        zoom=person['photo'].get('zoom')
+        photo_style=f'style="--photo-zoom:{zoom}"' if zoom else ''
+        cards+=f'''<article class="person reveal"><div class="person-photo">{image(person['photo'],person['name'],extra=photo_style)}</div><div class="person-info"><p>{e(person['role'])}</p><h3>{e(person['name'])}</h3>{f'<a href="mailto:{email}">{email} <span>↗</span></a>' if email else ''}</div></article>'''
     return f'<div class="people-grid">{cards}</div>'
 
 def about():

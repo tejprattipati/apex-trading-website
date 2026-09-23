@@ -149,7 +149,8 @@
         "source_image_index": 6,
         "optimized_width": 599,
         "optimized_height": 900,
-        "file": "assets/images/oliver-kosinski.webp"
+        "file": "assets/images/oliver-kosinski.webp",
+        "zoom": 1.15
       }
     },
     {
@@ -1480,7 +1481,7 @@
       "JP Morgan",
       "Morgan Stanley",
       "Moelis & Company",
-      "Guggenheim Partners",
+      "BlackRock",
       "Millennium"
     ],
     "additional_logos": [
