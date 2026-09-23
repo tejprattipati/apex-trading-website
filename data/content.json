@@ -102,23 +102,6 @@
       }
     },
     {
-      "name": "Julia Zou",
-      "role": "VP of Internal Relations",
-      "email": "juliazou@umich.edu",
-      "photo": {
-        "name": "julia-zou",
-        "category": "headshot",
-        "source_url": "https://static.wixstatic.com/media/044a0c_8a06da7583474043bd73d4853b02d894~mv2.jpg",
-        "source_alt": "IMG_4234 (1).JPG",
-        "maxwidth": 900,
-        "page": "about",
-        "source_image_index": 4,
-        "optimized_width": 600,
-        "optimized_height": 900,
-        "file": "assets/images/julia-zou.webp"
-      }
-    },
-    {
       "name": "Will VanWingerden",
       "role": "Co-President",
       "email": "willvw@umich.edu",
@@ -133,23 +116,6 @@
         "optimized_width": 841,
         "optimized_height": 900,
         "file": "assets/images/will-vanwingerden.webp"
-      }
-    },
-    {
-      "name": "Oliver Kosinski",
-      "role": "VP of Recruitment",
-      "email": "oliverko@umich.edu",
-      "photo": {
-        "name": "oliver-kosinski",
-        "category": "headshot",
-        "source_url": "https://static.wixstatic.com/media/044a0c_8816e70512574f1d83eb7d9fa6d54d71~mv2.jpg",
-        "source_alt": "IMG_1132.JPG",
-        "maxwidth": 900,
-        "page": "about",
-        "source_image_index": 6,
-        "optimized_width": 599,
-        "optimized_height": 900,
-        "file": "assets/images/oliver-kosinski.webp"
       }
     },
     {
@@ -170,20 +136,37 @@
       }
     },
     {
-      "name": "Charlie Sebestyen",
-      "role": "VP of Investments",
-      "email": "csebest@umich.edu",
+      "name": "Oliver Kosinski",
+      "role": "VP of Recruitment",
+      "email": "oliverko@umich.edu",
       "photo": {
-        "name": "charlie-sebestyen",
+        "name": "oliver-kosinski",
         "category": "headshot",
-        "source_url": "https://static.wixstatic.com/media/044a0c_d7764fbab4824789a60ca9083c29db7a~mv2.jpg",
-        "source_alt": "IMG_4638.JPG",
+        "source_url": "https://static.wixstatic.com/media/044a0c_8816e70512574f1d83eb7d9fa6d54d71~mv2.jpg",
+        "source_alt": "IMG_1132.JPG",
         "maxwidth": 900,
         "page": "about",
-        "source_image_index": 8,
+        "source_image_index": 6,
         "optimized_width": 599,
         "optimized_height": 900,
-        "file": "assets/images/charlie-sebestyen.webp"
+        "file": "assets/images/oliver-kosinski.webp"
+      }
+    },
+    {
+      "name": "Julia Zou",
+      "role": "VP of Internal Relations",
+      "email": "juliazou@umich.edu",
+      "photo": {
+        "name": "julia-zou",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_8a06da7583474043bd73d4853b02d894~mv2.jpg",
+        "source_alt": "IMG_4234 (1).JPG",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 4,
+        "optimized_width": 600,
+        "optimized_height": 900,
+        "file": "assets/images/julia-zou.webp"
       }
     },
     {
@@ -218,6 +201,23 @@
         "optimized_width": 900,
         "optimized_height": 572,
         "file": "assets/images/hadi-chamra.webp"
+      }
+    },
+    {
+      "name": "Charlie Sebestyen",
+      "role": "VP of Investments",
+      "email": "csebest@umich.edu",
+      "photo": {
+        "name": "charlie-sebestyen",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_d7764fbab4824789a60ca9083c29db7a~mv2.jpg",
+        "source_alt": "IMG_4638.JPG",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 8,
+        "optimized_width": 599,
+        "optimized_height": 900,
+        "file": "assets/images/charlie-sebestyen.webp"
       }
     }
   ],

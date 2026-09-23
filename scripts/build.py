@@ -78,10 +78,17 @@ def people(entries):
     return f'<div class="people-grid">{cards}</div>'
 
 def about():
+    leaders=D['chairs_and_sector_heads']
+    sectors=[p for p in leaders if 'Sector Head' in p['role']]
+    sectors.sort(key=lambda p: p['name']!='Tej Prattipati')
+    chairs=[p for p in leaders if 'Sector Head' not in p['role'] and 'Chair' in p['role']]
+    advisors=[p for p in leaders if 'Advisor' in p['role']]
     return subhero('About Apex Trading Group','Shared ambition.<br><em>Individual potential.</em>','The University of Michigan’s premier student investment organization. Built around real-world experience, professional growth, and the people who make it possible.')+f'''
-    <nav class="section-nav wrap" aria-label="About sections"><a href="#executive-board">Executive board ↓</a><a href="#chairs">Chairs & sector heads ↓</a><a href="#pillars">Our pillars ↓</a></nav>
+    <nav class="section-nav wrap" aria-label="About sections"><a href="#executive-board">Executive board ↓</a><a href="#sector-heads">Sector heads ↓</a><a href="#chairs">Chairs ↓</a><a href="#advisor">Senior advisor ↓</a><a href="#pillars">Our pillars ↓</a></nav>
     <section id="executive-board" class="section wrap"><div class="section-heading"><div><p class="eyebrow">The people behind ATG</p><h2>Executive <em>board.</em></h2></div><p class="section-aside">Students leading students.<br>Meet our executive team.</p></div>{people(D['board'])}</section>
-    <section id="chairs" class="section chairs-section"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">Leading across the club</p><h2>Chairs & <em>sector heads.</em></h2></div></div>{people(D['chairs_and_sector_heads'])}</div></section>
+    <section id="sector-heads" class="section chairs-section"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">Leading our investment teams</p><h2>Sector <em>heads.</em></h2></div></div>{people(sectors)}</div></section>
+    <section id="chairs" class="section wrap"><div class="section-heading"><div><p class="eyebrow">Supporting our community</p><h2>Our <em>chairs.</em></h2></div></div>{people(chairs)}</section>
+    <section id="advisor" class="section chairs-section"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">Experience & perspective</p><h2>Senior <em>advisor.</em></h2></div></div>{people(advisors)}</div></section>
     <section id="pillars" class="section wrap"><div class="section-heading"><div><p class="eyebrow">Our foundation</p><h2>The ATG <em>pillars.</em></h2></div></div>{pillars(True)}</section>'''
 
 def placement():
