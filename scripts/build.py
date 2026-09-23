@@ -26,7 +26,7 @@ def header(page):
     forms=ext(INTEREST,'Interest form ↗','nav-interest')+ext(APPLICATION,'Application ↗','button small')
     return f'''<a class="skip-link" href="#main">Skip to content</a><header class="site-header">
     <a class="brand" href="index.html" aria-label="Apex Trading Group home"><span class="brand-mark"><img src="{LOGO}" alt="ATG" width="{D['branding']['preferred_white_wordmark']['optimized_width']}" height="{D['branding']['preferred_white_wordmark']['optimized_height']}"></span><span class="brand-name">APEX<br>TRADING GROUP</span></a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">☰</span></button><nav id="main-nav" aria-label="Main navigation">{links}{forms}</nav></header>'''
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav"><span>Menu</span><svg width="16" height="12" viewBox="0 0 16 12" aria-hidden="true" focusable="false"><path d="M1 1H15M1 6H15M1 11H15" fill="none" stroke="currentColor" stroke-width="1.25"/></svg></button><nav id="main-nav" aria-label="Main navigation">{links}{forms}</nav></header>'''
 
 def footer(page):
     actions=ext(INTEREST,'Stay in the loop <span>↗</span>','button')
