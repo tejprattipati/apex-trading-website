@@ -19,11 +19,11 @@ The visual direction is informed by the supplied ATG Instagram screenshot and th
 
 ## Updated sector grid
 
-- Technology, Media & Telecommunications: [Laura Ockel / Unsplash](https://unsplash.com/photos/a-close-up-of-a-metal-plate-with-squares-on-it-0Gw_p-RQq8k).
+- Technology, Media & Telecommunications: processor image supplied directly by the site owner.
 - Power, Utilities & Infrastructure: [Energie-portal.sk / Unsplash](https://unsplash.com/photos/nuclear-power-plant-with-cooling-towers-emitting-steam-NjacvIB_vIQ).
 - Healthcare: [Dmytro Vynohradov / Unsplash](https://unsplash.com/photos/a-microscope-sitting-on-top-of-a-white-table-xbBIJ8jLz50).
 - Global Equities: [Sofia Cancela / Unsplash](https://unsplash.com/photos/looking-up-at-tall-buildings-in-a-city-4u1KnDTN0DI).
 - Industrials: [Simon Kadula / Unsplash](https://unsplash.com/photos/a-factory-filled-with-lots-of-orange-machines-8gr6bObQLOI).
 - Consumer & Retail: [Brett Jordan / Unsplash](https://unsplash.com/photos/a-glass-ceiling-in-a-shopping-mall-with-people-walking-around-97yKnJpF2N4).
 
-All sector images use the Unsplash License. Blue/silver toning is applied in CSS; source images are preserved. Tej Prattipati’s current portrait was supplied directly for this website update.
+The other five sector images use the Unsplash License. Blue/silver toning is applied in CSS; source images are preserved. Tej Prattipati’s current portrait was supplied directly for this website update.

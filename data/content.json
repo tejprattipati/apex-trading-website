@@ -1615,13 +1615,12 @@
       {
         "name": "Technology, Media & Telecommunications",
         "image": {
-          "file": "assets/images/sector-tmt.jpg",
-          "optimized_width": 1200,
-          "optimized_height": 900
+          "file": "assets/images/sector-tmt.png",
+          "optimized_width": 597,
+          "optimized_height": 335
         },
-        "alt": "Macro photograph of a silicon wafer patterned with microchips",
-        "source_url": "https://unsplash.com/photos/a-close-up-of-a-metal-plate-with-squares-on-it-0Gw_p-RQq8k",
-        "photographer": "Laura Ockel"
+        "alt": "Processor chip surrounded by glowing blue circuits",
+        "source": "Image supplied by the site owner"
       },
       {
         "name": "Power, Utilities & Infrastructure",
