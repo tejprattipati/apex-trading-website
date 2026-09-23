@@ -43,7 +43,7 @@ def pillars(full=False):
     cards=''
     for i,p in enumerate(D['pillars']):
         desc=p['source_description'].replace('$10k','$25,000').rstrip('.')+'.' if full else descriptions[i]
-        cards+=f'''<article class="pillar reveal" id="pillar-{i+1}"><div class="pillar-photo">{image(p['photo'],['ATG members together at a club event','ATG members at a professional event','ATG members socializing'][i])}<span>0{i+1}</span></div><div class="pillar-copy"><p class="eyebrow">{['Invest','Develop','Belong'][i]}</p><h3>{e(p['title'])}</h3><p>{e(desc)}</p>{f'<a class="text-link" href="about.html#pillar-{i+1}">Discover more <span>↗</span></a>' if not full else ''}</div></article>'''
+        cards+=f'''<article class="pillar reveal" id="pillar-{i+1}"><div class="pillar-photo">{image(p['photo'],['ATG members together at a club event','ATG members presenting at the Michigan Ross podium','ATG members socializing'][i])}<span>0{i+1}</span></div><div class="pillar-copy"><p class="eyebrow">{['Invest','Develop','Belong'][i]}</p><h3>{e(p['title'])}</h3><p>{e(desc)}</p>{f'<a class="text-link" href="about.html#pillar-{i+1}">Discover more <span>↗</span></a>' if not full else ''}</div></article>'''
     return f'<div class="pillars">{cards}</div>'
 
 def recruitment(show_interest=True):
@@ -116,12 +116,12 @@ def about():
     chairs=[p for p in leaders if 'Sector Head' not in p['role'] and 'Chair' in p['role']]
     chairs.sort(key=lambda p: {'Shivam Shah':0,'Emanuel Rodriguez':1,'Matthew Hunt':2}.get(p['name'],3))
     return subhero('About Apex Trading Group','Shared ambition.<br><em>Individual potential.</em>','The University of Michigan’s premier student investment organization. Built around real-world experience, professional growth, and the people who make it possible.')+f'''
-    <nav class="section-nav wrap" aria-label="About sections"><a href="#mentorship">Seniors &amp; alumni ↓</a><a href="#executive-board">Executive board ↓</a><a href="#sector-heads">Sector heads ↓</a><a href="#chairs">Chairs ↓</a><a href="#pillars">Our pillars ↓</a></nav>
-    <section id="mentorship" class="section wrap mentorship-section"><div class="mentorship-copy"><p class="eyebrow">Seniors &amp; alumni</p><h2>Learn from those<br><em>who’ve been there.</em></h2><p>ATG’s seniors and alumni stay involved in the next generation of members. Through career panels, one-on-one mentorship, and recruiting guidance, they share lessons from internships and full-time roles, help members prepare for interviews, and offer perspective on the paths ahead.</p></div><figure class="mentorship-photo">{image(D['placement']['club_photo'],'ATG members sharing their recruiting experiences at a career panel')}<figcaption>Sharing experience at an ATG career panel.</figcaption></figure></section>
+    <nav class="section-nav wrap" aria-label="About sections"><a href="#executive-board">Executive board ↓</a><a href="#sector-heads">Sector heads ↓</a><a href="#chairs">Chairs ↓</a><a href="#pillars">Our pillars ↓</a><a href="#mentorship">Seniors &amp; alumni ↓</a></nav>
     <section id="executive-board" class="section wrap"><div class="section-heading"><div><p class="eyebrow">The people behind ATG</p><h2>Executive <em>board.</em></h2></div></div>{people(D['board'])}</section>
     <section id="sector-heads" class="section chairs-section"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">Leading our investment teams</p><h2>Sector <em>heads.</em></h2></div></div>{people(sectors)}</div></section>
     <section id="chairs" class="section wrap"><div class="section-heading"><div><p class="eyebrow">Supporting our community</p><h2>Our <em>chairs.</em></h2></div></div>{people(chairs)}</section>
-    <section id="pillars" class="section wrap"><div class="section-heading"><div><p class="eyebrow">Our foundation</p><h2>The ATG <em>pillars.</em></h2></div></div>{pillars(True)}</section>'''
+    <section id="pillars" class="section wrap"><div class="section-heading"><div><p class="eyebrow">Our foundation</p><h2>The ATG <em>pillars.</em></h2></div></div>{pillars(True)}</section>
+    <section id="mentorship" class="section wrap mentorship-section"><div class="mentorship-copy"><p class="eyebrow">Seniors &amp; alumni</p><h2>Learn from those<br><em>who’ve been there.</em></h2><p>ATG’s seniors and alumni stay involved in the next generation of members. Through career panels, one-on-one mentorship, and recruiting guidance, they share lessons from internships and full-time roles, help members prepare for interviews, and offer perspective on the paths ahead.</p></div><figure class="mentorship-photo">{image(D['placement']['club_photo'],'ATG members sharing their recruiting experiences at a career panel')}<figcaption>2026 ATG Career Panel: Firms Featured: PJT, Blackstone, UBS, Barclays, Jefferies</figcaption></figure></section>'''
 
 def placement():
     tabs='<div class="year-tabs" role="group" aria-label="Filter placement by class year">'

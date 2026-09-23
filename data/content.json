@@ -434,16 +434,20 @@
       "title": "Professional Development",
       "source_description": "Breaking into high finance roles requires more than a solid technical understanding. ATG provides structured support for our members to navigate the recruiting timelines and land top offers",
       "photo": {
-        "name": "professional-development",
+        "name": "club-gallery-10",
         "category": "club-photo",
-        "source_url": "https://static.wixstatic.com/media/044a0c_f785f71d38a34d1ba8613482d026a926~mv2.png",
-        "source_alt": "IMG_6305.HEIC",
+        "source_url": "https://static.wixstatic.com/media/044a0c_fa357c22b07f421fb1db3da2a2b7589d~mv2.png",
+        "source_alt": "IMG_6021.heic",
         "maxwidth": 1400,
-        "page": "about",
-        "source_image_index": 27,
-        "optimized_width": 1050,
-        "optimized_height": 1400,
-        "file": "assets/images/professional-development.webp"
+        "focal_point": [
+          0.4936755952380952,
+          0.30076058201058203
+        ],
+        "source_width": 4032,
+        "source_height": 3024,
+        "optimized_width": 1400,
+        "optimized_height": 1050,
+        "file": "assets/images/club-gallery-10.webp"
       }
     },
     {
