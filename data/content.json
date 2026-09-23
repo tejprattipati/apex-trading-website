@@ -223,22 +223,6 @@
   ],
   "chairs_and_sector_heads": [
     {
-      "name": "Matthew Walsh-Hussey",
-      "role": "Alumni Relations Chair",
-      "photo": {
-        "name": "matthew-walsh-hussey",
-        "category": "headshot",
-        "source_url": "https://static.wixstatic.com/media/044a0c_8091909d043b4d7b98d1639d7c7665f4~mv2.jpg",
-        "source_alt": "mattwh_edited.jpg",
-        "maxwidth": 900,
-        "page": "about",
-        "source_image_index": 11,
-        "optimized_width": 300,
-        "optimized_height": 312,
-        "file": "assets/images/matthew-walsh-hussey.webp"
-      }
-    },
-    {
       "name": "Emanuel Rodriguez",
       "role": "DEI Chair",
       "photo": {
@@ -424,22 +408,6 @@
         "optimized_width": 579,
         "optimized_height": 599,
         "file": "assets/images/christian-gojcaj.webp"
-      }
-    },
-    {
-      "name": "George Biolsi",
-      "role": "Senior Advisor",
-      "photo": {
-        "name": "george-biolsi",
-        "category": "headshot",
-        "source_url": "https://static.wixstatic.com/media/044a0c_67bb5b3b8779404e901b2676cea6629c~mv2.jpeg",
-        "source_alt": "georgeb.jpeg",
-        "maxwidth": 900,
-        "page": "about",
-        "source_image_index": 24,
-        "optimized_width": 800,
-        "optimized_height": 800,
-        "file": "assets/images/george-biolsi.webp"
       }
     }
   ],
