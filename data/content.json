@@ -1788,13 +1788,13 @@
         "price_source": "https://stockanalysis.com/stocks/vrt/history/"
       },
       {
-        "company": "OSI Systems",
-        "ticker": "OSIS",
-        "pitch_term": "Fall 2024",
-        "pitch_price": 153.79,
-        "closing_price": 200.4,
-        "closing_date": "2026-09-21",
-        "price_source": "https://osisystems.gcs-web.com/investor-relations/stock-performance/historical-prices"
+        "company": "Glaukos Corporation",
+        "ticker": "GKOS",
+        "pitch_term": "March 2026",
+        "return_percent": 49.63,
+        "return_precision": 2,
+        "return_source": "ATG-provided return, September 2026",
+        "company_source": "https://www.glaukos.com/about-us/"
       },
       {
         "company": "TTM Technologies",
