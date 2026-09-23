@@ -463,6 +463,23 @@
         "optimized_width": 1400,
         "optimized_height": 1050,
         "file": "assets/images/community.webp"
+      },
+      "home_photo": {
+        "name": "club-gallery-03",
+        "category": "club-photo",
+        "source_url": "https://static.wixstatic.com/media/044a0c_221e352ec27543e0a65fa62e1eb29ac7~mv2.png",
+        "source_alt": "IMG_4542.HEIC",
+        "maxwidth": 1400,
+        "focal_point": [
+          0.5153769841269841,
+          0.437375992063492
+        ],
+        "source_width": 3024,
+        "source_height": 4032,
+        "optimized_width": 1050,
+        "optimized_height": 1400,
+        "file": "assets/images/club-gallery-03.webp",
+        "display_position": "center 44%"
       }
     }
   ],
@@ -498,22 +515,6 @@
       "optimized_width": 1400,
       "optimized_height": 1050,
       "file": "assets/images/club-gallery-02.webp"
-    },
-    {
-      "name": "club-gallery-03",
-      "category": "club-photo",
-      "source_url": "https://static.wixstatic.com/media/044a0c_221e352ec27543e0a65fa62e1eb29ac7~mv2.png",
-      "source_alt": "IMG_4542.HEIC",
-      "maxwidth": 1400,
-      "focal_point": [
-        0.5153769841269841,
-        0.437375992063492
-      ],
-      "source_width": 3024,
-      "source_height": 4032,
-      "optimized_width": 1050,
-      "optimized_height": 1400,
-      "file": "assets/images/club-gallery-03.webp"
     },
     {
       "name": "club-gallery-04",

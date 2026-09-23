@@ -43,7 +43,9 @@ def pillars(full=False):
     cards=''
     for i,p in enumerate(D['pillars']):
         desc=p['source_description'].replace('$10k','$25,000').rstrip('.')+'.' if full else descriptions[i]
-        cards+=f'''<article class="pillar reveal" id="pillar-{i+1}"><div class="pillar-photo">{image(p['photo'],['ATG members together at a club event','ATG members presenting at the Michigan Ross podium','ATG members socializing'][i])}<span>0{i+1}</span></div><div class="pillar-copy"><p class="eyebrow">{['Invest','Develop','Belong'][i]}</p><h3>{e(p['title'])}</h3><p>{e(desc)}</p>{f'<a class="text-link" href="about.html#pillar-{i+1}">Discover more <span>↗</span></a>' if not full else ''}</div></article>'''
+        photo=p['photo'] if full else p.get('home_photo',p['photo'])
+        position=f'style="object-position:{e(photo["display_position"])}"' if photo.get('display_position') else ''
+        cards+=f'''<article class="pillar reveal" id="pillar-{i+1}"><div class="pillar-photo">{image(photo,['ATG members together at a club event','ATG members presenting at the Michigan Ross podium','ATG members socializing'][i],extra=position)}<span>0{i+1}</span></div><div class="pillar-copy"><p class="eyebrow">{['Invest','Develop','Belong'][i]}</p><h3>{e(p['title'])}</h3><p>{e(desc)}</p>{f'<a class="text-link" href="about.html#pillar-{i+1}">Discover more <span>↗</span></a>' if not full else ''}</div></article>'''
     return f'<div class="pillars">{cards}</div>'
 
 def recruitment(show_interest=True):
