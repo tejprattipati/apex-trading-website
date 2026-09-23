@@ -85,23 +85,6 @@
   },
   "board": [
     {
-      "name": "Jack Xu",
-      "role": "Co-President",
-      "email": "jackxu@umich.edu",
-      "photo": {
-        "name": "jack-xu",
-        "category": "headshot",
-        "source_url": "https://static.wixstatic.com/media/044a0c_bb72fa0217ed4f4c9388475e8667102a~mv2.png",
-        "source_alt": "IMG_0494.PNG",
-        "maxwidth": 900,
-        "page": "about",
-        "source_image_index": 3,
-        "optimized_width": 639,
-        "optimized_height": 900,
-        "file": "assets/images/jack-xu.webp"
-      }
-    },
-    {
       "name": "Will VanWingerden",
       "role": "Co-President",
       "email": "willvw@umich.edu",
@@ -116,6 +99,23 @@
         "optimized_width": 841,
         "optimized_height": 900,
         "file": "assets/images/will-vanwingerden.webp"
+      }
+    },
+    {
+      "name": "Jack Xu",
+      "role": "Co-President",
+      "email": "jackxu@umich.edu",
+      "photo": {
+        "name": "jack-xu",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_bb72fa0217ed4f4c9388475e8667102a~mv2.png",
+        "source_alt": "IMG_0494.PNG",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 3,
+        "optimized_width": 639,
+        "optimized_height": 900,
+        "file": "assets/images/jack-xu.webp"
       }
     },
     {
