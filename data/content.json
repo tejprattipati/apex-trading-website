@@ -1761,13 +1761,13 @@
         "price_source": "https://www.investing.com/equities/ttm-technologies-historical-data"
       },
       {
-        "company": "Qualys",
-        "ticker": "QLYS",
-        "pitch_term": "Fall 2025",
-        "pitch_price": 140.36,
-        "closing_price": 181.03,
+        "company": "Grocery Outlet Holding",
+        "ticker": "GO",
+        "pitch_term": "March 2026",
+        "pitch_price": 6.2,
+        "closing_price": 11.23,
         "closing_date": "2026-09-21",
-        "price_source": "https://stockanalysis.com/stocks/qlys/history/"
+        "price_source": "https://stockanalysis.com/stocks/go/history/"
       }
     ]
   },
