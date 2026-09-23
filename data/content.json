@@ -533,22 +533,6 @@
       "file": "assets/images/club-gallery-04.webp"
     },
     {
-      "name": "club-gallery-05",
-      "category": "club-photo",
-      "source_url": "https://static.wixstatic.com/media/044a0c_f1230ccb2b8e469fb1eb79878cf55d12~mv2.png",
-      "source_alt": "IMG_8060.HEIC",
-      "maxwidth": 1400,
-      "focal_point": [
-        0.48197751322751325,
-        0.6372767857142857
-      ],
-      "source_width": 3024,
-      "source_height": 4032,
-      "optimized_width": 1050,
-      "optimized_height": 1400,
-      "file": "assets/images/club-gallery-05.webp"
-    },
-    {
       "name": "club-gallery-06",
       "category": "club-photo",
       "source_url": "https://static.wixstatic.com/media/044a0c_adab041c37d74afca2532617367a25d2~mv2.png",
@@ -563,22 +547,6 @@
       "optimized_width": 1400,
       "optimized_height": 1050,
       "file": "assets/images/club-gallery-06.webp"
-    },
-    {
-      "name": "club-gallery-07",
-      "category": "club-photo",
-      "source_url": "https://static.wixstatic.com/media/044a0c_6ba6b8a44b184028ba1ee18d7b60a9ed~mv2.png",
-      "source_alt": "IMG_8080.HEIC",
-      "maxwidth": 1400,
-      "focal_point": [
-        0.5347222222222222,
-        0.2786458333333333
-      ],
-      "source_width": 720,
-      "source_height": 960,
-      "optimized_width": 720,
-      "optimized_height": 960,
-      "file": "assets/images/club-gallery-07.webp"
     },
     {
       "name": "club-gallery-08",
@@ -611,22 +579,6 @@
       "optimized_width": 1050,
       "optimized_height": 1400,
       "file": "assets/images/club-gallery-09.webp"
-    },
-    {
-      "name": "club-gallery-10",
-      "category": "club-photo",
-      "source_url": "https://static.wixstatic.com/media/044a0c_fa357c22b07f421fb1db3da2a2b7589d~mv2.png",
-      "source_alt": "IMG_6021.heic",
-      "maxwidth": 1400,
-      "focal_point": [
-        0.4936755952380952,
-        0.30076058201058203
-      ],
-      "source_width": 4032,
-      "source_height": 3024,
-      "optimized_width": 1400,
-      "optimized_height": 1050,
-      "file": "assets/images/club-gallery-10.webp"
     },
     {
       "name": "club-gallery-11",
@@ -1827,13 +1779,13 @@
         "date": "2026-09-09",
         "display_date": "Sept. 9th",
         "title": "Meet the Clubs",
-        "location": "Winter Garden"
+        "location": "Ross Winter Garden"
       },
       {
         "date": "2026-09-16",
         "display_date": "Sept. 16th",
         "title": "Mass Meeting",
-        "location": "Zoom"
+        "location": "R2210"
       },
       {
         "date": "2026-09-18",

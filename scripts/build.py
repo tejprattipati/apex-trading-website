@@ -58,7 +58,7 @@ def gallery():
     photos=''
     for i,p in enumerate(D['gallery']):
         focal=p.get('focal_point',[.5,.5]); pos=f'{focal[0]*100:.1f}% {focal[1]*100:.1f}%'
-        photos+=f'''<button class="gallery-photo" data-photo="{p['file']}" data-caption="ATG community · Photo {i+1} of 12" aria-label="Open ATG community photo {i+1}">{image(p,f'ATG members at a club gathering, photo {i+1}',extra=f'style="object-position:{pos}"')}</button>'''
+        photos+=f'''<button class="gallery-photo" data-photo="{p['file']}" data-caption="ATG community · Photo {i+1} of {len(D['gallery'])}" aria-label="Open ATG community photo {i+1}">{image(p,f'ATG members at a club gathering, photo {i+1}',extra=f'style="object-position:{pos}"')}</button>'''
     return f'''<section class="section community-section"><div class="wrap section-heading"><div><p class="eyebrow light">Beyond the portfolio</p><h2>A shared interest.<br><em>A lasting community.</em></h2></div><div class="gallery-controls"><button class="round-button" data-gallery-prev aria-label="Previous club photos">←</button><button class="round-button" data-gallery-next aria-label="Next club photos">→</button></div></div><div class="gallery-track wrap" aria-label="ATG community photos" tabindex="0">{photos}</div><div class="wrap gallery-footer"><p>Moments from life at ATG</p>{ext(INSTAGRAM,'Follow @atgumich <span>↗</span>','text-link')}</div></section><dialog class="lightbox" aria-label="ATG community photo"><button class="lightbox-close" aria-label="Close photo">✕</button><img alt=""><p></p><div class="lightbox-controls"><button data-lightbox-prev aria-label="Previous photo">←</button><button data-lightbox-next aria-label="Next photo">→</button></div></dialog>'''
 
 def logo_grid(home=False):

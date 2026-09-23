@@ -59,5 +59,6 @@
 .mentorship-photo figcaption{font-size:12px;line-height:1.6;color:var(--navy);margin-top:12px}
 @media(max-width:900px){.mentorship-section{grid-template-columns:1fr;gap:32px}.mentorship-copy>p:not(.eyebrow){max-width:650px}.mentorship-photo img{aspect-ratio:6/5}}
 @media(max-width:480px){.mentorship-photo img{aspect-ratio:1}}
-/* Keep all three presenters visible when the pillar cards stack. */
-@media(max-width:760px){#pillar-2 .pillar-photo img{height:auto;aspect-ratio:4/3}}
+/* Match the pillar frames to the podium photo with its top 20% cropped away. */
+.pillar-photo img{height:auto;aspect-ratio:5/3;object-position:center bottom}
+#pillar-1 .pillar-photo img{object-position:center 65%}
