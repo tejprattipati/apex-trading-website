@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 D = json.loads((ROOT / 'data/content.json').read_text())
 STYLE_VERSION = sha256((ROOT / 'assets/style.css').read_bytes()).hexdigest()[:12]
 FONTS_VERSION = sha256((ROOT / 'assets/fonts/fonts.css').read_bytes()).hexdigest()[:12]
+SCRIPT_VERSION = sha256((ROOT / 'assets/main.js').read_bytes()).hexdigest()[:12]
 INTEREST = D['links']['INTEREST FORM']
 APPLICATION = D['links']['APPLICATION']
 INSTAGRAM = D['links']['Instagram']
@@ -85,7 +86,7 @@ def broader_placements():
 
 def subhero(kicker,heading,copy,photo=None,caption=''):
     if photo:
-        return f'''<section class="subhero photo-subhero"><div class="wrap subhero-grid"><div><p class="eyebrow light">{kicker}</p><h1>{heading}</h1><p class="lead">{copy}</p></div><figure>{image(photo,caption or 'Apex Trading Group members',eager=True)}{f'<figcaption>{caption}</figcaption>' if caption else ''}</figure></div></section>'''
+        return f'''<section class="subhero photo-subhero"><div class="subhero-sky" aria-hidden="true"></div><div class="wrap subhero-grid"><div><p class="eyebrow light">{kicker}</p><h1>{heading}</h1><p class="lead">{copy}</p></div><figure>{image(photo,caption or 'Apex Trading Group members',eager=True)}{f'<figcaption>{caption}</figcaption>' if caption else ''}</figure></div></section>'''
     return f'''<section class="subhero"><div class="subhero-sky"></div><div class="wrap"><p class="eyebrow light">{kicker}</p><h1>{heading}</h1><p class="lead">{copy}</p></div></section>'''
 
 def home():
@@ -122,11 +123,13 @@ def about():
     <section id="pillars" class="section wrap"><div class="section-heading"><div><p class="eyebrow">Our foundation</p><h2>The ATG <em>pillars.</em></h2></div></div>{pillars(True)}</section>'''
 
 def placement():
-    tabs='<div class="year-tabs" role="group" aria-label="Filter placement by class year"><button type="button" aria-pressed="true" data-year="all">All classes</button>'
+    tabs='<div class="year-tabs" role="group" aria-label="Filter placement by class year">'
+    default_year='2026'
     panels=''
     for year,entries in D['placement']['recent'].items():
-        tabs+=f'<button type="button" aria-controls="class-{year}" aria-pressed="false" data-year="{year}" aria-label="Class of {year}">{year}</button>'
-        panels+=f'<section class="placement-panel" id="class-{year}" aria-labelledby="class-title-{year}"><h3 id="class-title-{year}">Class of {year}</h3><ul>'+''.join(f'<li><span>{e(entry)}</span><span class="placement-dash" aria-hidden="true">—</span></li>' for entry in entries)+'</ul></section>'
+        hidden='' if year==default_year else ' hidden'
+        tabs+=f'<button type="button" aria-controls="class-{year}" aria-pressed="{str(year==default_year).lower()}" data-year="{year}" aria-label="Class of {year}">{year}</button>'
+        panels+=f'<section class="placement-panel" id="class-{year}" aria-labelledby="class-title-{year}"{hidden}><h3 id="class-title-{year}">Class of {year}</h3><ul>'+''.join(f'<li><span>{e(entry)}</span><span class="placement-dash" aria-hidden="true">—</span></li>' for entry in entries)+'</ul></section>'
     tabs+='</div>'
     return subhero('Placement / Our alumni network','Ambition meets<br><em>opportunity.</em>','Our members go on to work at leading firms in finance and beyond. An enduring alumni network connects every new class with the experience of those who came before.',D['placement']['club_photo'],'')+f'''
     {stats()}<section class="section wrap"><div class="section-heading"><div><p class="eyebrow">A network that stays with you</p><h2>Where our members<br><em>make their mark.</em></h2></div></div>{logo_grid()}</section>
@@ -160,7 +163,7 @@ DESCRIPTIONS={
  'prospective-members.html':'Discover the ATG new member experience, six investment sectors, and Fall 2026 recruitment schedule.'}
 
 def document(page,title,content):
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1d33"><title>{title} — Apex Trading Group | University of Michigan</title><meta name="description" content="{e(DESCRIPTIONS.get(page,DESCRIPTIONS['index.html']))}"><link rel="icon" href="assets/images/atg-logo.png"><link rel="stylesheet" href="assets/fonts/fonts.css?v={FONTS_VERSION}"><link rel="stylesheet" href="assets/style.css?v={STYLE_VERSION}"></head><body id="top">{header(page)}<main id="main">{content}</main>{footer(page)}<script src="assets/main.js" defer></script></body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1d33"><title>{title} — Apex Trading Group | University of Michigan</title><meta name="description" content="{e(DESCRIPTIONS.get(page,DESCRIPTIONS['index.html']))}"><link rel="icon" href="assets/images/atg-logo.png"><link rel="stylesheet" href="assets/fonts/fonts.css?v={FONTS_VERSION}"><link rel="stylesheet" href="assets/style.css?v={STYLE_VERSION}"></head><body id="top">{header(page)}<main id="main">{content}</main>{footer(page)}<script src="assets/main.js?v={SCRIPT_VERSION}" defer></script></body></html>'''
 
 for path,title,render in [('index.html','Home',home),('about.html','About',about),('placement.html','Placement',placement),('prospective-members.html','Prospective Members',prospective)]:
     (ROOT/path).write_text(document(path,title,render()))

@@ -38,7 +38,7 @@ The Bank of America and Deutsche Bank wordmarks were refreshed from their [offic
 
 Refreshed official wordmarks for [SMBC](https://www.smbcgroup.com/img/SMBC-Logo2.svg), [BNP Paribas](https://usa.bnpparibas/app/themes/bnpp-pays-v2c/assets/img/static/logo-bnp.svg), [PwC](https://www.pwc.com/etc.clientlibs/pwc/clientlibs/rebrand-clientlibs/components-colors/resources/images/slim-header-v2/PwC-logo.svg), [Lincoln International](https://www.lincolninternational.com/wp-content/uploads/LincolnInternational-Logo-RGB.svg?x29696), and [Rothschild & Co](https://www.rothschildandco.com/static/images/rothschild.svg?v=2.1.0.30540#svg-horizontalLogo). PwC’s empty vector canvas was tightened, the full Rothschild wordmark was extracted from its official SVG sprite, and SMBC’s lettering was adapted to its corporate dark green for a light background. Original vector letterforms are preserved.
 
-The requested historic [Greenhill wordmark](https://companieslogo.com/greenhill/logo/) replaces the combined Mizuho Greenhill image. The [Deutsche Bank square-and-slash mark](https://www.db.com/) is extracted from the official header’s SVG symbol, preserving its original path.
+The requested historic [Greenhill wordmark](https://companieslogo.com/greenhill/logo/) replaces the combined Mizuho Greenhill image. The placement card uses the [Deutsche Bank wordmark](https://www.db.com/application/project/images/logos/identifier_RETINA.png), preserving the official lettering. The earlier square-and-slash SVG asset remains archived locally.
 
 ## September 23 placement wordmarks
 

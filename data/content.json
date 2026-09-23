@@ -1098,17 +1098,18 @@
         "asset": {
           "name": "placement-logo-21",
           "category": "placement-logo",
-          "source_url": "https://www.db.com/",
-          "source_alt": "Deutsche Bank square-and-slash logo",
+          "source_url": "https://www.db.com/application/project/images/logos/identifier_RETINA.png",
+          "source_alt": "Deutsche Bank wordmark",
           "maxwidth": 700,
           "page": "placement",
           "source_image_index": 24,
-          "optimized_width": 32,
-          "optimized_height": 32,
-          "file": "assets/images/deutsche-bank-symbol.svg"
+          "optimized_width": 268,
+          "optimized_height": 30,
+          "file": "assets/images/deutsche-bank-tight.png"
         },
         "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
+        "identification": "Visually verified from downloaded logo",
+        "size": "slender"
       },
       {
         "company": "BNP Paribas",
