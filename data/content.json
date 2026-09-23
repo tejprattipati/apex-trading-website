@@ -865,7 +865,7 @@
         },
         "category": "not grouped in original source",
         "identification": "Visually verified from downloaded logo",
-        "wide": true
+        "size": "slender"
       },
       {
         "company": "Citi",
@@ -1212,7 +1212,7 @@
         },
         "category": "not grouped in original source",
         "identification": "Visually verified from downloaded logo",
-        "size": "medium"
+        "size": "dense"
       },
       {
         "company": "MUFG",
@@ -1649,7 +1649,8 @@
           "source_url": "https://www.lexingtonpartners.com/app/uploads/2024/09/lp_logo.svg?x58781",
           "optimized_width": 216,
           "optimized_height": 95
-        }
+        },
+        "size": "dense"
       },
       {
         "company": "Tower Research Capital",
@@ -1700,7 +1701,7 @@
           "optimized_width": 239,
           "optimized_height": 28
         },
-        "wide": true
+        "size": "slender"
       },
       {
         "company": "GoldenTree Asset Management",
@@ -1762,7 +1763,7 @@
           "optimized_width": 300,
           "optimized_height": 26
         },
-        "wide": true
+        "size": "slender"
       },
       {
         "company": "TD Cowen",
@@ -1783,7 +1784,7 @@
           "optimized_width": 111,
           "optimized_height": 20
         },
-        "wide": true
+        "size": "medium"
       },
       {
         "company": "Stifel",
@@ -1793,7 +1794,7 @@
           "optimized_width": 149,
           "optimized_height": 45
         },
-        "size": "medium"
+        "size": "dense"
       },
       {
         "company": "KeyBanc Capital Markets",
@@ -1813,7 +1814,7 @@
           "optimized_width": 142,
           "optimized_height": 36
         },
-        "size": "medium"
+        "size": "dense"
       },
       {
         "company": "Scotiabank",
@@ -1833,7 +1834,7 @@
           "optimized_width": 1102,
           "optimized_height": 197
         },
-        "wide": true
+        "size": "medium"
       },
       {
         "company": "Rabobank",
@@ -1882,7 +1883,8 @@
           "source_url": "https://www.ey.com/en_gl/services/strategy/parthenon",
           "optimized_width": 1000,
           "optimized_height": 434
-        }
+        },
+        "size": "dense"
       },
       {
         "company": "Accenture",
@@ -1903,6 +1905,18 @@
           "optimized_height": 42
         },
         "size": "medium"
+      },
+      {
+        "company": "SIG",
+        "asset": {
+          "file": "assets/images/sig-susquehanna.svg",
+          "source_url": "https://sig.com/media/u5da23wc/white_susquehanna.svg",
+          "source_alt": "Susquehanna International Group",
+          "optimized_width": 488,
+          "optimized_height": 41,
+          "monochrome": true
+        },
+        "size": "slender"
       }
     ],
     "display_companies": [

@@ -63,12 +63,12 @@ def logo_grid(home=False):
     if home:
         logos=[available[company] for company in D['placement']['home_featured_companies']]
     else:
-        logos=[available.get(company,{'company':company}) for company in D['placement']['display_companies']]
+        logos=[available[company] for company in D['placement']['display_companies']]
     cards=''
     for logo in logos:
         company=e(logo['company'])
         extra='style="filter:brightness(0)"' if logo.get('asset',{}).get('monochrome') else ''
-        mark=image(logo['asset'],logo['company'],extra=extra)+f'<span>{company}</span>' if logo.get('asset') else f'<strong class="firm-wordmark">{company}</strong>'
+        mark=image(logo['asset'],logo['company'],extra=extra)+f'<span>{company}</span>'
         cls=' firm-logo-wide' if logo.get('wide') else ''
         if logo.get('size'): cls+=' firm-logo-'+logo['size']
         cards+=f'<div class="firm-logo{cls}" title="{company}">{mark}</div>'

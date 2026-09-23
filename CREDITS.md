@@ -70,3 +70,5 @@ The remaining placement cards use the following corporate wordmarks, with source
 - [EY-Parthenon](https://www.ey.com/en_gl/services/strategy/parthenon)
 - [Accenture](https://www.accenture.com/us-en)
 - [BDO](https://www.bdo.com/getmedia/4e64ef6e-396a-4245-b942-b3c74eb04f8f/BDO-USA_web-01.svg)
+
+The [Susquehanna International Group wordmark](https://sig.com/media/u5da23wc/white_susquehanna.svg) is sourced from SIG’s official website. Its transparent white artwork is displayed in black through CSS.
