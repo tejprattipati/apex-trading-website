@@ -72,3 +72,10 @@
   font-display: swap;
   src: url(raleway-italic-400.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url(raleway-500.ttf) format('truetype');
+}
