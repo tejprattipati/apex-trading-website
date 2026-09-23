@@ -27,9 +27,12 @@
 .firm-logo-stacked{padding-block:10px}.firm-logo-stacked img{width:145px;height:78px}
 
 .firm-logo-slender img{width:175px;height:56px}.firm-logo-dense img{width:130px;height:52px}
-/* Keep all five chairs together on laptop and desktop screens. */
+/* Chairs wrap from four columns on laptops to three on tablets and two on phones. */
+@media(min-width:761px) and (max-width:1023px){
+  #chairs .people-grid{--columns:3;--column-gap:24px}
+}
 @media(min-width:1024px){
-  #chairs .people-grid{--columns:5;--column-gap:24px}
+  #chairs .people-grid{--columns:4;--column-gap:24px}
   #chairs .person-info{padding-top:16px}
   #chairs .person-info>p{min-height:36px}
   #chairs .person-info h3{font-size:24px}
