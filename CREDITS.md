@@ -37,3 +37,36 @@ Additional official corporate marks: [Brookfield](https://www.brookfield.com/), 
 The Bank of America and Deutsche Bank wordmarks were refreshed from their [official Bank of America header](https://www.bankofamerica.com/content/images/ContextualSiteGraphics/Logos/en_US/logos/bac-logo-v2.png) and [Deutsche Bank header](https://www.db.com/application/project/images/logos/identifier_RETINA.png), with excess transparent margins removed from Deutsche Bank.
 
 Refreshed official wordmarks for [SMBC](https://www.smbcgroup.com/img/SMBC-Logo2.svg), [BNP Paribas](https://usa.bnpparibas/app/themes/bnpp-pays-v2c/assets/img/static/logo-bnp.svg), [PwC](https://www.pwc.com/etc.clientlibs/pwc/clientlibs/rebrand-clientlibs/components-colors/resources/images/slim-header-v2/PwC-logo.svg), [Lincoln International](https://www.lincolninternational.com/wp-content/uploads/LincolnInternational-Logo-RGB.svg?x29696), and [Rothschild & Co](https://www.rothschildandco.com/static/images/rothschild.svg?v=2.1.0.30540#svg-horizontalLogo). PwC’s empty vector canvas was tightened, the full Rothschild wordmark was extracted from its official SVG sprite, and SMBC’s lettering was adapted to its corporate dark green for a light background. Original vector letterforms are preserved.
+
+The requested historic [Greenhill wordmark](https://companieslogo.com/greenhill/logo/) replaces the combined Mizuho Greenhill image. The [Deutsche Bank square-and-slash mark](https://www.db.com/) is extracted from the official header’s SVG symbol, preserving its original path.
+
+## September 23 placement wordmarks
+
+The remaining placement cards use the following corporate wordmarks, with source artwork preserved. Transparent white marks are displayed in black through CSS.
+
+- [Lexington Partners](https://www.lexingtonpartners.com/app/uploads/2024/09/lp_logo.svg?x58781)
+- [Tower Research Capital](https://tower-research.com/wp-content/uploads/2024/06/Logo.svg)
+- [Chicago Trading Company](https://www.chicagotrading.com/assets/img/global/logo-purple.png)
+- [Walleye Capital](https://www.walleyecapital.com/i/svg/logo_walleye_color.svg)
+- [Norwest Equity Partners](https://nep.com/wp-content/uploads/2022/10/nep-logo.svg)
+- [Charlesbank Capital Partners](https://www.charlesbank.com/)
+- [GoldenTree Asset Management](https://www.goldentree.com/)
+- [Candlestick Capital](https://candlestickcapital.com/wp-content/uploads/2019/07/logo-large.png)
+- [William Blair](https://www.williamblair.com/-/media/williamblairwebsite/project/logos/default-william-blair-logo.svg?la=en&hash=608855A3B7F23D6489BCC56EA57A3FEA)
+- [Macquarie](https://www.macquarie.com/assets/macq/site-wide-assets/common-icons/macquarie-logo.svg)
+- [MTS Health Partners](https://www.mtspartners.com/wp-content/themes/mts-health-partners//assets/img/mts-logo.svg)
+- [Raymond James](https://upload.wikimedia.org/wikipedia/commons/b/b9/Raymond_James_wordmark.svg)
+- [TD Cowen](https://cas.cowen.com/Content/images/logo-cowen-white.svg)
+- [Nomura](https://upload.wikimedia.org/wikipedia/commons/0/04/Nomura_Holdings_logo.svg)
+- [Stifel](https://www.stifel.com/images/home/stifel-logo.svg)
+- [KeyBanc Capital Markets](https://kaman.com/wp-content/uploads/2021/04/keybank-capital-markets-logo-e1648059654908.jpg)
+- [CIBC](https://www.cibc.com/content/dam/global-assets/logos/cibc-logos/no-tagline/cibc-logo-colour-142x36.svg)
+- [Scotiabank](https://www.scotiabank.com/content/dam/scotiabank/images/logos/2019/scotiabank-logo-red-desktop-200px.svg)
+- [Coinbase](https://downloads.ctfassets.net/q5ulk4bp65r7/55HCidNuiUBEMrOipt5gUl/b5285f163bab1ebd67809d5f599b3a22/coinbase_logos.zip)
+- [Rabobank](https://www.rabobankna.com/wp-content/uploads/2023/05/main-logo.svg)
+- [Steward Partners](https://www.stewardpartners.com/files/118678/blog-logo-74.jpg)
+- [Blue Chip Partners](https://www.bluechippartners.com/wp-content/uploads/2024/12/BCP-Logo.svg)
+- [BCG](https://boston-consulting-group-brightspot.s3.amazonaws.com/80/a6/ad2fc39f43f8b109f3395aee65a0/bcg-secondarylogo-rgb-logogreen.png)
+- [EY-Parthenon](https://www.ey.com/en_gl/services/strategy/parthenon)
+- [Accenture](https://www.accenture.com/us-en)
+- [BDO](https://www.bdo.com/getmedia/4e64ef6e-396a-4245-b942-b3c74eb04f8f/BDO-USA_web-01.svg)

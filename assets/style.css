@@ -17,3 +17,5 @@
 .firm-logo-wide{padding-inline:12px}.firm-logo-wide img{width:230px;height:72px}@media(max-width:760px){.logo-grid:not(.home-logos){grid-template-columns:repeat(2,minmax(0,1fr))}.logo-grid:not(.home-logos) .firm-logo{height:110px;padding:14px 12px}.firm-logo-wide img{width:100%;height:72px}}
 
 .firm-logo-medium img{width:180px}.firm-logo-compact img{width:118px}
+
+.firm-logo-stacked{padding-block:10px}.firm-logo-stacked img{width:180px;height:90px}

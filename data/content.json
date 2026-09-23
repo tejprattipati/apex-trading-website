@@ -927,17 +927,18 @@
         "asset": {
           "name": "placement-logo-22",
           "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_470ff32f02b34027a5fe868e3a1c34be~mv2.jpeg",
-          "source_alt": "mizuho greenhill.jpeg",
+          "source_url": "https://companieslogo.com/greenhill/logo/",
+          "source_alt": "Greenhill historical wordmark",
           "maxwidth": 700,
           "page": "placement",
           "source_image_index": 25,
-          "optimized_width": 200,
-          "optimized_height": 200,
-          "file": "assets/images/placement-logo-22.webp"
+          "optimized_width": 1549,
+          "optimized_height": 316,
+          "file": "assets/images/greenhill.svg"
         },
         "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
+        "identification": "Visually verified from downloaded logo",
+        "size": "medium"
       },
       {
         "company": "Houlihan Lokey",
@@ -1127,18 +1128,17 @@
         "asset": {
           "name": "placement-logo-21",
           "category": "placement-logo",
-          "source_url": "https://www.db.com/application/project/images/logos/identifier_RETINA.png",
-          "source_alt": "db.png",
+          "source_url": "https://www.db.com/",
+          "source_alt": "Deutsche Bank square-and-slash logo",
           "maxwidth": 700,
           "page": "placement",
           "source_image_index": 24,
-          "optimized_width": 268,
-          "optimized_height": 30,
-          "file": "assets/images/deutsche-bank-tight.png"
+          "optimized_width": 32,
+          "optimized_height": 32,
+          "file": "assets/images/deutsche-bank-symbol.svg"
         },
         "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo",
-        "wide": true
+        "identification": "Visually verified from downloaded logo"
       },
       {
         "company": "BNP Paribas",
@@ -1526,22 +1526,21 @@
       "2026": [
         "Evercore IBD",
         "Morgan Stanley IBD",
-        "Blackstone RE",
         "PJT IBD",
         "Lazard IBD",
+        "Blackstone RE",
         "Moelis IBD (x2)",
         "Millennium",
         "Starwood RE PE",
-        "Barclays IBD",
-        "Greenhill (x2)",
-        "Jefferies IBD",
         "UBS IBD (x2)",
-        "Wells Fargo CIB",
+        "Barclays IBD",
+        "Jefferies IBD",
         "Lincoln International",
-        "Citi S&T (x2)",
+        "Greenhill (x2)",
+        "Wells Fargo CIB",
         "PeakSpan GE",
+        "Citi S&T (x2)",
         "Fidelity Equity Research",
-        "Jordan Park Group",
         "EY-Parthenon"
       ],
       "2027": [
@@ -1549,17 +1548,15 @@
         "Evercore IBD",
         "Starwood RE PE",
         "Citi IBD",
-        "Houlihan Lokey IBD (x2)",
         "UBS IBD",
+        "Houlihan Lokey IBD (x2)",
         "Wells Fargo IBD",
         "Baird IBD",
         "Stifel IBD",
         "Nomura IBD",
         "ScotiaBank IBD",
-        "Societe Generale S&T",
-        "Coinbase S&T",
-        "Capital One",
-        "Deloitte IBD"
+        "Deloitte IBD",
+        "Coinbase S&T"
       ],
       "2028": [
         "Goldman Sachs RE",
@@ -1568,36 +1565,35 @@
         "Starwood RE PE",
         "Bank of America IBD",
         "Citi IBD",
-        "Barclays IBD",
-        "Jefferies IBD (x3)",
         "UBS IBD",
+        "Barclays IBD",
+        "FT Partners",
+        "Jefferies IBD (x3)",
+        "Raymond James IBD",
         "RBC IBD (x2)",
         "Piper Sandler IBD",
-        "Raymond James IBD",
-        "FT Partners",
         "MTS Health Partners",
         "CIBC",
         "TD IBD (x2)",
-        "Brown Gibbons Lang",
-        "Citi S&T",
-        "Newmark RE",
         "BNP Paribas IBD",
-        "SMBC IBD"
+        "SMBC IBD",
+        "Citi S&T",
+        "Newmark RE"
       ]
     },
     "home_featured_companies": [
       "Evercore",
       "PJT Partners",
       "Lazard",
-      "Moelis & Company",
-      "Guggenheim Partners",
-      "Rothschild & Co",
+      "Blackstone",
+      "Citadel",
+      "Oak Hill Advisors",
       "Goldman Sachs",
       "JP Morgan",
       "Morgan Stanley",
-      "Blackstone",
-      "Citadel",
-      "Oak Hill Advisors"
+      "Moelis & Company",
+      "Guggenheim Partners",
+      "Millennium"
     ],
     "additional_logos": [
       {
@@ -1645,6 +1641,268 @@
           "optimized_height": 32.0,
           "source_url": "https://cdn.prod.website-files.com/690a39bcd7ab2972d1f443e7/6916dd3f3c2a75b9104c6b14_4ed8ccb275296da565bbd24153d8a628_bdt%26msd-logo.svg"
         }
+      },
+      {
+        "company": "Lexington Partners",
+        "asset": {
+          "file": "assets/images/lexington-partners.svg",
+          "source_url": "https://www.lexingtonpartners.com/app/uploads/2024/09/lp_logo.svg?x58781",
+          "optimized_width": 216,
+          "optimized_height": 95
+        }
+      },
+      {
+        "company": "Tower Research Capital",
+        "asset": {
+          "file": "assets/images/tower-research-capital.svg",
+          "source_url": "https://tower-research.com/wp-content/uploads/2024/06/Logo.svg",
+          "optimized_width": 133,
+          "optimized_height": 46,
+          "monochrome": true
+        },
+        "size": "medium"
+      },
+      {
+        "company": "Chicago Trading Company",
+        "asset": {
+          "file": "assets/images/chicago-trading-company.png",
+          "source_url": "https://www.chicagotrading.com/assets/img/global/logo-purple.png",
+          "optimized_width": 313,
+          "optimized_height": 81
+        },
+        "size": "medium"
+      },
+      {
+        "company": "Walleye Capital",
+        "asset": {
+          "file": "assets/images/walleye-capital.svg",
+          "source_url": "https://www.walleyecapital.com/i/svg/logo_walleye_color.svg",
+          "optimized_width": 317,
+          "optimized_height": 83
+        },
+        "size": "medium"
+      },
+      {
+        "company": "Norwest Equity Partners",
+        "asset": {
+          "file": "assets/images/norwest-equity-partners.svg",
+          "source_url": "https://nep.com/wp-content/uploads/2022/10/nep-logo.svg",
+          "optimized_width": 114,
+          "optimized_height": 72,
+          "monochrome": true
+        }
+      },
+      {
+        "company": "Charlesbank Capital Partners",
+        "asset": {
+          "file": "assets/images/charlesbank-capital-partners.svg",
+          "source_url": "https://www.charlesbank.com/",
+          "optimized_width": 239,
+          "optimized_height": 28
+        },
+        "wide": true
+      },
+      {
+        "company": "GoldenTree Asset Management",
+        "asset": {
+          "file": "assets/images/goldentree-asset-management.svg",
+          "source_url": "https://www.goldentree.com/",
+          "optimized_width": 200,
+          "optimized_height": 51
+        },
+        "size": "medium"
+      },
+      {
+        "company": "Candlestick Capital",
+        "asset": {
+          "file": "assets/images/candlestick-capital.png",
+          "source_url": "https://candlestickcapital.com/wp-content/uploads/2019/07/logo-large.png",
+          "optimized_width": 1400,
+          "optimized_height": 473
+        },
+        "size": "medium"
+      },
+      {
+        "company": "William Blair",
+        "asset": {
+          "file": "assets/images/william-blair.svg",
+          "source_url": "https://www.williamblair.com/-/media/williamblairwebsite/project/logos/default-william-blair-logo.svg?la=en&hash=608855A3B7F23D6489BCC56EA57A3FEA",
+          "optimized_width": 161,
+          "optimized_height": 30,
+          "monochrome": true
+        },
+        "wide": true
+      },
+      {
+        "company": "Macquarie",
+        "asset": {
+          "file": "assets/images/macquarie.svg",
+          "source_url": "https://www.macquarie.com/assets/macq/site-wide-assets/common-icons/macquarie-logo.svg",
+          "optimized_width": 245,
+          "optimized_height": 43,
+          "monochrome": true
+        },
+        "wide": true
+      },
+      {
+        "company": "MTS Health Partners",
+        "asset": {
+          "file": "assets/images/mts-health-partners.svg",
+          "source_url": "https://www.mtspartners.com/wp-content/themes/mts-health-partners//assets/img/mts-logo.svg",
+          "optimized_width": 195,
+          "optimized_height": 41
+        },
+        "wide": true
+      },
+      {
+        "company": "Raymond James",
+        "asset": {
+          "file": "assets/images/raymond-james.svg",
+          "source_url": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Raymond_James_wordmark.svg",
+          "optimized_width": 300,
+          "optimized_height": 26
+        },
+        "wide": true
+      },
+      {
+        "company": "TD Cowen",
+        "asset": {
+          "file": "assets/images/td-cowen.svg",
+          "source_url": "https://cas.cowen.com/Content/images/logo-cowen-white.svg",
+          "optimized_width": 292,
+          "optimized_height": 60,
+          "monochrome": true
+        },
+        "wide": true
+      },
+      {
+        "company": "Nomura",
+        "asset": {
+          "file": "assets/images/nomura.svg",
+          "source_url": "https://upload.wikimedia.org/wikipedia/commons/0/04/Nomura_Holdings_logo.svg",
+          "optimized_width": 111,
+          "optimized_height": 20
+        },
+        "wide": true
+      },
+      {
+        "company": "Stifel",
+        "asset": {
+          "file": "assets/images/stifel.svg",
+          "source_url": "https://www.stifel.com/images/home/stifel-logo.svg",
+          "optimized_width": 149,
+          "optimized_height": 45
+        },
+        "size": "medium"
+      },
+      {
+        "company": "KeyBanc Capital Markets",
+        "asset": {
+          "file": "assets/images/keybanc.jpg",
+          "source_url": "https://kaman.com/wp-content/uploads/2021/04/keybank-capital-markets-logo-e1648059654908.jpg",
+          "optimized_width": 544,
+          "optimized_height": 300
+        },
+        "size": "stacked"
+      },
+      {
+        "company": "CIBC",
+        "asset": {
+          "file": "assets/images/cibc.svg",
+          "source_url": "https://www.cibc.com/content/dam/global-assets/logos/cibc-logos/no-tagline/cibc-logo-colour-142x36.svg",
+          "optimized_width": 142,
+          "optimized_height": 36
+        },
+        "size": "medium"
+      },
+      {
+        "company": "Scotiabank",
+        "asset": {
+          "file": "assets/images/scotiabank.svg",
+          "source_url": "https://www.scotiabank.com/content/dam/scotiabank/images/logos/2019/scotiabank-logo-red-desktop-200px.svg",
+          "optimized_width": 207,
+          "optimized_height": 29
+        },
+        "wide": true
+      },
+      {
+        "company": "Coinbase",
+        "asset": {
+          "file": "assets/images/coinbase.svg",
+          "source_url": "https://downloads.ctfassets.net/q5ulk4bp65r7/55HCidNuiUBEMrOipt5gUl/b5285f163bab1ebd67809d5f599b3a22/coinbase_logos.zip",
+          "optimized_width": 1102,
+          "optimized_height": 197
+        },
+        "wide": true
+      },
+      {
+        "company": "Rabobank",
+        "asset": {
+          "file": "assets/images/rabobank.svg",
+          "source_url": "https://www.rabobankna.com/wp-content/uploads/2023/05/main-logo.svg",
+          "optimized_width": 215,
+          "optimized_height": 40
+        },
+        "wide": true
+      },
+      {
+        "company": "Steward Partners",
+        "asset": {
+          "file": "assets/images/steward-partners.png",
+          "source_url": "https://www.stewardpartners.com/files/118678/blog-logo-74.jpg",
+          "optimized_width": 667,
+          "optimized_height": 198
+        },
+        "size": "medium"
+      },
+      {
+        "company": "Blue Chip Partners",
+        "asset": {
+          "file": "assets/images/blue-chip-partners.svg",
+          "source_url": "https://www.bluechippartners.com/wp-content/uploads/2024/12/BCP-Logo.svg",
+          "optimized_width": 500,
+          "optimized_height": 170
+        },
+        "size": "medium"
+      },
+      {
+        "company": "BCG",
+        "asset": {
+          "file": "assets/images/bcg.png",
+          "source_url": "https://boston-consulting-group-brightspot.s3.amazonaws.com/80/a6/ad2fc39f43f8b109f3395aee65a0/bcg-secondarylogo-rgb-logogreen.png",
+          "optimized_width": 6276,
+          "optimized_height": 1312
+        },
+        "wide": true
+      },
+      {
+        "company": "EY-Parthenon",
+        "asset": {
+          "file": "assets/images/ey-parthenon.svg",
+          "source_url": "https://www.ey.com/en_gl/services/strategy/parthenon",
+          "optimized_width": 1000,
+          "optimized_height": 434
+        }
+      },
+      {
+        "company": "Accenture",
+        "asset": {
+          "file": "assets/images/accenture.svg",
+          "source_url": "https://www.accenture.com/us-en",
+          "optimized_width": 153,
+          "optimized_height": 40
+        },
+        "size": "medium"
+      },
+      {
+        "company": "BDO",
+        "asset": {
+          "file": "assets/images/bdo.svg",
+          "source_url": "https://www.bdo.com/getmedia/4e64ef6e-396a-4245-b942-b3c74eb04f8f/BDO-USA_web-01.svg",
+          "optimized_width": 166,
+          "optimized_height": 42
+        },
+        "size": "medium"
       }
     ],
     "display_companies": [
@@ -1654,102 +1912,62 @@
       "Morgan Stanley",
       "PJT Partners",
       "Lazard",
-      "Moelis & Company",
-      "Guggenheim Partners",
-      "Rothschild & Co",
       "Blackstone",
       "Citadel",
-      "Millennium",
       "Oak Hill Advisors",
+      "Moelis & Company",
+      "Millennium",
+      "Guggenheim Partners",
+      "Point72",
       "BlackRock",
+      "Starwood Capital Group",
+      "Bank of America",
+      "Citi",
+      "UBS",
+      "Barclays",
+      "Houlihan Lokey",
+      "Financial Technology Partners",
+      "Deutsche Bank",
+      "Jefferies",
+      "Raymond James",
+      "Lincoln International",
+      "RBC Capital Markets",
+      "William Blair",
+      "Rothschild & Co",
+      "Mizuho Greenhill",
+      "Wells Fargo",
+      "Baird",
+      "Piper Sandler",
+      "Stifel",
+      "TD Cowen",
+      "Nomura",
       "BDT & MSD Partners",
-      "BC Partners",
       "Brookfield Asset Management",
       "Cerberus Capital Management",
       "Lexington Partners",
       "Charlesbank Capital Partners",
-      "Starwood Capital Group",
       "Tower Research Capital",
       "Chicago Trading Company",
+      "SIG",
       "Walleye Capital",
-      "Point72",
       "GoldenTree Asset Management",
       "Candlestick Capital",
       "Weiss Asset Management",
-      "Bank of America",
-      "Citi",
-      "Barclays",
-      "Mizuho Greenhill",
-      "Ardea Partners",
-      "Houlihan Lokey",
-      "Jefferies",
-      "UBS",
-      "RBC Capital Markets",
-      "William Blair",
-      "Financial Technology Partners",
-      "Macquarie",
-      "MTS Health Partners",
-      "Wells Fargo",
-      "Deutsche Bank",
-      "Baird",
-      "Piper Sandler",
-      "Raymond James",
-      "TD Cowen",
-      "Nomura",
-      "Stifel",
-      "Lincoln International",
-      "KeyBanc Capital Markets",
-      "BMO",
-      "CIBC",
-      "TD Bank",
-      "Scotiabank",
-      "Société Générale",
-      "MUFG",
-      "Audax Private Debt",
-      "Norwest Equity Partners",
-      "Norwest",
-      "Tenex Capital Management",
-      "CIVIC Partners",
-      "Wafra",
-      "Quilvest Capital Partners",
-      "CIM Group",
-      "PSP",
-      "SIG",
-      "PeakSpan Capital",
-      "Luminous Ventures",
-      "Madison Realty Capital",
-      "Monroe Capital",
-      "MetLife Investment Management",
       "Fidelity Investments",
       "Neuberger Berman",
-      "Invesco",
-      "BNY Mellon",
-      "Oppenheimer",
-      "Stout",
-      "Brown Gibbons Lang",
-      "PMCF",
-      "Madison Park Group",
-      "Ziegler",
-      "Performance Trust Capital Partners",
-      "Rabobank",
-      "Tyree & D’Angelo Partners",
-      "Infusive",
-      "YipitData",
+      "Macquarie",
+      "MTS Health Partners",
+      "Ardea Partners",
+      "KeyBanc Capital Markets",
+      "BMO",
+      "Scotiabank",
+      "CIBC",
+      "TD Bank",
+      "PeakSpan Capital",
+      "BC Partners",
       "Newmark",
-      "First Industrial Realty Trust",
-      "The Excelsior Group",
-      "Denali RE",
-      "Richard Bernstein Advisors",
-      "Jordan Park Group",
-      "Coinbase",
-      "American Express",
-      "Capital One",
-      "Robinhood",
-      "Betterment",
-      "Marqeta",
-      "City National Bank",
-      "Steward Partners",
-      "Blue Chip Partners",
+      "Rabobank",
+      "MUFG",
       "BNP Paribas",
       "SMBC",
       "Bain & Company",
@@ -1759,7 +1977,12 @@
       "Deloitte",
       "PwC",
       "EY",
-      "BDO"
+      "BDO",
+      "Steward Partners",
+      "Blue Chip Partners",
+      "Norwest Equity Partners",
+      "Norwest",
+      "Coinbase"
     ],
     "broader_careers": [
       "Google",
@@ -1794,125 +2017,6 @@
       "Dynamic Design Group",
       "DM2 Ventures",
       "Old Woodward Cellar"
-    ],
-    "alumni_directory_companies": [
-      "Accenture",
-      "Amazon",
-      "Amazon Web Services",
-      "American Express",
-      "Audax Private Debt",
-      "AudioEye",
-      "Bain & Company",
-      "Baird",
-      "Bank of America",
-      "BC Partners",
-      "BCG",
-      "BDO",
-      "BDT & MSD Partners",
-      "Betterment",
-      "Blue Chip Partners",
-      "BMO",
-      "BNP Paribas",
-      "BNY Mellon",
-      "Boeing",
-      "Brookfield Asset Management",
-      "Candlestick Capital",
-      "Cerberus Capital Management",
-      "Charlesbank Capital Partners",
-      "Chicago Trading Company",
-      "CIM Group",
-      "Citadel",
-      "Citi",
-      "City National Bank",
-      "CIVIC Partners",
-      "Columbia Home Services",
-      "Datadog",
-      "Deloitte",
-      "Delta Air Lines",
-      "Denali RE",
-      "Deutsche Bank",
-      "Disney",
-      "DM2 Ventures",
-      "Dynamic Design Group",
-      "Evercore",
-      "EY",
-      "EY-Parthenon",
-      "Felix",
-      "Fidelity Investments",
-      "First Digital",
-      "First Industrial Realty Trust",
-      "Founders Common",
-      "Freudenberg Group",
-      "GoldenTree Asset Management",
-      "Goldman Sachs",
-      "Google",
-      "Guggenheim Partners",
-      "Houlihan Lokey",
-      "Infusive",
-      "Invesco",
-      "Jefferies",
-      "JP Morgan",
-      "KeyBanc Capital Markets",
-      "Kraft Heinz",
-      "Lexington Partners",
-      "LinkedIn",
-      "Luminous Ventures",
-      "Macquarie",
-      "Madison Park Group",
-      "Madison Realty Capital",
-      "Marqeta",
-      "Meta",
-      "MetLife Investment Management",
-      "Microsoft",
-      "Millennium",
-      "Monroe Capital",
-      "Morgan Stanley",
-      "Nestlé",
-      "Neuberger Berman",
-      "Neurvati Neurosciences",
-      "Nomura",
-      "Northrop Grumman",
-      "Norwest Equity Partners",
-      "Old Woodward Cellar",
-      "OneStream Software",
-      "Oppenheimer",
-      "PepsiCo",
-      "Performance Trust Capital Partners",
-      "Piper Sandler",
-      "PMCF",
-      "Point72",
-      "Porter",
-      "PSP",
-      "PwC",
-      "Qualtrics",
-      "Quilvest Capital Partners",
-      "Rabobank",
-      "Real Infusions",
-      "Real Medix",
-      "Richard Bernstein Advisors",
-      "Robinhood",
-      "Rothschild & Co",
-      "SIG",
-      "SMBC",
-      "Starwood Capital Group",
-      "Steward Partners",
-      "Stout",
-      "TD Cowen",
-      "TE Connectivity",
-      "Tenex Capital Management",
-      "The Excelsior Group",
-      "Tower Research Capital",
-      "Trampoline Health",
-      "Turion Space",
-      "Tyree & D’Angelo Partners",
-      "UBS",
-      "Walleye Capital",
-      "Weiss Asset Management",
-      "Wells Fargo",
-      "William Blair",
-      "YipitData",
-      "Ziegler",
-      "Wafra"
     ]
   },
   "prospective_members": {
