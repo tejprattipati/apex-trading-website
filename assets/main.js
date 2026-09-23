@@ -3,9 +3,9 @@ toggle?.addEventListener('click',()=>{const expanded=toggle.getAttribute('aria-e
 document.addEventListener('keydown',event=>{if(event.key==='Escape'&&nav?.classList.contains('open')){nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.focus()}});
 nav?.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>{nav.classList.remove('open');toggle?.setAttribute('aria-expanded','false')}));
 
-// Enhance the already-readable placement content with keyboard-accessible tabs.
+// Show every class by default, with optional year filters.
 const tabs=[...document.querySelectorAll('[data-year]')];
-function selectYear(tab,focus=false){tabs.forEach(t=>{const selected=t===tab;t.setAttribute('aria-selected',String(selected));t.tabIndex=selected?0:-1;document.getElementById(t.getAttribute('aria-controls')).hidden=!selected});if(focus)tab.focus()}
+function selectYear(tab,focus=false){tabs.forEach(t=>t.setAttribute('aria-pressed',String(t===tab)));document.querySelectorAll('.placement-panel').forEach(panel=>{panel.hidden=tab.dataset.year!=='all'&&panel.id!==`class-${tab.dataset.year}`});if(focus)tab.focus()}
 tabs.forEach((tab,index)=>{tab.addEventListener('click',()=>selectYear(tab));tab.addEventListener('keydown',event=>{let next;if(event.key==='ArrowRight')next=(index+1)%tabs.length;if(event.key==='ArrowLeft')next=(index+tabs.length-1)%tabs.length;if(event.key==='Home')next=0;if(event.key==='End')next=tabs.length-1;if(next!==undefined){event.preventDefault();selectYear(tabs[next],true)}})});
 if(tabs.length)selectYear(tabs[0]);
 

@@ -58,8 +58,27 @@ def gallery():
     return f'''<section class="section community-section"><div class="wrap section-heading"><div><p class="eyebrow light">Beyond the portfolio</p><h2>A shared interest.<br><em>A lasting community.</em></h2></div><div class="gallery-controls"><button class="round-button" data-gallery-prev aria-label="Previous club photos">←</button><button class="round-button" data-gallery-next aria-label="Next club photos">→</button></div></div><div class="gallery-track wrap" aria-label="ATG community photos" tabindex="0">{photos}</div><div class="wrap gallery-footer"><p>Moments from life at ATG</p>{ext(INSTAGRAM,'Follow @atgumich <span>↗</span>','text-link')}</div></section><dialog class="lightbox" aria-label="ATG community photo"><button class="lightbox-close" aria-label="Close photo">✕</button><img alt=""><p></p><div class="lightbox-controls"><button data-lightbox-prev aria-label="Previous photo">←</button><button data-lightbox-next aria-label="Next photo">→</button></div></dialog>'''
 
 def logo_grid(home=False):
-    logos=D['placement']['logos'][:12] if home else D['placement']['logos']
-    return '<div class="logo-grid'+(' home-logos' if home else '')+'">'+''.join(f'<div class="firm-logo" title="{e(l["company"])}">{image(l["asset"],l["company"])}<span>{e(l["company"])}</span></div>' for l in logos)+'</div>'
+    logos=D['placement']['logos']
+    available={logo['company']:logo for logo in logos+D['placement'].get('additional_logos',[])}
+    if home:
+        logos=[available[company] for company in D['placement']['home_featured_companies']]
+    else:
+        logos=[available.get(company,{'company':company}) for company in D['placement']['display_companies']]
+    cards=''
+    for logo in logos:
+        company=e(logo['company'])
+        extra='style="filter:brightness(0)"' if logo.get('asset',{}).get('monochrome') else ''
+        mark=image(logo['asset'],logo['company'],extra=extra)+f'<span>{company}</span>' if logo.get('asset') else f'<strong class="firm-wordmark">{company}</strong>'
+        cls=' firm-logo-wide' if logo.get('wide') else ''
+        if logo.get('size'): cls+=' firm-logo-'+logo['size']
+        cards+=f'<div class="firm-logo{cls}" title="{company}">{mark}</div>'
+    return '<div class="logo-grid'+(' home-logos' if home else '')+'">'+cards+'</div>'
+
+def broader_placements():
+    companies=D['placement'].get('broader_careers',[])
+    if not companies:return ''
+    firms=''.join(f'<li>{e(company)}</li>' for company in companies)
+    return f'''<section class="section wrap broader-careers"><div class="section-heading"><div><p class="eyebrow">Beyond financial services</p><h2>Different paths.<br><em>Shared foundations.</em></h2></div><p class="section-aside">Our alumni have also built careers across technology, consulting, industry, and entrepreneurship.</p></div><ul class="career-firms">{firms}</ul></section>'''
 
 def subhero(kicker,heading,copy,photo=None,caption=''):
     if photo:
@@ -97,14 +116,14 @@ def about():
     <section id="pillars" class="section wrap"><div class="section-heading"><div><p class="eyebrow">Our foundation</p><h2>The ATG <em>pillars.</em></h2></div></div>{pillars(True)}</section>'''
 
 def placement():
-    tabs='<div class="year-tabs" role="tablist" aria-label="Placement class year">'
+    tabs='<div class="year-tabs" role="group" aria-label="Filter placement by class year"><button type="button" aria-pressed="true" data-year="all">All classes</button>'
     panels=''
     for year,entries in D['placement']['recent'].items():
-        tabs+=f'<button id="tab-{year}" role="tab" aria-controls="class-{year}" aria-selected="{str(year=="2026").lower()}" tabindex="{0 if year=="2026" else -1}" data-year="{year}">Class of {year}</button>'
-        panels+=f'<section class="placement-panel" id="class-{year}" role="tabpanel" aria-labelledby="tab-{year}" tabindex="0"><h3>Class of {year}</h3><ul>'+''.join(f'<li><span>{e(entry)}</span><span class="placement-dash" aria-hidden="true">—</span></li>' for entry in entries)+'</ul></section>'
+        tabs+=f'<button type="button" aria-controls="class-{year}" aria-pressed="false" data-year="{year}" aria-label="Class of {year}">{year}</button>'
+        panels+=f'<section class="placement-panel" id="class-{year}" aria-labelledby="class-title-{year}"><h3 id="class-title-{year}">Class of {year}</h3><ul>'+''.join(f'<li><span>{e(entry)}</span><span class="placement-dash" aria-hidden="true">—</span></li>' for entry in entries)+'</ul></section>'
     tabs+='</div>'
     return subhero('Placement / Our alumni network','Ambition meets<br><em>opportunity.</em>','Our members go on to work at leading firms in finance and beyond. An enduring alumni network connects every new class with the experience of those who came before.',D['placement']['club_photo'],'')+f'''
-    {stats()}<section class="section wrap"><div class="section-heading"><div><p class="eyebrow">A network that stays with you</p><h2>Where our members<br><em>make their mark.</em></h2></div><p class="section-aside">{e(D['placement']['intro'])}</p></div>{logo_grid()}</section>
+    {stats()}<section class="section wrap"><div class="section-heading"><div><p class="eyebrow">A network that stays with you</p><h2>Where our members<br><em>make their mark.</em></h2></div><p class="section-aside">Our members and alumni have worked across investment banking, investing, and financial services. Explore current and past roles across our network.</p></div>{logo_grid()}</section>{broader_placements()}
     <section class="section recent-section" id="recent-placement"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">Recent placement</p><h2>Every class.<br><em>New possibilities.</em></h2></div><p class="section-aside">Explore the firms and roles<br>of our recent classes.</p></div>{tabs}{panels}</div></section>'''
 
 def pitch_highlights():
