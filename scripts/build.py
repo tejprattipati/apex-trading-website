@@ -106,12 +106,11 @@ def placement():
 def pitch_highlights():
     entries=D['prospective_members'].get('pitch_highlights',[])
     if not entries:return ''
-    rows='';sources=''
+    rows=''
     for p in entries:
         gain=(p['closing_price']/p['pitch_price']-1)*100
         rows+=f'''<article class="pitch-result"><div><p class="pitch-ticker">{e(p['ticker'])} <span>· {e(p['pitch_term'])}</span></p><h4>{e(p['company'])}</h4></div><div><strong>{gain:+.1f}%</strong><p>Price return since pitch</p></div></article>'''
-        sources+=f'''<li><span>{e(p['ticker'])}: ${p['pitch_price']:.2f} → ${p['closing_price']:.2f}</span>{ext(p['price_source'],'Price history ↗')}</li>'''
-    return f'''<div class="pitch-highlights"><p class="eyebrow">Selected pitch highlights</p>{rows}<p class="returns-date">Returns as of September 2026</p><details class="return-method"><summary>Calculation & sources <span aria-hidden="true">+</span></summary><div><p>Price change from the price quoted in each ATG pitch to the September 21, 2026 closing price. These selected examples reflect stock-price performance and exclude dividends, fees, and ATG’s actual trade timing.</p><p>Return = (closing price ÷ pitch price − 1) × 100.</p><ul>{sources}</ul></div></details></div>'''
+    return f'''<div class="pitch-highlights"><p class="eyebrow">Selected pitch highlights</p>{rows}<p class="returns-date">Returns as of September 2026</p></div>'''
 
 def prospective():
     experiences=''

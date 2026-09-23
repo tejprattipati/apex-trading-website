@@ -33,7 +33,7 @@ Content and image inventory audited against https://www.atgumich.com/ on Septemb
 
 The Fall 2026 dates are historical source dates (September 9–21), not a claim that applications are currently open. Existing Google Form links are preserved. Board profiles use email links; LinkedIn links are omitted. Instagram retrieval was unavailable, so the supplied Instagram visual reference guides the typography and palette while the original ATG gallery supplies the club photos.
 
-Selected pitch highlights show stock-price changes from the original pitch price through the September 21, 2026 close, labeled “Returns as of September 2026.” These are selected examples, not actual fund returns. Public price sources and calculation details are available in the page disclosure. Update the prices, cutoff copy, and date label together when refreshing this section.
+Selected pitch highlights show stock-price changes from the original pitch price through the September 21, 2026 close, labeled “Returns as of September 2026.” These are selected examples, not actual fund returns. The source data records the pitch and closing prices, cutoff dates, and public price sources. Update the prices, cutoff copy, and date label together when refreshing this section.
 
 Leadership is grouped into Executive Board, Sector Heads, Chairs, and Senior Advisor. Placement entries use the requested curated order and IBD labels for confirmed banking roles. Sector photography follows the original six-image grid with a navy and silver treatment.
 
