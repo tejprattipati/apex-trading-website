@@ -19,12 +19,16 @@ def ext(url, label, cls=''):
 
 def header(page):
     links=''.join(f'<a href="{path}"'+(' aria-current="page"' if path==page else '')+f'>{name}</a>' for path,name in PAGES)
+    forms='' if page=='prospective-members.html' else ext(INTEREST,'Interest form ↗','nav-interest')+ext(APPLICATION,'Application ↗','button small')
     return f'''<a class="skip-link" href="#main">Skip to content</a><header class="site-header">
     <a class="brand" href="index.html" aria-label="Apex Trading Group home"><span class="brand-mark"><img src="{LOGO}" alt="ATG" width="{D['branding']['preferred_white_wordmark']['optimized_width']}" height="{D['branding']['preferred_white_wordmark']['optimized_height']}"></span><span class="brand-name">APEX<br>TRADING GROUP</span></a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">☰</span></button><nav id="main-nav" aria-label="Main navigation">{links}{ext(INTEREST,'Interest form ↗','nav-interest')}{ext(APPLICATION,'Application ↗','button small')}</nav></header>'''
+    <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu <span aria-hidden="true">☰</span></button><nav id="main-nav" aria-label="Main navigation">{links}{forms}</nav></header>'''
 
-def footer():
-    return f'''<section class="join-band"><div class="wrap join-inner"><div><p class="eyebrow light">Your next chapter</p><h2>Build your future.<br><em>Find your people.</em></h2></div><div><p>Curious about investing? Get to know ATG.</p>{ext(INTEREST,'Stay in the loop <span>↗</span>','button') }</div></div></section>
+def footer(page):
+    actions=ext(INTEREST,'Stay in the loop <span>↗</span>','button')
+    if page=='prospective-members.html':
+        actions=f'''<div class="prospective-actions">{ext(APPLICATION,'<span>View the application</span><span aria-hidden="true">↗</span>','button')}{ext(INTEREST,'<span>Interest form</span><span aria-hidden="true">↗</span>','button')}</div>'''
+    return f'''<section class="join-band"><div class="wrap join-inner"><div><p class="eyebrow light">Your next chapter</p><h2>Build your future.<br><em>Find your people.</em></h2></div><div><p>Curious about investing? Get to know ATG.</p>{actions}</div></div></section>
     <footer class="site-footer"><div class="wrap footer-main"><a class="footer-brand" href="index.html"><img src="{LOGO}" alt="Apex Trading Group" width="150" height="80"><span>Built by students, for students.<br>University of Michigan · Ann Arbor</span></a><div><p class="eyebrow light">Explore</p>{''.join(f'<a href="{path}">{name}</a>' for path,name in PAGES)}</div><div><p class="eyebrow light">Get in touch</p><a href="mailto:atgeboard26@umich.edu">atgeboard26@umich.edu</a>{ext(INSTAGRAM,'Instagram ↗')}{ext(INTEREST,'Interest form ↗')}{ext(APPLICATION,'Application ↗')}</div></div><div class="wrap footer-bottom"><span>© 2026 Apex Trading Group</span><span>Est. 2014 — Ann Arbor, MI</span><a href="#top">Back to top ↑</a></div></footer>'''
 
 def stats():
@@ -38,13 +42,13 @@ def pillars(full=False):
         cards+=f'''<article class="pillar reveal" id="pillar-{i+1}"><div class="pillar-photo">{image(p['photo'],['ATG members together at a club event','ATG members at a professional event','ATG members socializing'][i])}<span>0{i+1}</span></div><div class="pillar-copy"><p class="eyebrow">{['Invest','Develop','Belong'][i]}</p><h3>{e(p['title'])}</h3><p>{e(desc)}</p>{f'<a class="text-link" href="about.html#pillar-{i+1}">Discover more <span>↗</span></a>' if not full else ''}</div></article>'''
     return f'<div class="pillars">{cards}</div>'
 
-def recruitment():
+def recruitment(show_interest=True):
     events=''
     for item in D['recruitment']['events']:
         date=item['date']; detail=item.get('location',item.get('time',''))
         if item.get('alternative_sublabel'): detail += ' · '+item['alternative_sublabel']
         events+=f'<li class="event"><time datetime="{date}"><span>SEP</span>{int(date[-2:]):02d}</time><div><h3>{e(item["title"])}</h3><p>{e(detail)}</p></div><span class="event-line" aria-hidden="true">—</span></li>'
-    return f'''<section class="section recruitment" id="recruitment"><div class="wrap recruitment-layout"><div class="recruitment-intro"><p class="eyebrow">Fall 2026 / Recruitment</p><h2>It starts with<br><em>a conversation.</em></h2><p>Meet the members, explore the experience, and take the next step with ATG.</p>{ext(INTEREST,'Join the interest list <span>↗</span>','button dark')}<p class="schedule-note">Fall 2026 schedule · September 9–21<br>Follow our interest list for future updates.</p></div><ol class="event-list">{events}</ol></div></section>'''
+    return f'''<section class="section recruitment" id="recruitment"><div class="wrap recruitment-layout"><div class="recruitment-intro"><p class="eyebrow">Fall 2026 / Recruitment</p><h2>It starts with<br><em>a conversation.</em></h2><p>Meet the members, explore the experience, and take the next step with ATG.</p>{ext(INTEREST,'Join the interest list <span>↗</span>','button dark') if show_interest else ''}<p class="schedule-note">Fall 2026 schedule · September 9–21<br>Follow our interest list for future updates.</p></div><ol class="event-list">{events}</ol></div></section>'''
 
 def gallery():
     photos=''
@@ -120,9 +124,9 @@ def prospective():
         experiences+=f'<details class="experience-row"'+(' open' if i==0 else '')+f'><summary><span>0{i+1}</span><h3>{e(item["title"])}</h3><span class="disclosure" aria-hidden="true">+</span></summary><p>{e(text)}.</p>{extra}</details>'
     sectors=''.join(f'<article class="sector-card"><div class="sector-card-image">{image(s["image"],s["alt"])}<span>0{i+1}</span></div><h3>{e(s["name"])}</h3></article>' for i,s in enumerate(D['prospective_members']['sector_cards']))
     return subhero('Prospective members','Your curiosity.<br><em>Our collective edge.</em>','The ATG experience connects practical investing, personal mentorship, and a community ready to grow with you.')+f'''
-    <section class="section wrap experience-layout"><div><p class="eyebrow">The ATG experience</p><h2>Learn by doing.<br><em>Grow with others.</em></h2><p class="lead">From your first stock pitch to your next interview, build the skills and relationships that move you forward.</p>{ext(APPLICATION,'View the application <span>↗</span>','button dark')}</div><div class="experience-list"><p class="eyebrow">New member experience</p>{experiences}</div></section>
+    <section class="section wrap experience-layout"><div><p class="eyebrow">The ATG experience</p><h2>Learn by doing.<br><em>Grow with others.</em></h2><p class="lead">From your first stock pitch to your next interview, build the skills and relationships that move you forward.</p></div><div class="experience-list"><h2 class="eyebrow experience-heading">New member<br>experience</h2>{experiences}</div></section>
     <section class="section sector-grid-section" id="investment-sectors"><div class="wrap sector-grid-layout"><div class="sector-grid-intro"><p class="eyebrow light">Sector teams</p><h2>Our investment<br><em>sectors.</em></h2><p>Six investment sectors. Different perspectives. Members build focused expertise and share their insights with the entire club.</p></div><div class="sector-card-grid">{sectors}</div></div></section>
-    {recruitment()}'''
+    {recruitment(show_interest=False)}'''
 
 DESCRIPTIONS={
  'index.html':'Built by students, for students. Apex Trading Group is a student investment organization at the University of Michigan’s Ross School of Business.',
@@ -131,7 +135,7 @@ DESCRIPTIONS={
  'prospective-members.html':'Discover the ATG new member experience, six investment sectors, and Fall 2026 recruitment schedule.'}
 
 def document(page,title,content):
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1d33"><title>{title} — Apex Trading Group | University of Michigan</title><meta name="description" content="{e(DESCRIPTIONS.get(page,DESCRIPTIONS['index.html']))}"><link rel="icon" href="assets/images/atg-logo.png"><link rel="stylesheet" href="assets/fonts/fonts.css"><link rel="stylesheet" href="assets/style.css"></head><body id="top">{header(page)}<main id="main">{content}</main>{footer()}<script src="assets/main.js" defer></script></body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1d33"><title>{title} — Apex Trading Group | University of Michigan</title><meta name="description" content="{e(DESCRIPTIONS.get(page,DESCRIPTIONS['index.html']))}"><link rel="icon" href="assets/images/atg-logo.png"><link rel="stylesheet" href="assets/fonts/fonts.css"><link rel="stylesheet" href="assets/style.css"></head><body id="top">{header(page)}<main id="main">{content}</main>{footer(page)}<script src="assets/main.js" defer></script></body></html>'''
 
 for path,title,render in [('index.html','Home',home),('about.html','About',about),('placement.html','Placement',placement),('prospective-members.html','Prospective Members',prospective)]:
     (ROOT/path).write_text(document(path,title,render()))
