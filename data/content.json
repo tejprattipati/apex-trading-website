@@ -1467,8 +1467,7 @@
         "Wells Fargo CIB",
         "PeakSpan GE",
         "Citi S&T (x2)",
-        "Fidelity Equity Research",
-        "EY-Parthenon"
+        "Fidelity Equity Research"
       ],
       "2027": [
         "JP Morgan IBD",
@@ -1481,8 +1480,7 @@
         "Baird IBD",
         "Stifel IBD",
         "Nomura IBD",
-        "Deloitte IBD",
-        "Coinbase S&T"
+        "Deloitte IBD"
       ],
       "2028": [
         "Goldman Sachs RE",
@@ -1597,16 +1595,6 @@
         "size": "dense"
       },
       {
-        "company": "Coinbase",
-        "asset": {
-          "file": "assets/images/coinbase.svg",
-          "source_url": "https://downloads.ctfassets.net/q5ulk4bp65r7/55HCidNuiUBEMrOipt5gUl/b5285f163bab1ebd67809d5f599b3a22/coinbase_logos.zip",
-          "optimized_width": 1102,
-          "optimized_height": 197
-        },
-        "size": "medium"
-      },
-      {
         "company": "BCG",
         "asset": {
           "file": "assets/images/bcg.png",
@@ -1615,16 +1603,6 @@
           "optimized_height": 1312
         },
         "wide": true
-      },
-      {
-        "company": "EY-Parthenon",
-        "asset": {
-          "file": "assets/images/ey-parthenon.svg",
-          "source_url": "https://www.ey.com/en_gl/services/strategy/parthenon",
-          "optimized_width": 1000,
-          "optimized_height": 434
-        },
-        "size": "dense"
       },
       {
         "company": "Accenture",
@@ -1698,12 +1676,10 @@
       "BNP Paribas",
       "Bain & Company",
       "BCG",
-      "EY-Parthenon",
       "Accenture",
       "Deloitte",
       "PwC",
-      "EY",
-      "Coinbase"
+      "EY"
     ],
     "broader_careers": [
       "Google",
