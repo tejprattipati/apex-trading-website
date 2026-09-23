@@ -58,7 +58,7 @@
     "headline": "APEX TRADING GROUP",
     "tagline": "The Premier Student Investment Organization at the Ross School of Business",
     "intro_heading": "Built By Students for Students",
-    "intro": "Since our founding in 2014, Apex Trading Group (ATG) has empowered students with rigorous finance education through a student-run investment portfolio. Members gain valuable insights through educational sessions and stock pitches, fostering both practical skills and professional growth. We create an interactive environment where members collaborate, share insights, and support each other\u2019s development, preparing members for diverse career paths in finance and beyond while encouraging lifelong connections and continued personal growth."
+    "intro": "Since our founding in 2014, Apex Trading Group (ATG) has empowered students with rigorous finance education through a student-run investment portfolio. Members gain valuable insights through educational sessions and stock pitches, fostering both practical skills and professional growth. We create an interactive environment where members collaborate, share insights, and support each other’s development, preparing members for diverse career paths in finance and beyond while encouraging lifelong connections and continued personal growth."
   },
   "links": {
     "HOME": "https://www.atgumich.com",
@@ -338,16 +338,12 @@
       "name": "Tej Prattipati",
       "role": "Global Equities Sector Head",
       "photo": {
-        "name": "tej-prattipati",
+        "name": "tej-prattipati-new",
         "category": "headshot",
-        "source_url": "https://static.wixstatic.com/media/044a0c_efe2b15cdef24a9a9cecf5b2e6dda553~mv2.jpg",
-        "source_alt": "HEADSHOT.jpg",
-        "maxwidth": 900,
-        "page": "about",
-        "source_image_index": 18,
-        "optimized_width": 889,
-        "optimized_height": 900,
-        "file": "assets/images/tej-prattipati.webp"
+        "source": "User-provided replacement headshot",
+        "file": "assets/images/tej-prattipati-new.png",
+        "optimized_width": 1254,
+        "optimized_height": 1254
       }
     },
     {
@@ -384,7 +380,7 @@
     },
     {
       "name": "Ava Goldsmith",
-      "role": "PUI Sector Head Member Experience Chair",
+      "role": "PUI Sector Head | Member Experience Chair",
       "photo": {
         "name": "ava-goldsmith",
         "category": "headshot",
@@ -450,7 +446,7 @@
   "pillars": [
     {
       "title": "Real-World Application",
-      "source_description": "At ATG, education translates into action. Members actively manage the club\u2019s $10k portfolio using a variety of long-only strategies",
+      "source_description": "At ATG, education translates into action. Members actively manage the club’s $10k portfolio using a variety of long-only strategies",
       "photo": {
         "name": "real-world-application",
         "category": "club-photo",
@@ -727,24 +723,6 @@
         "identification": "Visually verified from downloaded logo"
       },
       {
-        "company": "Morgan Stanley",
-        "source_image_index": 5,
-        "asset": {
-          "name": "placement-logo-02",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_2b9af07b840241aeb8310267c03f70ce~mv2.jpg",
-          "source_alt": "ms.jpg",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 5,
-          "optimized_width": 900,
-          "optimized_height": 900,
-          "file": "assets/images/placement-logo-02.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
         "company": "JP Morgan",
         "source_image_index": 6,
         "asset": {
@@ -781,6 +759,24 @@
         "identification": "Visually verified from downloaded logo"
       },
       {
+        "company": "Morgan Stanley",
+        "source_image_index": 5,
+        "asset": {
+          "name": "placement-logo-02",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_2b9af07b840241aeb8310267c03f70ce~mv2.jpg",
+          "source_alt": "ms.jpg",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 5,
+          "optimized_width": 900,
+          "optimized_height": 900,
+          "file": "assets/images/placement-logo-02.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
         "company": "Blackstone",
         "source_image_index": 8,
         "asset": {
@@ -794,24 +790,6 @@
           "optimized_width": 1400,
           "optimized_height": 788,
           "file": "assets/images/placement-logo-05.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "BlackRock",
-        "source_image_index": 9,
-        "asset": {
-          "name": "placement-logo-06",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_5a8ab33295894271901357d64a370258~mv2.png",
-          "source_alt": "blackrock.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 9,
-          "optimized_width": 1200,
-          "optimized_height": 174,
-          "file": "assets/images/placement-logo-06.webp"
         },
         "category": "not grouped in original source",
         "identification": "Visually verified from downloaded logo"
@@ -835,42 +813,6 @@
         "identification": "Visually verified from downloaded logo"
       },
       {
-        "company": "Bank of America",
-        "source_image_index": 11,
-        "asset": {
-          "name": "placement-logo-08",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_18310cc13d7c467b83c3bf64d7413cec~mv2.png",
-          "source_alt": "unnamed.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 11,
-          "optimized_width": 600,
-          "optimized_height": 300,
-          "file": "assets/images/placement-logo-08.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "Citadel",
-        "source_image_index": 12,
-        "asset": {
-          "name": "placement-logo-09",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_f130cc75df814e34bc4ed2723a9dc6e4~mv2.jpg",
-          "source_alt": "citadel.jpg",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 12,
-          "optimized_width": 800,
-          "optimized_height": 450,
-          "file": "assets/images/placement-logo-09.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
         "company": "Moelis & Company",
         "source_image_index": 13,
         "asset": {
@@ -889,55 +831,55 @@
         "identification": "Visually verified from downloaded logo"
       },
       {
-        "company": "Point72",
-        "source_image_index": 14,
+        "company": "Starwood Capital Group",
+        "source_image_index": 35,
         "asset": {
-          "name": "placement-logo-11",
+          "name": "placement-logo-32",
           "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_748d363010594232b6d2f6264a1cc6c8~mv2.png",
-          "source_alt": "p72.png",
+          "source_url": "https://static.wixstatic.com/media/044a0c_8ceef6dc4a0446e1818975a344825e1c~mv2.png",
+          "source_alt": "starwood.png",
           "maxwidth": 700,
           "page": "placement",
-          "source_image_index": 14,
-          "optimized_width": 1071,
-          "optimized_height": 375,
-          "file": "assets/images/placement-logo-11.webp"
+          "source_image_index": 35,
+          "optimized_width": 1200,
+          "optimized_height": 915,
+          "file": "assets/images/placement-logo-32.webp"
         },
         "category": "not grouped in original source",
         "identification": "Visually verified from downloaded logo"
       },
       {
-        "company": "Millennium",
-        "source_image_index": 15,
+        "company": "Bank of America",
+        "source_image_index": 11,
         "asset": {
-          "name": "placement-logo-12",
+          "name": "placement-logo-08",
           "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_263248c60c4c43e297c27f4ff7cea1b9~mv2.png",
-          "source_alt": "mill.png",
+          "source_url": "https://static.wixstatic.com/media/044a0c_18310cc13d7c467b83c3bf64d7413cec~mv2.png",
+          "source_alt": "unnamed.png",
           "maxwidth": 700,
           "page": "placement",
-          "source_image_index": 15,
+          "source_image_index": 11,
+          "optimized_width": 600,
+          "optimized_height": 300,
+          "file": "assets/images/placement-logo-08.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Citi",
+        "source_image_index": 21,
+        "asset": {
+          "name": "placement-logo-18",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_04db9a857db34ef38d17cbd59375d8a9~mv2.png",
+          "source_alt": "Citi-logo.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 21,
           "optimized_width": 1400,
-          "optimized_height": 202,
-          "file": "assets/images/placement-logo-12.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "Guggenheim Partners",
-        "source_image_index": 16,
-        "asset": {
-          "name": "placement-logo-13",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_c753e3b8aa964a3984ddb35d18ef893a~mv2.png",
-          "source_alt": "image.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 16,
-          "optimized_width": 288,
-          "optimized_height": 108,
-          "file": "assets/images/placement-logo-13.webp"
+          "optimized_height": 788,
+          "file": "assets/images/placement-logo-18.webp"
         },
         "category": "not grouped in original source",
         "identification": "Visually verified from downloaded logo"
@@ -961,19 +903,55 @@
         "identification": "Visually verified from downloaded logo"
       },
       {
-        "company": "Oak Hill Advisors",
-        "source_image_index": 18,
+        "company": "Guggenheim Partners",
+        "source_image_index": 16,
         "asset": {
-          "name": "placement-logo-15",
+          "name": "placement-logo-13",
           "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_16516b8105c64968a500ff58cff4066a~mv2.png",
+          "source_url": "https://static.wixstatic.com/media/044a0c_c753e3b8aa964a3984ddb35d18ef893a~mv2.png",
           "source_alt": "image.png",
           "maxwidth": 700,
           "page": "placement",
-          "source_image_index": 18,
-          "optimized_width": 1400,
-          "optimized_height": 737,
-          "file": "assets/images/placement-logo-15.webp"
+          "source_image_index": 16,
+          "optimized_width": 288,
+          "optimized_height": 108,
+          "file": "assets/images/placement-logo-13.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Mizuho Greenhill",
+        "source_image_index": 25,
+        "asset": {
+          "name": "placement-logo-22",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_470ff32f02b34027a5fe868e3a1c34be~mv2.jpeg",
+          "source_alt": "mizuho greenhill.jpeg",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 25,
+          "optimized_width": 200,
+          "optimized_height": 200,
+          "file": "assets/images/placement-logo-22.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Houlihan Lokey",
+        "source_image_index": 23,
+        "asset": {
+          "name": "placement-logo-20",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_7f72e920c2e04b44a3474f5087b3b6a9~mv2.png",
+          "source_alt": "hl.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 23,
+          "optimized_width": 1200,
+          "optimized_height": 663,
+          "file": "assets/images/placement-logo-20.webp"
         },
         "category": "not grouped in original source",
         "identification": "Visually verified from downloaded logo"
@@ -1015,96 +993,6 @@
         "identification": "Visually verified from downloaded logo"
       },
       {
-        "company": "Citi",
-        "source_image_index": 21,
-        "asset": {
-          "name": "placement-logo-18",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_04db9a857db34ef38d17cbd59375d8a9~mv2.png",
-          "source_alt": "Citi-logo.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 21,
-          "optimized_width": 1400,
-          "optimized_height": 788,
-          "file": "assets/images/placement-logo-18.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "Neuberger Berman",
-        "source_image_index": 22,
-        "asset": {
-          "name": "placement-logo-19",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_bf47f615643540baaa322287660c34b9~mv2.png",
-          "source_alt": "nb.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 22,
-          "optimized_width": 500,
-          "optimized_height": 200,
-          "file": "assets/images/placement-logo-19.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "Houlihan Lokey",
-        "source_image_index": 23,
-        "asset": {
-          "name": "placement-logo-20",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_7f72e920c2e04b44a3474f5087b3b6a9~mv2.png",
-          "source_alt": "hl.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 23,
-          "optimized_width": 1200,
-          "optimized_height": 663,
-          "file": "assets/images/placement-logo-20.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "Deutsche Bank",
-        "source_image_index": 24,
-        "asset": {
-          "name": "placement-logo-21",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_4de25e9aaf284f379ef40eebb7792389~mv2.png",
-          "source_alt": "db.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 24,
-          "optimized_width": 1400,
-          "optimized_height": 1400,
-          "file": "assets/images/placement-logo-21.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "Mizuho Greenhill",
-        "source_image_index": 25,
-        "asset": {
-          "name": "placement-logo-22",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_470ff32f02b34027a5fe868e3a1c34be~mv2.jpeg",
-          "source_alt": "mizuho greenhill.jpeg",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 25,
-          "optimized_width": 200,
-          "optimized_height": 200,
-          "file": "assets/images/placement-logo-22.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
         "company": "RBC Capital Markets",
         "source_image_index": 26,
         "asset": {
@@ -1141,114 +1029,6 @@
         "identification": "Visually verified from downloaded logo"
       },
       {
-        "company": "Rothschild & Co",
-        "source_image_index": 28,
-        "asset": {
-          "name": "placement-logo-25",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_c08120bed0ea4e0eacfa20c7444bafa9~mv2.webp",
-          "source_alt": "rothschildco_logo.webp",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 28,
-          "optimized_width": 984,
-          "optimized_height": 162,
-          "file": "assets/images/placement-logo-25.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "Financial Technology Partners",
-        "source_image_index": 29,
-        "asset": {
-          "name": "placement-logo-26",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_f7f161ae8b7e4836873436807b9071f1~mv2.png",
-          "source_alt": "image.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 29,
-          "optimized_width": 1088,
-          "optimized_height": 608,
-          "file": "assets/images/placement-logo-26.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "TD Bank",
-        "source_image_index": 30,
-        "asset": {
-          "name": "placement-logo-27",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_59792ae0e1884432b9d06e95785f9831~mv2.png",
-          "source_alt": "Toronto-Dominion_Bank_logo.svg.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 30,
-          "optimized_width": 500,
-          "optimized_height": 448,
-          "file": "assets/images/placement-logo-27.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "BMO",
-        "source_image_index": 31,
-        "asset": {
-          "name": "placement-logo-28",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_76e2fed17ac74446803d82b970a7cb88~mv2.png",
-          "source_alt": "bmo.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 31,
-          "optimized_width": 1400,
-          "optimized_height": 486,
-          "file": "assets/images/placement-logo-28.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "Fidelity Investments",
-        "source_image_index": 32,
-        "asset": {
-          "name": "placement-logo-29",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_30f0edb4a13f4ac2bc5334ee85579b36~mv2.png",
-          "source_alt": "fidelity i.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 32,
-          "optimized_width": 1400,
-          "optimized_height": 788,
-          "file": "assets/images/placement-logo-29.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "Norwest",
-        "source_image_index": 33,
-        "asset": {
-          "name": "placement-logo-30",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_1b7f91d21e50408283709f1c6fce3da5~mv2.png",
-          "source_alt": "norwest.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 33,
-          "optimized_width": 1200,
-          "optimized_height": 630,
-          "file": "assets/images/placement-logo-30.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
         "company": "Baird",
         "source_image_index": 34,
         "asset": {
@@ -1262,96 +1042,6 @@
           "optimized_width": 1200,
           "optimized_height": 1104,
           "file": "assets/images/placement-logo-31.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "Starwood Capital Group",
-        "source_image_index": 35,
-        "asset": {
-          "name": "placement-logo-32",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_8ceef6dc4a0446e1818975a344825e1c~mv2.png",
-          "source_alt": "starwood.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 35,
-          "optimized_width": 1200,
-          "optimized_height": 915,
-          "file": "assets/images/placement-logo-32.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "PeakSpan Capital",
-        "source_image_index": 36,
-        "asset": {
-          "name": "placement-logo-33",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_321dbd8e90b6471fba7f48de24a00638~mv2.png",
-          "source_alt": "peakspan.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 36,
-          "optimized_width": 900,
-          "optimized_height": 900,
-          "file": "assets/images/placement-logo-33.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "MUFG",
-        "source_image_index": 37,
-        "asset": {
-          "name": "placement-logo-34",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_636b6405c580402aad50b472771c5102~mv2.png",
-          "source_alt": "image.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 37,
-          "optimized_width": 1369,
-          "optimized_height": 1400,
-          "file": "assets/images/placement-logo-34.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "BNP Paribas",
-        "source_image_index": 38,
-        "asset": {
-          "name": "placement-logo-35",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_5c097cabc6564aef82cd08089f64c1ce~mv2.png",
-          "source_alt": "image.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 38,
-          "optimized_width": 1400,
-          "optimized_height": 788,
-          "file": "assets/images/placement-logo-35.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "Ardea Partners",
-        "source_image_index": 39,
-        "asset": {
-          "name": "placement-logo-36",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_27c4cb7b5cac4bdbb9b0a14d96667594~mv2.png",
-          "source_alt": "ardea.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 39,
-          "optimized_width": 719,
-          "optimized_height": 104,
-          "file": "assets/images/placement-logo-36.webp"
         },
         "category": "not grouped in original source",
         "identification": "Visually verified from downloaded logo"
@@ -1375,6 +1065,132 @@
         "identification": "Visually verified from downloaded logo"
       },
       {
+        "company": "Financial Technology Partners",
+        "source_image_index": 29,
+        "asset": {
+          "name": "placement-logo-26",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_f7f161ae8b7e4836873436807b9071f1~mv2.png",
+          "source_alt": "image.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 29,
+          "optimized_width": 1088,
+          "optimized_height": 608,
+          "file": "assets/images/placement-logo-26.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Lincoln International",
+        "source_image_index": 44,
+        "asset": {
+          "name": "placement-logo-41",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_9025738564c544bbbe96b21a5fc63875~mv2.png",
+          "source_alt": "ln.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 44,
+          "optimized_width": 900,
+          "optimized_height": 500,
+          "file": "assets/images/placement-logo-41.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Rothschild & Co",
+        "source_image_index": 28,
+        "asset": {
+          "name": "placement-logo-25",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_c08120bed0ea4e0eacfa20c7444bafa9~mv2.webp",
+          "source_alt": "rothschildco_logo.webp",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 28,
+          "optimized_width": 984,
+          "optimized_height": 162,
+          "file": "assets/images/placement-logo-25.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Deutsche Bank",
+        "source_image_index": 24,
+        "asset": {
+          "name": "placement-logo-21",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_4de25e9aaf284f379ef40eebb7792389~mv2.png",
+          "source_alt": "db.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 24,
+          "optimized_width": 1400,
+          "optimized_height": 1400,
+          "file": "assets/images/placement-logo-21.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "BNP Paribas",
+        "source_image_index": 38,
+        "asset": {
+          "name": "placement-logo-35",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_5c097cabc6564aef82cd08089f64c1ce~mv2.png",
+          "source_alt": "image.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 38,
+          "optimized_width": 1400,
+          "optimized_height": 788,
+          "file": "assets/images/placement-logo-35.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "BMO",
+        "source_image_index": 31,
+        "asset": {
+          "name": "placement-logo-28",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_76e2fed17ac74446803d82b970a7cb88~mv2.png",
+          "source_alt": "bmo.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 31,
+          "optimized_width": 1400,
+          "optimized_height": 486,
+          "file": "assets/images/placement-logo-28.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "TD Bank",
+        "source_image_index": 30,
+        "asset": {
+          "name": "placement-logo-27",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_59792ae0e1884432b9d06e95785f9831~mv2.png",
+          "source_alt": "Toronto-Dominion_Bank_logo.svg.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 30,
+          "optimized_width": 500,
+          "optimized_height": 448,
+          "file": "assets/images/placement-logo-27.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
         "company": "SMBC",
         "source_image_index": 41,
         "asset": {
@@ -1388,6 +1204,168 @@
           "optimized_width": 225,
           "optimized_height": 225,
           "file": "assets/images/placement-logo-38.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "MUFG",
+        "source_image_index": 37,
+        "asset": {
+          "name": "placement-logo-34",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_636b6405c580402aad50b472771c5102~mv2.png",
+          "source_alt": "image.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 37,
+          "optimized_width": 1369,
+          "optimized_height": 1400,
+          "file": "assets/images/placement-logo-34.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Ardea Partners",
+        "source_image_index": 39,
+        "asset": {
+          "name": "placement-logo-36",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_27c4cb7b5cac4bdbb9b0a14d96667594~mv2.png",
+          "source_alt": "ardea.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 39,
+          "optimized_width": 719,
+          "optimized_height": 104,
+          "file": "assets/images/placement-logo-36.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Millennium",
+        "source_image_index": 15,
+        "asset": {
+          "name": "placement-logo-12",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_263248c60c4c43e297c27f4ff7cea1b9~mv2.png",
+          "source_alt": "mill.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 15,
+          "optimized_width": 1400,
+          "optimized_height": 202,
+          "file": "assets/images/placement-logo-12.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Citadel",
+        "source_image_index": 12,
+        "asset": {
+          "name": "placement-logo-09",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_f130cc75df814e34bc4ed2723a9dc6e4~mv2.jpg",
+          "source_alt": "citadel.jpg",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 12,
+          "optimized_width": 800,
+          "optimized_height": 450,
+          "file": "assets/images/placement-logo-09.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Point72",
+        "source_image_index": 14,
+        "asset": {
+          "name": "placement-logo-11",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_748d363010594232b6d2f6264a1cc6c8~mv2.png",
+          "source_alt": "p72.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 14,
+          "optimized_width": 1071,
+          "optimized_height": 375,
+          "file": "assets/images/placement-logo-11.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "BlackRock",
+        "source_image_index": 9,
+        "asset": {
+          "name": "placement-logo-06",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_5a8ab33295894271901357d64a370258~mv2.png",
+          "source_alt": "blackrock.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 9,
+          "optimized_width": 1200,
+          "optimized_height": 174,
+          "file": "assets/images/placement-logo-06.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Oak Hill Advisors",
+        "source_image_index": 18,
+        "asset": {
+          "name": "placement-logo-15",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_16516b8105c64968a500ff58cff4066a~mv2.png",
+          "source_alt": "image.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 18,
+          "optimized_width": 1400,
+          "optimized_height": 737,
+          "file": "assets/images/placement-logo-15.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "PeakSpan Capital",
+        "source_image_index": 36,
+        "asset": {
+          "name": "placement-logo-33",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_321dbd8e90b6471fba7f48de24a00638~mv2.png",
+          "source_alt": "peakspan.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 36,
+          "optimized_width": 900,
+          "optimized_height": 900,
+          "file": "assets/images/placement-logo-33.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Norwest",
+        "source_image_index": 33,
+        "asset": {
+          "name": "placement-logo-30",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_1b7f91d21e50408283709f1c6fce3da5~mv2.png",
+          "source_alt": "norwest.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 33,
+          "optimized_width": 1200,
+          "optimized_height": 630,
+          "file": "assets/images/placement-logo-30.webp"
         },
         "category": "not grouped in original source",
         "identification": "Visually verified from downloaded logo"
@@ -1429,19 +1407,37 @@
         "identification": "Visually verified from downloaded logo"
       },
       {
-        "company": "Lincoln International",
-        "source_image_index": 44,
+        "company": "Fidelity Investments",
+        "source_image_index": 32,
         "asset": {
-          "name": "placement-logo-41",
+          "name": "placement-logo-29",
           "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_9025738564c544bbbe96b21a5fc63875~mv2.png",
-          "source_alt": "ln.png",
+          "source_url": "https://static.wixstatic.com/media/044a0c_30f0edb4a13f4ac2bc5334ee85579b36~mv2.png",
+          "source_alt": "fidelity i.png",
           "maxwidth": 700,
           "page": "placement",
-          "source_image_index": 44,
-          "optimized_width": 900,
-          "optimized_height": 500,
-          "file": "assets/images/placement-logo-41.webp"
+          "source_image_index": 32,
+          "optimized_width": 1400,
+          "optimized_height": 788,
+          "file": "assets/images/placement-logo-29.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Neuberger Berman",
+        "source_image_index": 22,
+        "asset": {
+          "name": "placement-logo-19",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_bf47f615643540baaa322287660c34b9~mv2.png",
+          "source_alt": "nb.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 22,
+          "optimized_width": 500,
+          "optimized_height": 200,
+          "file": "assets/images/placement-logo-19.webp"
         },
         "category": "not grouped in original source",
         "identification": "Visually verified from downloaded logo"
@@ -1460,6 +1456,24 @@
           "optimized_width": 894,
           "optimized_height": 309,
           "file": "assets/images/placement-logo-42.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "EY",
+        "source_image_index": 48,
+        "asset": {
+          "name": "placement-logo-45",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_a27d75d325fa4124bb661e889e595e3b~mv2.png",
+          "source_alt": "EY_logo_2019.svg.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 48,
+          "optimized_width": 1200,
+          "optimized_height": 1200,
+          "file": "assets/images/placement-logo-45.webp"
         },
         "category": "not grouped in original source",
         "identification": "Visually verified from downloaded logo"
@@ -1499,87 +1513,69 @@
         },
         "category": "not grouped in original source",
         "identification": "Visually verified from downloaded logo"
-      },
-      {
-        "company": "EY",
-        "source_image_index": 48,
-        "asset": {
-          "name": "placement-logo-45",
-          "category": "placement-logo",
-          "source_url": "https://static.wixstatic.com/media/044a0c_a27d75d325fa4124bb661e889e595e3b~mv2.png",
-          "source_alt": "EY_logo_2019.svg.png",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 48,
-          "optimized_width": 1200,
-          "optimized_height": 1200,
-          "file": "assets/images/placement-logo-45.webp"
-        },
-        "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo"
       }
     ],
     "recent": {
       "2026": [
-        "Barclays IBD",
+        "Evercore IBD",
+        "Morgan Stanley IBD",
         "Blackstone RE",
-        "Citi S&T (x2)",
-        "EY-Parthenon",
+        "PJT IBD",
+        "Lazard IBD",
+        "Moelis IBD (x2)",
+        "Starwood RE PE",
+        "Barclays IBD",
         "Greenhill (x2)",
-        "Evercore M&A",
-        "Fidelity Equity Research",
         "Jefferies IBD",
-        "Jordan Park Group",
-        "Lazard M&A",
+        "UBS IBD (x2)",
+        "Wells Fargo CIB",
         "Lincoln International",
         "Millennium",
-        "Moelis M&A (x2)",
-        "Morgan Stanley IBD",
+        "Citi S&T (x2)",
         "PeakSpan GE",
-        "PJT Strategic Advisory",
-        "Starwood RE PE",
-        "UBS IBD (x2)",
-        "Wells Fargo CIB"
+        "Fidelity Equity Research",
+        "EY-Parthenon",
+        "Jordan Park Group"
       ],
       "2027": [
-        "Baird IB",
-        "Capital One",
-        "Citi IBD",
-        "Coinbase S&T",
-        "Deloitte IB",
-        "Evercore M&A",
         "JP Morgan IBD",
-        "Houlihan Lokey (x2)",
+        "Evercore IBD",
+        "Starwood RE PE",
+        "Citi IBD",
+        "Houlihan Lokey IBD (x2)",
+        "UBS IBD",
+        "Wells Fargo IBD",
+        "Baird IBD",
+        "Stifel IBD",
         "Nomura IBD",
         "ScotiaBank IBD",
+        "Deloitte IBD",
         "Societe Generale S&T",
-        "Starwood RE PE",
-        "Stifel IBD",
-        "UBS IBD",
-        "Wells Fargo IBD"
+        "Coinbase S&T",
+        "Capital One"
       ],
       "2028": [
-        "Bank of America IBD",
-        "Barclays IBD",
-        "BNP Paribas IBD",
-        "Brown Gibbons Lang",
-        "CIBC",
-        "Citi IBD",
-        "Citi S&T",
-        "Evercore RE",
-        "FT Partners",
         "Goldman Sachs RE",
+        "Evercore RE",
+        "Starwood RE PE",
+        "Bank of America IBD",
+        "Citi IBD",
+        "Barclays IBD",
         "Jefferies IBD (x3)",
-        "MTS Health Partners",
-        "Newmark RE",
-        "Oak Hill Advisors US Credit",
+        "UBS IBD",
+        "RBC IBD (x2)",
         "Piper Sandler IBD",
         "Raymond James IBD",
-        "RBC IBD (x2)",
-        "SMBC IBD",
-        "Starwood RE PE",
+        "FT Partners",
+        "MTS Health Partners",
+        "BNP Paribas IBD",
+        "CIBC",
         "TD IBD (x2)",
-        "UBS IBD"
+        "SMBC IBD",
+        "Brown Gibbons Lang",
+        "Citi S&T",
+        "Oak Hill Advisors US Credit",
+        "Newmark RE"
       ]
     }
   },
@@ -1614,6 +1610,112 @@
       "Global Equities",
       "Industrials",
       "Consumer & Retail"
+    ],
+    "sector_cards": [
+      {
+        "name": "Technology, Media & Telecommunications",
+        "image": {
+          "file": "assets/images/sector-tmt.jpg",
+          "optimized_width": 1200,
+          "optimized_height": 900
+        },
+        "alt": "Macro photograph of a silicon wafer patterned with microchips",
+        "source_url": "https://unsplash.com/photos/a-close-up-of-a-metal-plate-with-squares-on-it-0Gw_p-RQq8k",
+        "photographer": "Laura Ockel"
+      },
+      {
+        "name": "Power, Utilities & Infrastructure",
+        "image": {
+          "file": "assets/images/sector-power-utilities-infrastructure.jpg",
+          "optimized_width": 1200,
+          "optimized_height": 900
+        },
+        "alt": "Cooling towers releasing water vapor at Jaslovské Bohunice Nuclear Power Plant in Slovakia",
+        "source_url": "https://unsplash.com/photos/nuclear-power-plant-with-cooling-towers-emitting-steam-NjacvIB_vIQ",
+        "photographer": "Energie-portal.sk"
+      },
+      {
+        "name": "Global Equities",
+        "image": {
+          "file": "assets/images/sector-global-equities.jpg",
+          "optimized_width": 1200,
+          "optimized_height": 900
+        },
+        "alt": "Looking upward between glass skyscrapers in Manhattan",
+        "source_url": "https://unsplash.com/photos/looking-up-at-tall-buildings-in-a-city-4u1KnDTN0DI",
+        "photographer": "Sofia Cancela"
+      },
+      {
+        "name": "Consumer & Retail",
+        "image": {
+          "file": "assets/images/sector-consumer-retail.jpg",
+          "optimized_width": 1200,
+          "optimized_height": 900
+        },
+        "alt": "Glass roof and retail storefronts in Westfield London",
+        "source_url": "https://unsplash.com/photos/a-glass-ceiling-in-a-shopping-mall-with-people-walking-around-97yKnJpF2N4",
+        "photographer": "Brett Jordan"
+      },
+      {
+        "name": "Healthcare",
+        "image": {
+          "file": "assets/images/sector-healthcare.jpg",
+          "optimized_width": 1200,
+          "optimized_height": 900
+        },
+        "alt": "A precision microscope in a clinical laboratory",
+        "source_url": "https://unsplash.com/photos/a-microscope-sitting-on-top-of-a-white-table-xbBIJ8jLz50",
+        "photographer": "Dmytro Vynohradov"
+      },
+      {
+        "name": "Industrials",
+        "image": {
+          "file": "assets/images/sector-industrials.jpg",
+          "optimized_width": 1200,
+          "optimized_height": 900
+        },
+        "alt": "Industrial robot arms on a factory production line",
+        "source_url": "https://unsplash.com/photos/a-factory-filled-with-lots-of-orange-machines-8gr6bObQLOI",
+        "photographer": "Simon Kadula"
+      }
+    ],
+    "pitch_highlights": [
+      {
+        "company": "Vertiv Holdings",
+        "ticker": "VRT",
+        "pitch_term": "February 2026",
+        "pitch_price": 178.03,
+        "closing_price": 250.86,
+        "closing_date": "2026-09-21",
+        "price_source": "https://stockanalysis.com/stocks/vrt/history/"
+      },
+      {
+        "company": "OSI Systems",
+        "ticker": "OSIS",
+        "pitch_term": "Fall 2024",
+        "pitch_price": 153.79,
+        "closing_price": 200.4,
+        "closing_date": "2026-09-21",
+        "price_source": "https://osisystems.gcs-web.com/investor-relations/stock-performance/historical-prices"
+      },
+      {
+        "company": "TTM Technologies",
+        "ticker": "TTMI",
+        "pitch_term": "Winter 2026",
+        "pitch_price": 95.47,
+        "closing_price": 124.02,
+        "closing_date": "2026-09-21",
+        "price_source": "https://www.investing.com/equities/ttm-technologies-historical-data"
+      },
+      {
+        "company": "Qualys",
+        "ticker": "QLYS",
+        "pitch_term": "Fall 2025",
+        "pitch_price": 140.36,
+        "closing_price": 181.03,
+        "closing_date": "2026-09-21",
+        "price_source": "https://stockanalysis.com/stocks/qlys/history/"
+      }
     ]
   },
   "recruitment": {

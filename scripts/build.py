@@ -59,7 +59,7 @@ def logo_grid(home=False):
 
 def subhero(kicker,heading,copy,photo=None,caption=''):
     if photo:
-        return f'''<section class="subhero photo-subhero"><div class="wrap subhero-grid"><div><p class="eyebrow light">{kicker}</p><h1>{heading}</h1><p class="lead">{copy}</p></div><figure>{image(photo,caption,eager=True)}<figcaption>{caption}</figcaption></figure></div></section>'''
+        return f'''<section class="subhero photo-subhero"><div class="wrap subhero-grid"><div><p class="eyebrow light">{kicker}</p><h1>{heading}</h1><p class="lead">{copy}</p></div><figure>{image(photo,caption or 'Apex Trading Group members',eager=True)}{f'<figcaption>{caption}</figcaption>' if caption else ''}</figure></div></section>'''
     return f'''<section class="subhero"><div class="subhero-sky"></div><div class="wrap"><p class="eyebrow light">{kicker}</p><h1>{heading}</h1><p class="lead">{copy}</p></div></section>'''
 
 def home():
@@ -82,6 +82,7 @@ def about():
     sectors=[p for p in leaders if 'Sector Head' in p['role']]
     sectors.sort(key=lambda p: {'Tej Prattipati':0,'Christian Gojcaj':1,'Eddie Chen':2}.get(p['name'],3))
     chairs=[p for p in leaders if 'Sector Head' not in p['role'] and 'Chair' in p['role']]
+    chairs.sort(key=lambda p: {'Shivam Shah':0,'Matthew Walsh-Hussey':1,'Matthew Hunt':2}.get(p['name'],3))
     advisors=[p for p in leaders if 'Advisor' in p['role']]
     return subhero('About Apex Trading Group','Shared ambition.<br><em>Individual potential.</em>','The University of Michigan’s premier student investment organization. Built around real-world experience, professional growth, and the people who make it possible.')+f'''
     <nav class="section-nav wrap" aria-label="About sections"><a href="#executive-board">Executive board ↓</a><a href="#sector-heads">Sector heads ↓</a><a href="#chairs">Chairs ↓</a><a href="#advisor">Senior advisor ↓</a><a href="#pillars">Our pillars ↓</a></nav>
@@ -98,19 +99,30 @@ def placement():
         tabs+=f'<button id="tab-{year}" role="tab" aria-controls="class-{year}" aria-selected="{str(year=="2026").lower()}" tabindex="{0 if year=="2026" else -1}" data-year="{year}">Class of {year}</button>'
         panels+=f'<section class="placement-panel" id="class-{year}" role="tabpanel" aria-labelledby="tab-{year}" tabindex="0"><h3>Class of {year}</h3><ul>'+''.join(f'<li><span>{e(entry)}</span><span class="placement-dash" aria-hidden="true">—</span></li>' for entry in entries)+'</ul></section>'
     tabs+='</div>'
-    return subhero('Placement / Our alumni network','Ambition meets<br><em>opportunity.</em>','Our members go on to work at leading firms in finance and beyond. An enduring alumni network connects every new class with the experience of those who came before.',D['placement']['club_photo'],'The ATG community')+f'''
+    return subhero('Placement / Our alumni network','Ambition meets<br><em>opportunity.</em>','Our members go on to work at leading firms in finance and beyond. An enduring alumni network connects every new class with the experience of those who came before.',D['placement']['club_photo'],'')+f'''
     {stats()}<section class="section wrap"><div class="section-heading"><div><p class="eyebrow">A network that stays with you</p><h2>Where our members<br><em>make their mark.</em></h2></div><p class="section-aside">{e(D['placement']['intro'])}</p></div>{logo_grid()}</section>
     <section class="section recent-section" id="recent-placement"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">Recent placement</p><h2>Every class.<br><em>New possibilities.</em></h2></div><p class="section-aside">Explore the firms and roles<br>of our recent classes.</p></div>{tabs}{panels}</div></section>'''
+
+def pitch_highlights():
+    entries=D['prospective_members'].get('pitch_highlights',[])
+    if not entries:return ''
+    rows='';sources=''
+    for p in entries:
+        gain=(p['closing_price']/p['pitch_price']-1)*100
+        rows+=f'''<article class="pitch-result"><div><p class="pitch-ticker">{e(p['ticker'])} <span>· {e(p['pitch_term'])}</span></p><h4>{e(p['company'])}</h4></div><div><strong>{gain:+.1f}%</strong><p>Price return since pitch</p></div></article>'''
+        sources+=f'''<li><span>{e(p['ticker'])}: ${p['pitch_price']:.2f} → ${p['closing_price']:.2f}</span>{ext(p['price_source'],'Price history ↗')}</li>'''
+    return f'''<div class="pitch-highlights"><p class="eyebrow">Selected pitch highlights</p>{rows}<p class="returns-date">Returns as of September 2026</p><details class="return-method"><summary>Calculation & sources <span aria-hidden="true">+</span></summary><div><p>Price change from the price quoted in each ATG pitch to the September 21, 2026 closing price. These selected examples reflect stock-price performance and exclude dividends, fees, and ATG’s actual trade timing.</p><p>Return = (closing price ÷ pitch price − 1) × 100.</p><ul>{sources}</ul></div></details></div>'''
 
 def prospective():
     experiences=''
     for i,item in enumerate(D['prospective_members']['experiences']):
         text=item['description'].replace('cold- emailing','cold emailing').replace('bank- specific','bank-specific')
-        experiences+=f'<details class="experience-row"'+(' open' if i==0 else '')+f'><summary><span>0{i+1}</span><h3>{e(item["title"])}</h3><span class="disclosure" aria-hidden="true">+</span></summary><p>{e(text)}.</p></details>'
-    sectors=''.join(f'<li><span>0{i+1}</span><h3>{e(s)}</h3></li>' for i,s in enumerate(D['prospective_members']['sectors']))
+        extra=pitch_highlights() if item['title']=='Pitches' else ('<a class="text-link sector-jump" href="#investment-sectors">Explore our sectors <span>↓</span></a>' if item['title']=='Sector Teams' else '')
+        experiences+=f'<details class="experience-row"'+(' open' if i==0 else '')+f'><summary><span>0{i+1}</span><h3>{e(item["title"])}</h3><span class="disclosure" aria-hidden="true">+</span></summary><p>{e(text)}.</p>{extra}</details>'
+    sectors=''.join(f'<article class="sector-card"><div class="sector-card-image">{image(s["image"],s["alt"])}<span>0{i+1}</span></div><h3>{e(s["name"])}</h3></article>' for i,s in enumerate(D['prospective_members']['sector_cards']))
     return subhero('Prospective members','Your curiosity.<br><em>Our collective edge.</em>','The ATG experience connects practical investing, personal mentorship, and a community ready to grow with you.')+f'''
     <section class="section wrap experience-layout"><div><p class="eyebrow">The ATG experience</p><h2>Learn by doing.<br><em>Grow with others.</em></h2><p class="lead">From your first stock pitch to your next interview, build the skills and relationships that move you forward.</p>{ext(APPLICATION,'View the application <span>↗</span>','button dark')}</div><div class="experience-list"><p class="eyebrow">New member experience</p>{experiences}</div></section>
-    <section class="sector-section"><div class="sector-photo"><img src="assets/images/manhattan-architecture.jpg" alt="Looking up between Manhattan skyscrapers" loading="lazy" width="1600" height="2133"></div><div class="sector-content"><p class="eyebrow light">Our investment sectors</p><h2>Different perspectives.<br><em>Deeper understanding.</em></h2><p>Members work across six investment sectors, developing focused expertise and sharing insights with the wider club.</p><ol class="sector-list">{sectors}</ol></div></section>
+    <section class="section sector-grid-section" id="investment-sectors"><div class="wrap sector-grid-layout"><div class="sector-grid-intro"><p class="eyebrow light">Sector teams</p><h2>Our investment<br><em>sectors.</em></h2><p>Six investment sectors. Different perspectives. Members build focused expertise and share their insights with the entire club.</p></div><div class="sector-card-grid">{sectors}</div></div></section>
     {recruitment()}'''
 
 DESCRIPTIONS={
