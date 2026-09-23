@@ -1,0 +1,2745 @@
+{
+  "source_site": "https://www.atgumich.com/",
+  "source_date": "2026-09-22",
+  "notes": [
+    "Source content audited on September 22, 2026.",
+    "Founding year 2014 preserved from the live ATG website.",
+    "Active membership updated to 60+. $25,000 AUM reconciles the home metric and older pillar copy.",
+    "Original URL slugs are preserved with static aliases."
+  ],
+  "stats": {
+    "active_members": {
+      "source": "40+",
+      "requested": "60+"
+    },
+    "alumni": "120+",
+    "aum": "$25,000",
+    "full_time_placement": "100%"
+  },
+  "founded_year_live": 2014,
+  "branding": {
+    "preferred_wordmark": {
+      "name": "atg-wordmark",
+      "category": "branding",
+      "source_url": "https://static.wixstatic.com/media/044a0c_d428ed55c5c0480095bae19e55c9d47a~mv2.png",
+      "source_alt": "",
+      "maxwidth": 1000,
+      "page": "home",
+      "source_image_index": 2,
+      "verification": "Visually verified as the same navy ATG wordmark shown in user screenshot; original high-resolution image downloaded from live home.",
+      "optimized_width": 866,
+      "optimized_height": 558,
+      "file": "assets/images/atg-wordmark.webp"
+    },
+    "old_header_logo": {
+      "name": "old-header-logo",
+      "category": "branding",
+      "source_url": "https://static.wixstatic.com/media/044a0c_b4639e4e89644f3cabd6a6ceca4608c4~mv2.png",
+      "source_alt": "",
+      "maxwidth": 1000,
+      "page": "home",
+      "source_image_index": 0,
+      "optimized_width": 1009,
+      "optimized_height": 329,
+      "file": "assets/images/old-header-logo.webp"
+    },
+    "preferred_white_wordmark": {
+      "name": "atg-wordmark-white",
+      "category": "branding",
+      "source_url": "https://static.wixstatic.com/media/044a0c_8bc48e2dce4c4cfab87e9e72381af997~mv2.png",
+      "source_alt": "",
+      "verification": "Same preferred wordmark, white on transparent background, discovered in prospective members source",
+      "optimized_width": 780,
+      "optimized_height": 366,
+      "file": "assets/images/atg-wordmark-white.webp"
+    }
+  },
+  "home": {
+    "headline": "APEX TRADING GROUP",
+    "tagline": "The Premier Student Investment Organization at the Ross School of Business",
+    "intro_heading": "Built By Students for Students",
+    "intro": "Since our founding in 2014, Apex Trading Group (ATG) has empowered students with rigorous finance education through a student-run investment portfolio. Members gain valuable insights through educational sessions and stock pitches, fostering both practical skills and professional growth. We create an interactive environment where members collaborate, share insights, and support each other\u2019s development, preparing members for diverse career paths in finance and beyond while encouraging lifelong connections and continued personal growth."
+  },
+  "links": {
+    "HOME": "https://www.atgumich.com",
+    "ABOUT": "https://www.atgumich.com/team-1",
+    "PLACEMENT": "https://www.atgumich.com/placement",
+    "PROSPECTIVE MEMBERS": "https://www.atgumich.com/prospective-members",
+    "INTEREST FORM": "https://docs.google.com/forms/d/e/1FAIpQLScVhLemPFYhCPNIk2Ntit9PGxSt3cFWAZRNWeOc0bkL1iDHwQ/viewform",
+    "APPLICATION": "https://docs.google.com/forms/d/e/1FAIpQLSdsdARANegPU2hPOpjgXjonW-cbbBb34Cm18DGZ4Rh7cRIPxQ/viewform",
+    "Real-World Application": "https://www.atgumich.com/team-1",
+    "Professional Development": "https://www.atgumich.com/team-1",
+    "Community": "https://www.atgumich.com/team-1",
+    "FILL OUT OUR INTEREST FORM HERE TO STAY UP TO DATE": "https://docs.google.com/forms/d/e/1FAIpQLScVhLemPFYhCPNIk2Ntit9PGxSt3cFWAZRNWeOc0bkL1iDHwQ/viewform",
+    "atgeboard26@umich.edu": "mailto:atgeboard26@umich.edu",
+    "Instagram": "https://www.instagram.com/atgumich/?hl=en",
+    "LinkedIn": "https://www.linkedin.com/company/atgumich/",
+    "jackxu@umich.edu": "mailto:jackxu@umich.edu",
+    "juliazou@umich.edu": "mailto:juliazou@umich.edu",
+    "willvw@umich.edu": "mailto:willvw@umich.edu",
+    "oliverko@umich.edu": "mailto:oliverko@umich.edu",
+    "massimog@umich.edu": "mailto:massimog@umich.edu",
+    "csebest@umich.edu": "mailto:csebest@umich.edu",
+    "zdhammer@umich.edu": "mailto:zdhammer@umich.edu",
+    "hchamra@umich.edu": "mailto:hchamra@umich.edu"
+  },
+  "board": [
+    {
+      "name": "Jack Xu",
+      "role": "Co-President",
+      "email": "jackxu@umich.edu",
+      "photo": {
+        "name": "jack-xu",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_bb72fa0217ed4f4c9388475e8667102a~mv2.png",
+        "source_alt": "IMG_0494.PNG",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 3,
+        "optimized_width": 639,
+        "optimized_height": 900,
+        "file": "assets/images/jack-xu.webp"
+      }
+    },
+    {
+      "name": "Julia Zou",
+      "role": "VP of Internal Relations",
+      "email": "juliazou@umich.edu",
+      "photo": {
+        "name": "julia-zou",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_8a06da7583474043bd73d4853b02d894~mv2.jpg",
+        "source_alt": "IMG_4234 (1).JPG",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 4,
+        "optimized_width": 600,
+        "optimized_height": 900,
+        "file": "assets/images/julia-zou.webp"
+      }
+    },
+    {
+      "name": "Will VanWingerden",
+      "role": "Co-President",
+      "email": "willvw@umich.edu",
+      "photo": {
+        "name": "will-vanwingerden",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_2fd2273af8af4b6397282ffcf83b5e8c~mv2.jpg",
+        "source_alt": "IMG_5909.JPG",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 5,
+        "optimized_width": 841,
+        "optimized_height": 900,
+        "file": "assets/images/will-vanwingerden.webp"
+      }
+    },
+    {
+      "name": "Oliver Kosinski",
+      "role": "VP of Recruitment",
+      "email": "oliverko@umich.edu",
+      "photo": {
+        "name": "oliver-kosinski",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_8816e70512574f1d83eb7d9fa6d54d71~mv2.jpg",
+        "source_alt": "IMG_1132.JPG",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 6,
+        "optimized_width": 599,
+        "optimized_height": 900,
+        "file": "assets/images/oliver-kosinski.webp"
+      }
+    },
+    {
+      "name": "Massimo Garcia",
+      "role": "VP of Professional Development",
+      "email": "massimog@umich.edu",
+      "photo": {
+        "name": "massimo-garcia",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_94893fac8811426e993707af640cbc3c~mv2.jpg",
+        "source_alt": "_MG_7717 (1).JPG",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 7,
+        "optimized_width": 600,
+        "optimized_height": 900,
+        "file": "assets/images/massimo-garcia.webp"
+      }
+    },
+    {
+      "name": "Charlie Sebestyen",
+      "role": "VP of Investments",
+      "email": "csebest@umich.edu",
+      "photo": {
+        "name": "charlie-sebestyen",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_d7764fbab4824789a60ca9083c29db7a~mv2.jpg",
+        "source_alt": "IMG_4638.JPG",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 8,
+        "optimized_width": 599,
+        "optimized_height": 900,
+        "file": "assets/images/charlie-sebestyen.webp"
+      }
+    },
+    {
+      "name": "Zach Hammerman",
+      "role": "VP of Sophomore Education",
+      "email": "zdhammer@umich.edu",
+      "photo": {
+        "name": "zach-hammerman",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_a4ea1d7a407a44c1979da81a6cabb2e9~mv2.jpeg",
+        "source_alt": "zachh.jpeg",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 9,
+        "optimized_width": 800,
+        "optimized_height": 800,
+        "file": "assets/images/zach-hammerman.webp"
+      }
+    },
+    {
+      "name": "Hadi Chamra",
+      "role": "VP of External Relations",
+      "email": "hchamra@umich.edu",
+      "photo": {
+        "name": "hadi-chamra",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_aea3abbdcdbd4288baf0f47139163853~mv2.jpg",
+        "source_alt": "IMG_8798.JPG",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 10,
+        "optimized_width": 900,
+        "optimized_height": 572,
+        "file": "assets/images/hadi-chamra.webp"
+      }
+    }
+  ],
+  "chairs_and_sector_heads": [
+    {
+      "name": "Matthew Walsh-Hussey",
+      "role": "Alumni Relations Chair",
+      "photo": {
+        "name": "matthew-walsh-hussey",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_8091909d043b4d7b98d1639d7c7665f4~mv2.jpg",
+        "source_alt": "mattwh_edited.jpg",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 11,
+        "optimized_width": 300,
+        "optimized_height": 312,
+        "file": "assets/images/matthew-walsh-hussey.webp"
+      }
+    },
+    {
+      "name": "Emanuel Rodriguez",
+      "role": "DEI Chair",
+      "photo": {
+        "name": "emanuel-rodriguez",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_f720203b5575460a84b0e212efd49cb3~mv2.jpg",
+        "source_alt": "IMG_7354.JPG",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 12,
+        "optimized_width": 648,
+        "optimized_height": 899,
+        "file": "assets/images/emanuel-rodriguez.webp"
+      }
+    },
+    {
+      "name": "Shivam Shah",
+      "role": "Deliverable Quality Chair",
+      "photo": {
+        "name": "shivam-shah",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_824aad467f9843df9c1c4fa732100597~mv2.jpeg",
+        "source_alt": "shivams.jpeg",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 13,
+        "optimized_width": 800,
+        "optimized_height": 800,
+        "file": "assets/images/shivam-shah.webp"
+      }
+    },
+    {
+      "name": "Shailey Patel",
+      "role": "Marketing Chair",
+      "photo": {
+        "name": "shailey-patel",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_47fa792ac1c64c85877c0b9605616608~mv2.jpeg",
+        "source_alt": "shailey.jpeg",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 14,
+        "optimized_width": 800,
+        "optimized_height": 800,
+        "file": "assets/images/shailey-patel.webp"
+      }
+    },
+    {
+      "name": "Amelia Kayi",
+      "role": "Member Experience Chair",
+      "photo": {
+        "name": "amelia-kayi",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_5215ec88f80545869d2c51115d909bb1~mv2.jpeg",
+        "source_alt": "amelia.jpeg",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 15,
+        "optimized_width": 800,
+        "optimized_height": 800,
+        "file": "assets/images/amelia-kayi.webp"
+      }
+    },
+    {
+      "name": "Matthew Hunt",
+      "role": "Member Experience Chair",
+      "photo": {
+        "name": "matthew-hunt",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_e5d299b0ae0542d9b7aeecfc21c3f865~mv2.jpeg",
+        "source_alt": "matthunt.jpeg",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 16,
+        "optimized_width": 800,
+        "optimized_height": 800,
+        "file": "assets/images/matthew-hunt.webp"
+      }
+    },
+    {
+      "name": "Zoya Malik",
+      "role": "Consumer & Retail Sector Head",
+      "photo": {
+        "name": "zoya-malik",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_f2976ccd6b3d49db8d9ca528d0afa54b~mv2.jpeg",
+        "source_alt": "zoyam.jpeg",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 17,
+        "optimized_width": 800,
+        "optimized_height": 800,
+        "file": "assets/images/zoya-malik.webp"
+      }
+    },
+    {
+      "name": "Tej Prattipati",
+      "role": "Global Equities Sector Head",
+      "photo": {
+        "name": "tej-prattipati",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_efe2b15cdef24a9a9cecf5b2e6dda553~mv2.jpg",
+        "source_alt": "HEADSHOT.jpg",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 18,
+        "optimized_width": 889,
+        "optimized_height": 900,
+        "file": "assets/images/tej-prattipati.webp"
+      }
+    },
+    {
+      "name": "John McWilliams",
+      "role": "Healthcare Sector Head",
+      "photo": {
+        "name": "john-mcwilliams",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_cd3eac070c2645eebc8802aeb03845bf~mv2.jpeg",
+        "source_alt": "johnmcw.jpeg",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 19,
+        "optimized_width": 800,
+        "optimized_height": 800,
+        "file": "assets/images/john-mcwilliams.webp"
+      }
+    },
+    {
+      "name": "Marc Akella",
+      "role": "Industrials Sector Head",
+      "photo": {
+        "name": "marc-akella",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_542666c6cef64317b3f4e0deb617af1c~mv2.jpeg",
+        "source_alt": "marca.jpeg",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 20,
+        "optimized_width": 800,
+        "optimized_height": 800,
+        "file": "assets/images/marc-akella.webp"
+      }
+    },
+    {
+      "name": "Ava Goldsmith",
+      "role": "PUI Sector Head Member Experience Chair",
+      "photo": {
+        "name": "ava-goldsmith",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_da940d4652ca43848476f9df3b78b4cb~mv2.jpeg",
+        "source_alt": "avag.jpeg",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 21,
+        "optimized_width": 800,
+        "optimized_height": 800,
+        "file": "assets/images/ava-goldsmith.webp"
+      }
+    },
+    {
+      "name": "Edward Chen",
+      "role": "TMT Sector Head",
+      "photo": {
+        "name": "edward-chen",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_0d749c5978ce4a6789b28d57f35bbc35~mv2.png",
+        "source_alt": "eddiec.png",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 22,
+        "optimized_width": 800,
+        "optimized_height": 800,
+        "file": "assets/images/edward-chen.webp"
+      }
+    },
+    {
+      "name": "Christian Gojcaj",
+      "role": "TMT Sector Head",
+      "photo": {
+        "name": "christian-gojcaj",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_3bafd138939f484bbaf90194a61457db~mv2.jpg",
+        "source_alt": "christiang_edited.jpg",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 23,
+        "optimized_width": 579,
+        "optimized_height": 599,
+        "file": "assets/images/christian-gojcaj.webp"
+      }
+    },
+    {
+      "name": "George Biolsi",
+      "role": "Senior Advisor",
+      "photo": {
+        "name": "george-biolsi",
+        "category": "headshot",
+        "source_url": "https://static.wixstatic.com/media/044a0c_67bb5b3b8779404e901b2676cea6629c~mv2.jpeg",
+        "source_alt": "georgeb.jpeg",
+        "maxwidth": 900,
+        "page": "about",
+        "source_image_index": 24,
+        "optimized_width": 800,
+        "optimized_height": 800,
+        "file": "assets/images/george-biolsi.webp"
+      }
+    }
+  ],
+  "pillars": [
+    {
+      "title": "Real-World Application",
+      "source_description": "At ATG, education translates into action. Members actively manage the club\u2019s $10k portfolio using a variety of long-only strategies",
+      "photo": {
+        "name": "real-world-application",
+        "category": "club-photo",
+        "source_url": "https://static.wixstatic.com/media/044a0c_f1230ccb2b8e469fb1eb79878cf55d12~mv2.png",
+        "source_alt": "IMG_8060.HEIC",
+        "maxwidth": 1400,
+        "page": "about",
+        "source_image_index": 26,
+        "optimized_width": 1050,
+        "optimized_height": 1400,
+        "file": "assets/images/real-world-application.webp"
+      }
+    },
+    {
+      "title": "Professional Development",
+      "source_description": "Breaking into high finance roles requires more than a solid technical understanding. ATG provides structured support for our members to navigate the recruiting timelines and land top offers",
+      "photo": {
+        "name": "professional-development",
+        "category": "club-photo",
+        "source_url": "https://static.wixstatic.com/media/044a0c_f785f71d38a34d1ba8613482d026a926~mv2.png",
+        "source_alt": "IMG_6305.HEIC",
+        "maxwidth": 1400,
+        "page": "about",
+        "source_image_index": 27,
+        "optimized_width": 1050,
+        "optimized_height": 1400,
+        "file": "assets/images/professional-development.webp"
+      }
+    },
+    {
+      "title": "Community",
+      "source_description": "ATG cultivates a strong community of people with an interest in Finance, spanning various hobbies, backgrounds, and involvement at Michigan.",
+      "photo": {
+        "name": "community",
+        "category": "club-photo",
+        "source_url": "https://static.wixstatic.com/media/044a0c_26c580c6559449e6bfb6dfc2073e8c6f~mv2.png",
+        "source_alt": "IMG_4544.HEIC",
+        "maxwidth": 1400,
+        "page": "about",
+        "source_image_index": 28,
+        "optimized_width": 1400,
+        "optimized_height": 1050,
+        "file": "assets/images/community.webp"
+      }
+    }
+  ],
+  "gallery": [
+    {
+      "name": "club-gallery-01",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_d3b4d4f1855c45dfa6ad5093ccbbba33~mv2.png",
+      "source_alt": "IMG_4027.heic",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.6591021825396826,
+        0.3883928571428571
+      ],
+      "source_width": 4032,
+      "source_height": 3024,
+      "optimized_width": 1400,
+      "optimized_height": 1050,
+      "file": "assets/images/club-gallery-01.webp"
+    },
+    {
+      "name": "club-gallery-02",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_717edf5055644db3a47369a40997b871~mv2.png",
+      "source_alt": "IMG_4167.HEIC",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.5021081349206349,
+        0.4642857142857143
+      ],
+      "source_width": 4032,
+      "source_height": 3024,
+      "optimized_width": 1400,
+      "optimized_height": 1050,
+      "file": "assets/images/club-gallery-02.webp"
+    },
+    {
+      "name": "club-gallery-03",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_221e352ec27543e0a65fa62e1eb29ac7~mv2.png",
+      "source_alt": "IMG_4542.HEIC",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.5153769841269841,
+        0.437375992063492
+      ],
+      "source_width": 3024,
+      "source_height": 4032,
+      "optimized_width": 1050,
+      "optimized_height": 1400,
+      "file": "assets/images/club-gallery-03.webp"
+    },
+    {
+      "name": "club-gallery-04",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_edaaa0b333ed4b72be8482346c83d3ae~mv2.png",
+      "source_alt": "IMG_4034.heic",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.4833829365079365,
+        0.5246362433862434
+      ],
+      "source_width": 4032,
+      "source_height": 3024,
+      "optimized_width": 1400,
+      "optimized_height": 1050,
+      "file": "assets/images/club-gallery-04.webp"
+    },
+    {
+      "name": "club-gallery-05",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_f1230ccb2b8e469fb1eb79878cf55d12~mv2.png",
+      "source_alt": "IMG_8060.HEIC",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.48197751322751325,
+        0.6372767857142857
+      ],
+      "source_width": 3024,
+      "source_height": 4032,
+      "optimized_width": 1050,
+      "optimized_height": 1400,
+      "file": "assets/images/club-gallery-05.webp"
+    },
+    {
+      "name": "club-gallery-06",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_adab041c37d74afca2532617367a25d2~mv2.png",
+      "source_alt": "IMG_6308.heic",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.4966517857142857,
+        0.45171957671957674
+      ],
+      "source_width": 4032,
+      "source_height": 3024,
+      "optimized_width": 1400,
+      "optimized_height": 1050,
+      "file": "assets/images/club-gallery-06.webp"
+    },
+    {
+      "name": "club-gallery-07",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_6ba6b8a44b184028ba1ee18d7b60a9ed~mv2.png",
+      "source_alt": "IMG_8080.HEIC",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.5347222222222222,
+        0.2786458333333333
+      ],
+      "source_width": 720,
+      "source_height": 960,
+      "optimized_width": 720,
+      "optimized_height": 960,
+      "file": "assets/images/club-gallery-07.webp"
+    },
+    {
+      "name": "club-gallery-08",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_fa3cc3ee94774c23bac07374950f73c9~mv2.png",
+      "source_alt": "IMG_6015.HEIC",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.3237433862433862,
+        0.4357638888888889
+      ],
+      "source_width": 3024,
+      "source_height": 4032,
+      "optimized_width": 1050,
+      "optimized_height": 1400,
+      "file": "assets/images/club-gallery-08.webp"
+    },
+    {
+      "name": "club-gallery-09",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_f785f71d38a34d1ba8613482d026a926~mv2.png",
+      "source_alt": "IMG_6305.HEIC",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.08085317460317461,
+        0.6631944444444444
+      ],
+      "source_width": 3024,
+      "source_height": 4032,
+      "optimized_width": 1050,
+      "optimized_height": 1400,
+      "file": "assets/images/club-gallery-09.webp"
+    },
+    {
+      "name": "club-gallery-10",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_fa357c22b07f421fb1db3da2a2b7589d~mv2.png",
+      "source_alt": "IMG_6021.heic",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.4936755952380952,
+        0.30076058201058203
+      ],
+      "source_width": 4032,
+      "source_height": 3024,
+      "optimized_width": 1400,
+      "optimized_height": 1050,
+      "file": "assets/images/club-gallery-10.webp"
+    },
+    {
+      "name": "club-gallery-11",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_3d311a90452b4b1aa6220ec6d11a8598~mv2.png",
+      "source_alt": "IMG_6304.HEIC",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.5146329365079365,
+        0.613260582010582
+      ],
+      "source_width": 4032,
+      "source_height": 3024,
+      "optimized_width": 1400,
+      "optimized_height": 1050,
+      "file": "assets/images/club-gallery-11.webp"
+    },
+    {
+      "name": "club-gallery-12",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_abab5441617e48bfa4e491542c7507e6~mv2.jpg",
+      "source_alt": "IMG_8080_edited.jpg",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.5340277777777778,
+        0.3397548161120841
+      ],
+      "source_width": 720,
+      "source_height": 571,
+      "optimized_width": 720,
+      "optimized_height": 571,
+      "file": "assets/images/club-gallery-12.webp"
+    }
+  ],
+  "placement": {
+    "heading": "Placement",
+    "subheading": "Our members go on to work at top firms within High Finance and various other industries.",
+    "intro": "ATG has an exclusive alumni network that our members are encouraged to engage with and maintain contact with for future careers. Below is a snapshot of where our members have begun their careers over recent years.",
+    "club_photo": {
+      "name": "placement-group-photo",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_39c82cb842654155b61b623e6eaf0838~mv2.jpeg",
+      "source_alt": "IMG_0365.jpeg",
+      "maxwidth": 1400,
+      "page": "placement",
+      "source_image_index": 3,
+      "optimized_width": 1050,
+      "optimized_height": 1400,
+      "file": "assets/images/placement-group-photo.webp"
+    },
+    "logos": [
+      {
+        "company": "Goldman Sachs",
+        "source_image_index": 4,
+        "asset": {
+          "name": "placement-logo-01",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_2eb4ddc2bd724d0d80dfbd110a1fe0cb~mv2.png",
+          "source_alt": "Goldman_Sachs.svg.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 4,
+          "optimized_width": 1400,
+          "optimized_height": 1400,
+          "file": "assets/images/placement-logo-01.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Morgan Stanley",
+        "source_image_index": 5,
+        "asset": {
+          "name": "placement-logo-02",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_2b9af07b840241aeb8310267c03f70ce~mv2.jpg",
+          "source_alt": "ms.jpg",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 5,
+          "optimized_width": 900,
+          "optimized_height": 900,
+          "file": "assets/images/placement-logo-02.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "JP Morgan",
+        "source_image_index": 6,
+        "asset": {
+          "name": "placement-logo-03",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_27295f78cf894cc6a65dbbe2fa9725e1~mv2.png",
+          "source_alt": "jpm.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 6,
+          "optimized_width": 1400,
+          "optimized_height": 300,
+          "file": "assets/images/placement-logo-03.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Evercore",
+        "source_image_index": 7,
+        "asset": {
+          "name": "placement-logo-04",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_53f30b7f057e4c70bc1617e1a3964bdb~mv2.png",
+          "source_alt": "evercore.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 7,
+          "optimized_width": 1062,
+          "optimized_height": 184,
+          "file": "assets/images/placement-logo-04.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Blackstone",
+        "source_image_index": 8,
+        "asset": {
+          "name": "placement-logo-05",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_2527a0b518bc4e5fa2f03a1e8b6a18ed~mv2.png",
+          "source_alt": "blackstone.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 8,
+          "optimized_width": 1400,
+          "optimized_height": 788,
+          "file": "assets/images/placement-logo-05.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "BlackRock",
+        "source_image_index": 9,
+        "asset": {
+          "name": "placement-logo-06",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_5a8ab33295894271901357d64a370258~mv2.png",
+          "source_alt": "blackrock.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 9,
+          "optimized_width": 1200,
+          "optimized_height": 174,
+          "file": "assets/images/placement-logo-06.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "PJT Partners",
+        "source_image_index": 10,
+        "asset": {
+          "name": "placement-logo-07",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_f3f4b3b3925a4254b35de65b1c21e3a4~mv2.png",
+          "source_alt": "pjtblue.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 10,
+          "optimized_width": 1101,
+          "optimized_height": 806,
+          "file": "assets/images/placement-logo-07.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Bank of America",
+        "source_image_index": 11,
+        "asset": {
+          "name": "placement-logo-08",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_18310cc13d7c467b83c3bf64d7413cec~mv2.png",
+          "source_alt": "unnamed.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 11,
+          "optimized_width": 600,
+          "optimized_height": 300,
+          "file": "assets/images/placement-logo-08.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Citadel",
+        "source_image_index": 12,
+        "asset": {
+          "name": "placement-logo-09",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_f130cc75df814e34bc4ed2723a9dc6e4~mv2.jpg",
+          "source_alt": "citadel.jpg",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 12,
+          "optimized_width": 800,
+          "optimized_height": 450,
+          "file": "assets/images/placement-logo-09.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Moelis & Company",
+        "source_image_index": 13,
+        "asset": {
+          "name": "placement-logo-10",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_247aaceb39354f7885f74cfb9c51d5a4~mv2.png",
+          "source_alt": "moelis.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 13,
+          "optimized_width": 1400,
+          "optimized_height": 669,
+          "file": "assets/images/placement-logo-10.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Point72",
+        "source_image_index": 14,
+        "asset": {
+          "name": "placement-logo-11",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_748d363010594232b6d2f6264a1cc6c8~mv2.png",
+          "source_alt": "p72.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 14,
+          "optimized_width": 1071,
+          "optimized_height": 375,
+          "file": "assets/images/placement-logo-11.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Millennium",
+        "source_image_index": 15,
+        "asset": {
+          "name": "placement-logo-12",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_263248c60c4c43e297c27f4ff7cea1b9~mv2.png",
+          "source_alt": "mill.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 15,
+          "optimized_width": 1400,
+          "optimized_height": 202,
+          "file": "assets/images/placement-logo-12.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Guggenheim Partners",
+        "source_image_index": 16,
+        "asset": {
+          "name": "placement-logo-13",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_c753e3b8aa964a3984ddb35d18ef893a~mv2.png",
+          "source_alt": "image.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 16,
+          "optimized_width": 288,
+          "optimized_height": 108,
+          "file": "assets/images/placement-logo-13.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Barclays",
+        "source_image_index": 17,
+        "asset": {
+          "name": "placement-logo-14",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_d0369763b09d4201971e31d993d8b38c~mv2.png",
+          "source_alt": "bc.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 17,
+          "optimized_width": 1400,
+          "optimized_height": 788,
+          "file": "assets/images/placement-logo-14.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Oak Hill Advisors",
+        "source_image_index": 18,
+        "asset": {
+          "name": "placement-logo-15",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_16516b8105c64968a500ff58cff4066a~mv2.png",
+          "source_alt": "image.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 18,
+          "optimized_width": 1400,
+          "optimized_height": 737,
+          "file": "assets/images/placement-logo-15.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Jefferies",
+        "source_image_index": 19,
+        "asset": {
+          "name": "placement-logo-16",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_6c2a88a118a44f789abbebf1a3c22155~mv2.png",
+          "source_alt": "Jefferies_logo.svg.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 19,
+          "optimized_width": 1280,
+          "optimized_height": 276,
+          "file": "assets/images/placement-logo-16.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "UBS",
+        "source_image_index": 20,
+        "asset": {
+          "name": "placement-logo-17",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_a0b11fd6198449e6b84ec617c2e0eb10~mv2.png",
+          "source_alt": "ubs.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 20,
+          "optimized_width": 1280,
+          "optimized_height": 469,
+          "file": "assets/images/placement-logo-17.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Citi",
+        "source_image_index": 21,
+        "asset": {
+          "name": "placement-logo-18",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_04db9a857db34ef38d17cbd59375d8a9~mv2.png",
+          "source_alt": "Citi-logo.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 21,
+          "optimized_width": 1400,
+          "optimized_height": 788,
+          "file": "assets/images/placement-logo-18.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Neuberger Berman",
+        "source_image_index": 22,
+        "asset": {
+          "name": "placement-logo-19",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_bf47f615643540baaa322287660c34b9~mv2.png",
+          "source_alt": "nb.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 22,
+          "optimized_width": 500,
+          "optimized_height": 200,
+          "file": "assets/images/placement-logo-19.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Houlihan Lokey",
+        "source_image_index": 23,
+        "asset": {
+          "name": "placement-logo-20",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_7f72e920c2e04b44a3474f5087b3b6a9~mv2.png",
+          "source_alt": "hl.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 23,
+          "optimized_width": 1200,
+          "optimized_height": 663,
+          "file": "assets/images/placement-logo-20.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Deutsche Bank",
+        "source_image_index": 24,
+        "asset": {
+          "name": "placement-logo-21",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_4de25e9aaf284f379ef40eebb7792389~mv2.png",
+          "source_alt": "db.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 24,
+          "optimized_width": 1400,
+          "optimized_height": 1400,
+          "file": "assets/images/placement-logo-21.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Mizuho Greenhill",
+        "source_image_index": 25,
+        "asset": {
+          "name": "placement-logo-22",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_470ff32f02b34027a5fe868e3a1c34be~mv2.jpeg",
+          "source_alt": "mizuho greenhill.jpeg",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 25,
+          "optimized_width": 200,
+          "optimized_height": 200,
+          "file": "assets/images/placement-logo-22.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "RBC Capital Markets",
+        "source_image_index": 26,
+        "asset": {
+          "name": "placement-logo-23",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_5da23e3f7db540cfad64f2e7bcfc1a08~mv2.png",
+          "source_alt": "rbc.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 26,
+          "optimized_width": 1400,
+          "optimized_height": 788,
+          "file": "assets/images/placement-logo-23.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Wells Fargo",
+        "source_image_index": 27,
+        "asset": {
+          "name": "placement-logo-24",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_d8eb997253d44811bf7f1d36f896e355~mv2.png",
+          "source_alt": "wellsfargo.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 27,
+          "optimized_width": 1400,
+          "optimized_height": 788,
+          "file": "assets/images/placement-logo-24.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Rothschild & Co",
+        "source_image_index": 28,
+        "asset": {
+          "name": "placement-logo-25",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_c08120bed0ea4e0eacfa20c7444bafa9~mv2.webp",
+          "source_alt": "rothschildco_logo.webp",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 28,
+          "optimized_width": 984,
+          "optimized_height": 162,
+          "file": "assets/images/placement-logo-25.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Financial Technology Partners",
+        "source_image_index": 29,
+        "asset": {
+          "name": "placement-logo-26",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_f7f161ae8b7e4836873436807b9071f1~mv2.png",
+          "source_alt": "image.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 29,
+          "optimized_width": 1088,
+          "optimized_height": 608,
+          "file": "assets/images/placement-logo-26.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "TD Bank",
+        "source_image_index": 30,
+        "asset": {
+          "name": "placement-logo-27",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_59792ae0e1884432b9d06e95785f9831~mv2.png",
+          "source_alt": "Toronto-Dominion_Bank_logo.svg.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 30,
+          "optimized_width": 500,
+          "optimized_height": 448,
+          "file": "assets/images/placement-logo-27.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "BMO",
+        "source_image_index": 31,
+        "asset": {
+          "name": "placement-logo-28",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_76e2fed17ac74446803d82b970a7cb88~mv2.png",
+          "source_alt": "bmo.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 31,
+          "optimized_width": 1400,
+          "optimized_height": 486,
+          "file": "assets/images/placement-logo-28.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Fidelity Investments",
+        "source_image_index": 32,
+        "asset": {
+          "name": "placement-logo-29",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_30f0edb4a13f4ac2bc5334ee85579b36~mv2.png",
+          "source_alt": "fidelity i.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 32,
+          "optimized_width": 1400,
+          "optimized_height": 788,
+          "file": "assets/images/placement-logo-29.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Norwest",
+        "source_image_index": 33,
+        "asset": {
+          "name": "placement-logo-30",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_1b7f91d21e50408283709f1c6fce3da5~mv2.png",
+          "source_alt": "norwest.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 33,
+          "optimized_width": 1200,
+          "optimized_height": 630,
+          "file": "assets/images/placement-logo-30.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Baird",
+        "source_image_index": 34,
+        "asset": {
+          "name": "placement-logo-31",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_2333ad3fdacc4a819926781d54a9d718~mv2.png",
+          "source_alt": "baird.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 34,
+          "optimized_width": 1200,
+          "optimized_height": 1104,
+          "file": "assets/images/placement-logo-31.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Starwood Capital Group",
+        "source_image_index": 35,
+        "asset": {
+          "name": "placement-logo-32",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_8ceef6dc4a0446e1818975a344825e1c~mv2.png",
+          "source_alt": "starwood.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 35,
+          "optimized_width": 1200,
+          "optimized_height": 915,
+          "file": "assets/images/placement-logo-32.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "PeakSpan Capital",
+        "source_image_index": 36,
+        "asset": {
+          "name": "placement-logo-33",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_321dbd8e90b6471fba7f48de24a00638~mv2.png",
+          "source_alt": "peakspan.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 36,
+          "optimized_width": 900,
+          "optimized_height": 900,
+          "file": "assets/images/placement-logo-33.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "MUFG",
+        "source_image_index": 37,
+        "asset": {
+          "name": "placement-logo-34",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_636b6405c580402aad50b472771c5102~mv2.png",
+          "source_alt": "image.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 37,
+          "optimized_width": 1369,
+          "optimized_height": 1400,
+          "file": "assets/images/placement-logo-34.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "BNP Paribas",
+        "source_image_index": 38,
+        "asset": {
+          "name": "placement-logo-35",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_5c097cabc6564aef82cd08089f64c1ce~mv2.png",
+          "source_alt": "image.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 38,
+          "optimized_width": 1400,
+          "optimized_height": 788,
+          "file": "assets/images/placement-logo-35.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Ardea Partners",
+        "source_image_index": 39,
+        "asset": {
+          "name": "placement-logo-36",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_27c4cb7b5cac4bdbb9b0a14d96667594~mv2.png",
+          "source_alt": "ardea.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 39,
+          "optimized_width": 719,
+          "optimized_height": 104,
+          "file": "assets/images/placement-logo-36.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Piper Sandler",
+        "source_image_index": 40,
+        "asset": {
+          "name": "placement-logo-37",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_811d51e7f01d4ae696495739501348ae~mv2.gif",
+          "source_alt": "ps.gif",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 40,
+          "optimized_width": 1400,
+          "optimized_height": 211,
+          "file": "assets/images/placement-logo-37.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "SMBC",
+        "source_image_index": 41,
+        "asset": {
+          "name": "placement-logo-38",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_af983cba9cf34494b1510209779a1b9d~mv2.png",
+          "source_alt": "image.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 41,
+          "optimized_width": 225,
+          "optimized_height": 225,
+          "file": "assets/images/placement-logo-38.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Weiss Asset Management",
+        "source_image_index": 42,
+        "asset": {
+          "name": "placement-logo-39",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_f7040f95a49e4839aa85d3c106f1f10c~mv2.webp",
+          "source_alt": "weiss.webp",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 42,
+          "optimized_width": 600,
+          "optimized_height": 110,
+          "file": "assets/images/placement-logo-39.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Newmark",
+        "source_image_index": 43,
+        "asset": {
+          "name": "placement-logo-40",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_226a9f70f50e4a7fb47a79a1d0beafac~mv2.png",
+          "source_alt": "image.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 43,
+          "optimized_width": 1400,
+          "optimized_height": 220,
+          "file": "assets/images/placement-logo-40.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Lincoln International",
+        "source_image_index": 44,
+        "asset": {
+          "name": "placement-logo-41",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_9025738564c544bbbe96b21a5fc63875~mv2.png",
+          "source_alt": "ln.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 44,
+          "optimized_width": 900,
+          "optimized_height": 500,
+          "file": "assets/images/placement-logo-41.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Bain & Company",
+        "source_image_index": 45,
+        "asset": {
+          "name": "placement-logo-42",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_58c723c7e9ae4237b64c6d118fc64d28~mv2.png",
+          "source_alt": "bain.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 45,
+          "optimized_width": 894,
+          "optimized_height": 309,
+          "file": "assets/images/placement-logo-42.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "Deloitte",
+        "source_image_index": 46,
+        "asset": {
+          "name": "placement-logo-43",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_62cd9a95b13b4b858a15c52da491e996~mv2.png",
+          "source_alt": "deloitte.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 46,
+          "optimized_width": 1400,
+          "optimized_height": 569,
+          "file": "assets/images/placement-logo-43.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "PwC",
+        "source_image_index": 47,
+        "asset": {
+          "name": "placement-logo-44",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_ab2c81895d224ba48510f17a1c034aa4~mv2.png",
+          "source_alt": "image.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 47,
+          "optimized_width": 320,
+          "optimized_height": 320,
+          "file": "assets/images/placement-logo-44.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      },
+      {
+        "company": "EY",
+        "source_image_index": 48,
+        "asset": {
+          "name": "placement-logo-45",
+          "category": "placement-logo",
+          "source_url": "https://static.wixstatic.com/media/044a0c_a27d75d325fa4124bb661e889e595e3b~mv2.png",
+          "source_alt": "EY_logo_2019.svg.png",
+          "maxwidth": 700,
+          "page": "placement",
+          "source_image_index": 48,
+          "optimized_width": 1200,
+          "optimized_height": 1200,
+          "file": "assets/images/placement-logo-45.webp"
+        },
+        "category": "not grouped in original source",
+        "identification": "Visually verified from downloaded logo"
+      }
+    ],
+    "recent": {
+      "2026": [
+        "Barclays IBD",
+        "Blackstone RE",
+        "Citi S&T (x2)",
+        "EY-Parthenon",
+        "Greenhill (x2)",
+        "Evercore M&A",
+        "Fidelity Equity Research",
+        "Jefferies IBD",
+        "Jordan Park Group",
+        "Lazard M&A",
+        "Lincoln International",
+        "Millennium",
+        "Moelis M&A (x2)",
+        "Morgan Stanley IBD",
+        "PeakSpan GE",
+        "PJT Strategic Advisory",
+        "Starwood RE PE",
+        "UBS IBD (x2)",
+        "Wells Fargo CIB"
+      ],
+      "2027": [
+        "Baird IB",
+        "Capital One",
+        "Citi IBD",
+        "Coinbase S&T",
+        "Deloitte IB",
+        "Evercore M&A",
+        "JP Morgan IBD",
+        "Houlihan Lokey (x2)",
+        "Nomura IBD",
+        "ScotiaBank IBD",
+        "Societe Generale S&T",
+        "Starwood RE PE",
+        "Stifel IBD",
+        "UBS IBD",
+        "Wells Fargo IBD"
+      ],
+      "2028": [
+        "Bank of America IBD",
+        "Barclays IBD",
+        "BNP Paribas IBD",
+        "Brown Gibbons Lang",
+        "CIBC",
+        "Citi IBD",
+        "Citi S&T",
+        "Evercore RE",
+        "FT Partners",
+        "Goldman Sachs RE",
+        "Jefferies IBD (x3)",
+        "MTS Health Partners",
+        "Newmark RE",
+        "Oak Hill Advisors US Credit",
+        "Piper Sandler IBD",
+        "Raymond James IBD",
+        "RBC IBD (x2)",
+        "SMBC IBD",
+        "Starwood RE PE",
+        "TD IBD (x2)",
+        "UBS IBD"
+      ]
+    }
+  },
+  "prospective_members": {
+    "headline": "The ATG Experience",
+    "experiences": [
+      {
+        "title": "Pitches",
+        "description": "Teams present equity research and stock pitches to the entire club and Investment Committee for prospective addition to the portfolio"
+      },
+      {
+        "title": "Sector Teams",
+        "description": "Members are divided into 6 industry verticals to develop sector-specific expertise"
+      },
+      {
+        "title": "Resume + Cover Letter",
+        "description": "Peer-reviewed editing to ensure application materials meet industry standards"
+      },
+      {
+        "title": "Mock Interviews",
+        "description": "Extensive behavioral and technical mocks with upperclassmen who have secured offers at top firms and within a recruiting group helping each other out throughout the process"
+      },
+      {
+        "title": "Networking Strategy",
+        "description": "Guidance on cold- emailing, conducting informational interviews, and navigating bank- specific networking events"
+      }
+    ],
+    "sectors": [
+      "Technology, Media, & Telecommunications",
+      "Power, Utilities, & Infrastructure",
+      "Healthcare",
+      "Global Equities",
+      "Industrials",
+      "Consumer & Retail"
+    ]
+  },
+  "recruitment": {
+    "title": "Fall 2026 Recruitment",
+    "events": [
+      {
+        "date": "2026-09-09",
+        "display_date": "Sept. 9th",
+        "title": "Meet the Clubs",
+        "location": "Winter Garden"
+      },
+      {
+        "date": "2026-09-16",
+        "display_date": "Sept. 16th",
+        "title": "Mass Meeting",
+        "location": "Zoom"
+      },
+      {
+        "date": "2026-09-18",
+        "display_date": "Sept. 18th",
+        "title": "Meet the Members",
+        "location": "Vic Village South Rooftop"
+      },
+      {
+        "date": "2026-09-20",
+        "display_date": "Sept. 20th",
+        "title": "Coffee Chats",
+        "location": "Multiple Locations",
+        "alternative_sublabel": "Signups Released"
+      },
+      {
+        "date": "2026-09-21",
+        "display_date": "Sept. 21st",
+        "title": "Application & Resume Workshop",
+        "location": "Kuenzel Room, Michigan Union"
+      },
+      {
+        "date": "2026-09-21",
+        "display_date": "Sept. 21st",
+        "title": "Application Due",
+        "time": "11:59pm"
+      }
+    ]
+  },
+  "assets": [
+    {
+      "name": "atg-wordmark",
+      "category": "branding",
+      "source_url": "https://static.wixstatic.com/media/044a0c_d428ed55c5c0480095bae19e55c9d47a~mv2.png",
+      "source_alt": "",
+      "maxwidth": 1000,
+      "page": "home",
+      "source_image_index": 2,
+      "optimized_width": 866,
+      "optimized_height": 558,
+      "file": "assets/images/atg-wordmark.webp"
+    },
+    {
+      "name": "old-header-logo",
+      "category": "branding",
+      "source_url": "https://static.wixstatic.com/media/044a0c_b4639e4e89644f3cabd6a6ceca4608c4~mv2.png",
+      "source_alt": "",
+      "maxwidth": 1000,
+      "page": "home",
+      "source_image_index": 0,
+      "optimized_width": 1009,
+      "optimized_height": 329,
+      "file": "assets/images/old-header-logo.webp"
+    },
+    {
+      "name": "jack-xu",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_bb72fa0217ed4f4c9388475e8667102a~mv2.png",
+      "source_alt": "IMG_0494.PNG",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 3,
+      "optimized_width": 639,
+      "optimized_height": 900,
+      "file": "assets/images/jack-xu.webp"
+    },
+    {
+      "name": "julia-zou",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_8a06da7583474043bd73d4853b02d894~mv2.jpg",
+      "source_alt": "IMG_4234 (1).JPG",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 4,
+      "optimized_width": 600,
+      "optimized_height": 900,
+      "file": "assets/images/julia-zou.webp"
+    },
+    {
+      "name": "will-vanwingerden",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_2fd2273af8af4b6397282ffcf83b5e8c~mv2.jpg",
+      "source_alt": "IMG_5909.JPG",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 5,
+      "optimized_width": 841,
+      "optimized_height": 900,
+      "file": "assets/images/will-vanwingerden.webp"
+    },
+    {
+      "name": "oliver-kosinski",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_8816e70512574f1d83eb7d9fa6d54d71~mv2.jpg",
+      "source_alt": "IMG_1132.JPG",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 6,
+      "optimized_width": 599,
+      "optimized_height": 900,
+      "file": "assets/images/oliver-kosinski.webp"
+    },
+    {
+      "name": "massimo-garcia",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_94893fac8811426e993707af640cbc3c~mv2.jpg",
+      "source_alt": "_MG_7717 (1).JPG",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 7,
+      "optimized_width": 600,
+      "optimized_height": 900,
+      "file": "assets/images/massimo-garcia.webp"
+    },
+    {
+      "name": "charlie-sebestyen",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_d7764fbab4824789a60ca9083c29db7a~mv2.jpg",
+      "source_alt": "IMG_4638.JPG",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 8,
+      "optimized_width": 599,
+      "optimized_height": 900,
+      "file": "assets/images/charlie-sebestyen.webp"
+    },
+    {
+      "name": "zach-hammerman",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_a4ea1d7a407a44c1979da81a6cabb2e9~mv2.jpeg",
+      "source_alt": "zachh.jpeg",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 9,
+      "optimized_width": 800,
+      "optimized_height": 800,
+      "file": "assets/images/zach-hammerman.webp"
+    },
+    {
+      "name": "hadi-chamra",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_aea3abbdcdbd4288baf0f47139163853~mv2.jpg",
+      "source_alt": "IMG_8798.JPG",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 10,
+      "optimized_width": 900,
+      "optimized_height": 572,
+      "file": "assets/images/hadi-chamra.webp"
+    },
+    {
+      "name": "matthew-walsh-hussey",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_8091909d043b4d7b98d1639d7c7665f4~mv2.jpg",
+      "source_alt": "mattwh_edited.jpg",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 11,
+      "optimized_width": 300,
+      "optimized_height": 312,
+      "file": "assets/images/matthew-walsh-hussey.webp"
+    },
+    {
+      "name": "emanuel-rodriguez",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_f720203b5575460a84b0e212efd49cb3~mv2.jpg",
+      "source_alt": "IMG_7354.JPG",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 12,
+      "optimized_width": 648,
+      "optimized_height": 899,
+      "file": "assets/images/emanuel-rodriguez.webp"
+    },
+    {
+      "name": "shivam-shah",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_824aad467f9843df9c1c4fa732100597~mv2.jpeg",
+      "source_alt": "shivams.jpeg",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 13,
+      "optimized_width": 800,
+      "optimized_height": 800,
+      "file": "assets/images/shivam-shah.webp"
+    },
+    {
+      "name": "shailey-patel",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_47fa792ac1c64c85877c0b9605616608~mv2.jpeg",
+      "source_alt": "shailey.jpeg",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 14,
+      "optimized_width": 800,
+      "optimized_height": 800,
+      "file": "assets/images/shailey-patel.webp"
+    },
+    {
+      "name": "amelia-kayi",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_5215ec88f80545869d2c51115d909bb1~mv2.jpeg",
+      "source_alt": "amelia.jpeg",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 15,
+      "optimized_width": 800,
+      "optimized_height": 800,
+      "file": "assets/images/amelia-kayi.webp"
+    },
+    {
+      "name": "matthew-hunt",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_e5d299b0ae0542d9b7aeecfc21c3f865~mv2.jpeg",
+      "source_alt": "matthunt.jpeg",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 16,
+      "optimized_width": 800,
+      "optimized_height": 800,
+      "file": "assets/images/matthew-hunt.webp"
+    },
+    {
+      "name": "zoya-malik",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_f2976ccd6b3d49db8d9ca528d0afa54b~mv2.jpeg",
+      "source_alt": "zoyam.jpeg",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 17,
+      "optimized_width": 800,
+      "optimized_height": 800,
+      "file": "assets/images/zoya-malik.webp"
+    },
+    {
+      "name": "tej-prattipati",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_efe2b15cdef24a9a9cecf5b2e6dda553~mv2.jpg",
+      "source_alt": "HEADSHOT.jpg",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 18,
+      "optimized_width": 889,
+      "optimized_height": 900,
+      "file": "assets/images/tej-prattipati.webp"
+    },
+    {
+      "name": "john-mcwilliams",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_cd3eac070c2645eebc8802aeb03845bf~mv2.jpeg",
+      "source_alt": "johnmcw.jpeg",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 19,
+      "optimized_width": 800,
+      "optimized_height": 800,
+      "file": "assets/images/john-mcwilliams.webp"
+    },
+    {
+      "name": "marc-akella",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_542666c6cef64317b3f4e0deb617af1c~mv2.jpeg",
+      "source_alt": "marca.jpeg",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 20,
+      "optimized_width": 800,
+      "optimized_height": 800,
+      "file": "assets/images/marc-akella.webp"
+    },
+    {
+      "name": "ava-goldsmith",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_da940d4652ca43848476f9df3b78b4cb~mv2.jpeg",
+      "source_alt": "avag.jpeg",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 21,
+      "optimized_width": 800,
+      "optimized_height": 800,
+      "file": "assets/images/ava-goldsmith.webp"
+    },
+    {
+      "name": "edward-chen",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_0d749c5978ce4a6789b28d57f35bbc35~mv2.png",
+      "source_alt": "eddiec.png",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 22,
+      "optimized_width": 800,
+      "optimized_height": 800,
+      "file": "assets/images/edward-chen.webp"
+    },
+    {
+      "name": "christian-gojcaj",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_3bafd138939f484bbaf90194a61457db~mv2.jpg",
+      "source_alt": "christiang_edited.jpg",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 23,
+      "optimized_width": 579,
+      "optimized_height": 599,
+      "file": "assets/images/christian-gojcaj.webp"
+    },
+    {
+      "name": "george-biolsi",
+      "category": "headshot",
+      "source_url": "https://static.wixstatic.com/media/044a0c_67bb5b3b8779404e901b2676cea6629c~mv2.jpeg",
+      "source_alt": "georgeb.jpeg",
+      "maxwidth": 900,
+      "page": "about",
+      "source_image_index": 24,
+      "optimized_width": 800,
+      "optimized_height": 800,
+      "file": "assets/images/george-biolsi.webp"
+    },
+    {
+      "name": "real-world-application",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_f1230ccb2b8e469fb1eb79878cf55d12~mv2.png",
+      "source_alt": "IMG_8060.HEIC",
+      "maxwidth": 1400,
+      "page": "about",
+      "source_image_index": 26,
+      "optimized_width": 1050,
+      "optimized_height": 1400,
+      "file": "assets/images/real-world-application.webp"
+    },
+    {
+      "name": "professional-development",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_f785f71d38a34d1ba8613482d026a926~mv2.png",
+      "source_alt": "IMG_6305.HEIC",
+      "maxwidth": 1400,
+      "page": "about",
+      "source_image_index": 27,
+      "optimized_width": 1050,
+      "optimized_height": 1400,
+      "file": "assets/images/professional-development.webp"
+    },
+    {
+      "name": "community",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_26c580c6559449e6bfb6dfc2073e8c6f~mv2.png",
+      "source_alt": "IMG_4544.HEIC",
+      "maxwidth": 1400,
+      "page": "about",
+      "source_image_index": 28,
+      "optimized_width": 1400,
+      "optimized_height": 1050,
+      "file": "assets/images/community.webp"
+    },
+    {
+      "name": "club-gallery-01",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_d3b4d4f1855c45dfa6ad5093ccbbba33~mv2.png",
+      "source_alt": "IMG_4027.heic",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.6591021825396826,
+        0.3883928571428571
+      ],
+      "source_width": 4032,
+      "source_height": 3024,
+      "optimized_width": 1400,
+      "optimized_height": 1050,
+      "file": "assets/images/club-gallery-01.webp"
+    },
+    {
+      "name": "club-gallery-02",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_717edf5055644db3a47369a40997b871~mv2.png",
+      "source_alt": "IMG_4167.HEIC",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.5021081349206349,
+        0.4642857142857143
+      ],
+      "source_width": 4032,
+      "source_height": 3024,
+      "optimized_width": 1400,
+      "optimized_height": 1050,
+      "file": "assets/images/club-gallery-02.webp"
+    },
+    {
+      "name": "club-gallery-03",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_221e352ec27543e0a65fa62e1eb29ac7~mv2.png",
+      "source_alt": "IMG_4542.HEIC",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.5153769841269841,
+        0.437375992063492
+      ],
+      "source_width": 3024,
+      "source_height": 4032,
+      "optimized_width": 1050,
+      "optimized_height": 1400,
+      "file": "assets/images/club-gallery-03.webp"
+    },
+    {
+      "name": "club-gallery-04",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_edaaa0b333ed4b72be8482346c83d3ae~mv2.png",
+      "source_alt": "IMG_4034.heic",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.4833829365079365,
+        0.5246362433862434
+      ],
+      "source_width": 4032,
+      "source_height": 3024,
+      "optimized_width": 1400,
+      "optimized_height": 1050,
+      "file": "assets/images/club-gallery-04.webp"
+    },
+    {
+      "name": "club-gallery-05",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_f1230ccb2b8e469fb1eb79878cf55d12~mv2.png",
+      "source_alt": "IMG_8060.HEIC",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.48197751322751325,
+        0.6372767857142857
+      ],
+      "source_width": 3024,
+      "source_height": 4032,
+      "optimized_width": 1050,
+      "optimized_height": 1400,
+      "file": "assets/images/club-gallery-05.webp"
+    },
+    {
+      "name": "club-gallery-06",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_adab041c37d74afca2532617367a25d2~mv2.png",
+      "source_alt": "IMG_6308.heic",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.4966517857142857,
+        0.45171957671957674
+      ],
+      "source_width": 4032,
+      "source_height": 3024,
+      "optimized_width": 1400,
+      "optimized_height": 1050,
+      "file": "assets/images/club-gallery-06.webp"
+    },
+    {
+      "name": "club-gallery-07",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_6ba6b8a44b184028ba1ee18d7b60a9ed~mv2.png",
+      "source_alt": "IMG_8080.HEIC",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.5347222222222222,
+        0.2786458333333333
+      ],
+      "source_width": 720,
+      "source_height": 960,
+      "optimized_width": 720,
+      "optimized_height": 960,
+      "file": "assets/images/club-gallery-07.webp"
+    },
+    {
+      "name": "club-gallery-08",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_fa3cc3ee94774c23bac07374950f73c9~mv2.png",
+      "source_alt": "IMG_6015.HEIC",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.3237433862433862,
+        0.4357638888888889
+      ],
+      "source_width": 3024,
+      "source_height": 4032,
+      "optimized_width": 1050,
+      "optimized_height": 1400,
+      "file": "assets/images/club-gallery-08.webp"
+    },
+    {
+      "name": "club-gallery-09",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_f785f71d38a34d1ba8613482d026a926~mv2.png",
+      "source_alt": "IMG_6305.HEIC",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.08085317460317461,
+        0.6631944444444444
+      ],
+      "source_width": 3024,
+      "source_height": 4032,
+      "optimized_width": 1050,
+      "optimized_height": 1400,
+      "file": "assets/images/club-gallery-09.webp"
+    },
+    {
+      "name": "club-gallery-10",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_fa357c22b07f421fb1db3da2a2b7589d~mv2.png",
+      "source_alt": "IMG_6021.heic",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.4936755952380952,
+        0.30076058201058203
+      ],
+      "source_width": 4032,
+      "source_height": 3024,
+      "optimized_width": 1400,
+      "optimized_height": 1050,
+      "file": "assets/images/club-gallery-10.webp"
+    },
+    {
+      "name": "club-gallery-11",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_3d311a90452b4b1aa6220ec6d11a8598~mv2.png",
+      "source_alt": "IMG_6304.HEIC",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.5146329365079365,
+        0.613260582010582
+      ],
+      "source_width": 4032,
+      "source_height": 3024,
+      "optimized_width": 1400,
+      "optimized_height": 1050,
+      "file": "assets/images/club-gallery-11.webp"
+    },
+    {
+      "name": "club-gallery-12",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_abab5441617e48bfa4e491542c7507e6~mv2.jpg",
+      "source_alt": "IMG_8080_edited.jpg",
+      "maxwidth": 1400,
+      "focal_point": [
+        0.5340277777777778,
+        0.3397548161120841
+      ],
+      "source_width": 720,
+      "source_height": 571,
+      "optimized_width": 720,
+      "optimized_height": 571,
+      "file": "assets/images/club-gallery-12.webp"
+    },
+    {
+      "name": "placement-group-photo",
+      "category": "club-photo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_39c82cb842654155b61b623e6eaf0838~mv2.jpeg",
+      "source_alt": "IMG_0365.jpeg",
+      "maxwidth": 1400,
+      "page": "placement",
+      "source_image_index": 3,
+      "optimized_width": 1050,
+      "optimized_height": 1400,
+      "file": "assets/images/placement-group-photo.webp"
+    },
+    {
+      "name": "placement-logo-01",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_2eb4ddc2bd724d0d80dfbd110a1fe0cb~mv2.png",
+      "source_alt": "Goldman_Sachs.svg.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 4,
+      "optimized_width": 1400,
+      "optimized_height": 1400,
+      "file": "assets/images/placement-logo-01.webp"
+    },
+    {
+      "name": "placement-logo-02",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_2b9af07b840241aeb8310267c03f70ce~mv2.jpg",
+      "source_alt": "ms.jpg",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 5,
+      "optimized_width": 900,
+      "optimized_height": 900,
+      "file": "assets/images/placement-logo-02.webp"
+    },
+    {
+      "name": "placement-logo-03",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_27295f78cf894cc6a65dbbe2fa9725e1~mv2.png",
+      "source_alt": "jpm.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 6,
+      "optimized_width": 1400,
+      "optimized_height": 300,
+      "file": "assets/images/placement-logo-03.webp"
+    },
+    {
+      "name": "placement-logo-04",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_53f30b7f057e4c70bc1617e1a3964bdb~mv2.png",
+      "source_alt": "evercore.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 7,
+      "optimized_width": 1062,
+      "optimized_height": 184,
+      "file": "assets/images/placement-logo-04.webp"
+    },
+    {
+      "name": "placement-logo-05",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_2527a0b518bc4e5fa2f03a1e8b6a18ed~mv2.png",
+      "source_alt": "blackstone.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 8,
+      "optimized_width": 1400,
+      "optimized_height": 788,
+      "file": "assets/images/placement-logo-05.webp"
+    },
+    {
+      "name": "placement-logo-06",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_5a8ab33295894271901357d64a370258~mv2.png",
+      "source_alt": "blackrock.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 9,
+      "optimized_width": 1200,
+      "optimized_height": 174,
+      "file": "assets/images/placement-logo-06.webp"
+    },
+    {
+      "name": "placement-logo-07",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_f3f4b3b3925a4254b35de65b1c21e3a4~mv2.png",
+      "source_alt": "pjtblue.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 10,
+      "optimized_width": 1101,
+      "optimized_height": 806,
+      "file": "assets/images/placement-logo-07.webp"
+    },
+    {
+      "name": "placement-logo-08",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_18310cc13d7c467b83c3bf64d7413cec~mv2.png",
+      "source_alt": "unnamed.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 11,
+      "optimized_width": 600,
+      "optimized_height": 300,
+      "file": "assets/images/placement-logo-08.webp"
+    },
+    {
+      "name": "placement-logo-09",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_f130cc75df814e34bc4ed2723a9dc6e4~mv2.jpg",
+      "source_alt": "citadel.jpg",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 12,
+      "optimized_width": 800,
+      "optimized_height": 450,
+      "file": "assets/images/placement-logo-09.webp"
+    },
+    {
+      "name": "placement-logo-10",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_247aaceb39354f7885f74cfb9c51d5a4~mv2.png",
+      "source_alt": "moelis.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 13,
+      "optimized_width": 1400,
+      "optimized_height": 669,
+      "file": "assets/images/placement-logo-10.webp"
+    },
+    {
+      "name": "placement-logo-11",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_748d363010594232b6d2f6264a1cc6c8~mv2.png",
+      "source_alt": "p72.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 14,
+      "optimized_width": 1071,
+      "optimized_height": 375,
+      "file": "assets/images/placement-logo-11.webp"
+    },
+    {
+      "name": "placement-logo-12",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_263248c60c4c43e297c27f4ff7cea1b9~mv2.png",
+      "source_alt": "mill.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 15,
+      "optimized_width": 1400,
+      "optimized_height": 202,
+      "file": "assets/images/placement-logo-12.webp"
+    },
+    {
+      "name": "placement-logo-13",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_c753e3b8aa964a3984ddb35d18ef893a~mv2.png",
+      "source_alt": "image.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 16,
+      "optimized_width": 288,
+      "optimized_height": 108,
+      "file": "assets/images/placement-logo-13.webp"
+    },
+    {
+      "name": "placement-logo-14",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_d0369763b09d4201971e31d993d8b38c~mv2.png",
+      "source_alt": "bc.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 17,
+      "optimized_width": 1400,
+      "optimized_height": 788,
+      "file": "assets/images/placement-logo-14.webp"
+    },
+    {
+      "name": "placement-logo-15",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_16516b8105c64968a500ff58cff4066a~mv2.png",
+      "source_alt": "image.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 18,
+      "optimized_width": 1400,
+      "optimized_height": 737,
+      "file": "assets/images/placement-logo-15.webp"
+    },
+    {
+      "name": "placement-logo-16",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_6c2a88a118a44f789abbebf1a3c22155~mv2.png",
+      "source_alt": "Jefferies_logo.svg.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 19,
+      "optimized_width": 1280,
+      "optimized_height": 276,
+      "file": "assets/images/placement-logo-16.webp"
+    },
+    {
+      "name": "placement-logo-17",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_a0b11fd6198449e6b84ec617c2e0eb10~mv2.png",
+      "source_alt": "ubs.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 20,
+      "optimized_width": 1280,
+      "optimized_height": 469,
+      "file": "assets/images/placement-logo-17.webp"
+    },
+    {
+      "name": "placement-logo-18",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_04db9a857db34ef38d17cbd59375d8a9~mv2.png",
+      "source_alt": "Citi-logo.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 21,
+      "optimized_width": 1400,
+      "optimized_height": 788,
+      "file": "assets/images/placement-logo-18.webp"
+    },
+    {
+      "name": "placement-logo-19",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_bf47f615643540baaa322287660c34b9~mv2.png",
+      "source_alt": "nb.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 22,
+      "optimized_width": 500,
+      "optimized_height": 200,
+      "file": "assets/images/placement-logo-19.webp"
+    },
+    {
+      "name": "placement-logo-20",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_7f72e920c2e04b44a3474f5087b3b6a9~mv2.png",
+      "source_alt": "hl.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 23,
+      "optimized_width": 1200,
+      "optimized_height": 663,
+      "file": "assets/images/placement-logo-20.webp"
+    },
+    {
+      "name": "placement-logo-21",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_4de25e9aaf284f379ef40eebb7792389~mv2.png",
+      "source_alt": "db.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 24,
+      "optimized_width": 1400,
+      "optimized_height": 1400,
+      "file": "assets/images/placement-logo-21.webp"
+    },
+    {
+      "name": "placement-logo-22",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_470ff32f02b34027a5fe868e3a1c34be~mv2.jpeg",
+      "source_alt": "mizuho greenhill.jpeg",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 25,
+      "optimized_width": 200,
+      "optimized_height": 200,
+      "file": "assets/images/placement-logo-22.webp"
+    },
+    {
+      "name": "placement-logo-23",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_5da23e3f7db540cfad64f2e7bcfc1a08~mv2.png",
+      "source_alt": "rbc.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 26,
+      "optimized_width": 1400,
+      "optimized_height": 788,
+      "file": "assets/images/placement-logo-23.webp"
+    },
+    {
+      "name": "placement-logo-24",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_d8eb997253d44811bf7f1d36f896e355~mv2.png",
+      "source_alt": "wellsfargo.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 27,
+      "optimized_width": 1400,
+      "optimized_height": 788,
+      "file": "assets/images/placement-logo-24.webp"
+    },
+    {
+      "name": "placement-logo-25",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_c08120bed0ea4e0eacfa20c7444bafa9~mv2.webp",
+      "source_alt": "rothschildco_logo.webp",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 28,
+      "optimized_width": 984,
+      "optimized_height": 162,
+      "file": "assets/images/placement-logo-25.webp"
+    },
+    {
+      "name": "placement-logo-26",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_f7f161ae8b7e4836873436807b9071f1~mv2.png",
+      "source_alt": "image.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 29,
+      "optimized_width": 1088,
+      "optimized_height": 608,
+      "file": "assets/images/placement-logo-26.webp"
+    },
+    {
+      "name": "placement-logo-27",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_59792ae0e1884432b9d06e95785f9831~mv2.png",
+      "source_alt": "Toronto-Dominion_Bank_logo.svg.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 30,
+      "optimized_width": 500,
+      "optimized_height": 448,
+      "file": "assets/images/placement-logo-27.webp"
+    },
+    {
+      "name": "placement-logo-28",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_76e2fed17ac74446803d82b970a7cb88~mv2.png",
+      "source_alt": "bmo.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 31,
+      "optimized_width": 1400,
+      "optimized_height": 486,
+      "file": "assets/images/placement-logo-28.webp"
+    },
+    {
+      "name": "placement-logo-29",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_30f0edb4a13f4ac2bc5334ee85579b36~mv2.png",
+      "source_alt": "fidelity i.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 32,
+      "optimized_width": 1400,
+      "optimized_height": 788,
+      "file": "assets/images/placement-logo-29.webp"
+    },
+    {
+      "name": "placement-logo-30",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_1b7f91d21e50408283709f1c6fce3da5~mv2.png",
+      "source_alt": "norwest.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 33,
+      "optimized_width": 1200,
+      "optimized_height": 630,
+      "file": "assets/images/placement-logo-30.webp"
+    },
+    {
+      "name": "placement-logo-31",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_2333ad3fdacc4a819926781d54a9d718~mv2.png",
+      "source_alt": "baird.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 34,
+      "optimized_width": 1200,
+      "optimized_height": 1104,
+      "file": "assets/images/placement-logo-31.webp"
+    },
+    {
+      "name": "placement-logo-32",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_8ceef6dc4a0446e1818975a344825e1c~mv2.png",
+      "source_alt": "starwood.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 35,
+      "optimized_width": 1200,
+      "optimized_height": 915,
+      "file": "assets/images/placement-logo-32.webp"
+    },
+    {
+      "name": "placement-logo-33",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_321dbd8e90b6471fba7f48de24a00638~mv2.png",
+      "source_alt": "peakspan.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 36,
+      "optimized_width": 900,
+      "optimized_height": 900,
+      "file": "assets/images/placement-logo-33.webp"
+    },
+    {
+      "name": "placement-logo-34",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_636b6405c580402aad50b472771c5102~mv2.png",
+      "source_alt": "image.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 37,
+      "optimized_width": 1369,
+      "optimized_height": 1400,
+      "file": "assets/images/placement-logo-34.webp"
+    },
+    {
+      "name": "placement-logo-35",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_5c097cabc6564aef82cd08089f64c1ce~mv2.png",
+      "source_alt": "image.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 38,
+      "optimized_width": 1400,
+      "optimized_height": 788,
+      "file": "assets/images/placement-logo-35.webp"
+    },
+    {
+      "name": "placement-logo-36",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_27c4cb7b5cac4bdbb9b0a14d96667594~mv2.png",
+      "source_alt": "ardea.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 39,
+      "optimized_width": 719,
+      "optimized_height": 104,
+      "file": "assets/images/placement-logo-36.webp"
+    },
+    {
+      "name": "placement-logo-37",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_811d51e7f01d4ae696495739501348ae~mv2.gif",
+      "source_alt": "ps.gif",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 40,
+      "optimized_width": 1400,
+      "optimized_height": 211,
+      "file": "assets/images/placement-logo-37.webp"
+    },
+    {
+      "name": "placement-logo-38",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_af983cba9cf34494b1510209779a1b9d~mv2.png",
+      "source_alt": "image.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 41,
+      "optimized_width": 225,
+      "optimized_height": 225,
+      "file": "assets/images/placement-logo-38.webp"
+    },
+    {
+      "name": "placement-logo-39",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_f7040f95a49e4839aa85d3c106f1f10c~mv2.webp",
+      "source_alt": "weiss.webp",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 42,
+      "optimized_width": 600,
+      "optimized_height": 110,
+      "file": "assets/images/placement-logo-39.webp"
+    },
+    {
+      "name": "placement-logo-40",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_226a9f70f50e4a7fb47a79a1d0beafac~mv2.png",
+      "source_alt": "image.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 43,
+      "optimized_width": 1400,
+      "optimized_height": 220,
+      "file": "assets/images/placement-logo-40.webp"
+    },
+    {
+      "name": "placement-logo-41",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_9025738564c544bbbe96b21a5fc63875~mv2.png",
+      "source_alt": "ln.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 44,
+      "optimized_width": 900,
+      "optimized_height": 500,
+      "file": "assets/images/placement-logo-41.webp"
+    },
+    {
+      "name": "placement-logo-42",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_58c723c7e9ae4237b64c6d118fc64d28~mv2.png",
+      "source_alt": "bain.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 45,
+      "optimized_width": 894,
+      "optimized_height": 309,
+      "file": "assets/images/placement-logo-42.webp"
+    },
+    {
+      "name": "placement-logo-43",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_62cd9a95b13b4b858a15c52da491e996~mv2.png",
+      "source_alt": "deloitte.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 46,
+      "optimized_width": 1400,
+      "optimized_height": 569,
+      "file": "assets/images/placement-logo-43.webp"
+    },
+    {
+      "name": "placement-logo-44",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_ab2c81895d224ba48510f17a1c034aa4~mv2.png",
+      "source_alt": "image.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 47,
+      "optimized_width": 320,
+      "optimized_height": 320,
+      "file": "assets/images/placement-logo-44.webp"
+    },
+    {
+      "name": "placement-logo-45",
+      "category": "placement-logo",
+      "source_url": "https://static.wixstatic.com/media/044a0c_a27d75d325fa4124bb661e889e595e3b~mv2.png",
+      "source_alt": "EY_logo_2019.svg.png",
+      "maxwidth": 700,
+      "page": "placement",
+      "source_image_index": 48,
+      "optimized_width": 1200,
+      "optimized_height": 1200,
+      "file": "assets/images/placement-logo-45.webp"
+    },
+    {
+      "name": "atg-wordmark-white",
+      "category": "branding",
+      "source_url": "https://static.wixstatic.com/media/044a0c_8bc48e2dce4c4cfab87e9e72381af997~mv2.png",
+      "source_alt": "",
+      "verification": "Same preferred wordmark, white on transparent background, discovered in prospective members source",
+      "optimized_width": 780,
+      "optimized_height": 366,
+      "file": "assets/images/atg-wordmark-white.webp"
+    }
+  ],
+  "instagram": {
+    "url": "https://www.instagram.com/atgumich/?hl=en",
+    "status": "Public web fetch failed; no additional Instagram assets downloaded. Supplied screenshot remains aesthetic reference."
+  }
+}
