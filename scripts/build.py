@@ -133,7 +133,7 @@ def placement():
         panels+=f'<section class="placement-panel" id="class-{year}" aria-labelledby="class-title-{year}"{hidden}><h3 id="class-title-{year}">Class of {year}</h3><ul>'+''.join(f'<li><span>{e(entry)}</span><span class="placement-dash" aria-hidden="true">—</span></li>' for entry in entries)+'</ul></section>'
     tabs+='</div>'
     return subhero('Placement / Our alumni network','Ambition meets<br><em>opportunity.</em>','Our members go on to work at leading firms in finance and beyond. An enduring alumni network connects every new class with the experience of those who came before.')+f'''
-    {stats()}<section class="section wrap"><div class="section-heading"><div><p class="eyebrow">A network that stays with you</p><h2>Where our members<br><em>make their mark.</em></h2></div></div>{logo_grid()}</section>
+    <section class="section wrap"><div class="section-heading"><div><p class="eyebrow">A network that stays with you</p><h2>Where our members<br><em>make their mark.</em></h2></div></div>{logo_grid()}</section>
     <section class="section recent-section" id="recent-placement"><div class="wrap"><div class="section-heading"><div><p class="eyebrow">Recent placement</p><h2>Every class.<br><em>New possibilities.</em></h2></div></div>{tabs}{panels}</div></section>{broader_placements()}'''
 
 def pitch_highlights():
