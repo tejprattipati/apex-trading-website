@@ -1051,20 +1051,17 @@
         "company": "Deutsche Bank",
         "source_image_index": 24,
         "asset": {
-          "name": "placement-logo-21",
+          "name": "deutsche-bank-user",
           "category": "placement-logo",
-          "source_url": "https://www.db.com/application/project/images/logos/identifier_RETINA.png",
-          "source_alt": "Deutsche Bank wordmark",
-          "maxwidth": 700,
-          "page": "placement",
-          "source_image_index": 24,
-          "optimized_width": 268,
-          "optimized_height": 30,
-          "file": "assets/images/deutsche-bank-tight.png"
+          "source": "User-provided Deutsche_Bank.jpg",
+          "source_alt": "Deutsche Bank blue symbol and wordmark",
+          "optimized_width": 1200,
+          "optimized_height": 640,
+          "file": "assets/images/deutsche-bank-user.jpg"
         },
         "category": "not grouped in original source",
-        "identification": "Visually verified from downloaded logo",
-        "size": "slender"
+        "identification": "User-provided Deutsche Bank logo",
+        "size": "stacked"
       },
       {
         "company": "BNP Paribas",
