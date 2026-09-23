@@ -13,7 +13,7 @@ Both photographs are available under the [Unsplash License](https://unsplash.com
 
 ## Fonts
 
-Cormorant Garamond and IBM Plex Sans, distributed by [Google Fonts](https://fonts.google.com/), are self-hosted under the SIL Open Font License. License copies are included in `assets/fonts/`.
+Cormorant Garamond, Raleway, and IBM Plex Sans, distributed by [Google Fonts](https://fonts.google.com/), are self-hosted under the SIL Open Font License. License copies are included in `assets/fonts/`.
 
 The visual direction is informed by the supplied ATG Instagram screenshot and the GIC website. Page code and rewritten copy are original to this implementation.
 

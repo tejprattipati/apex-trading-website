@@ -7,6 +7,7 @@ from hashlib import sha256
 ROOT = Path(__file__).resolve().parents[1]
 D = json.loads((ROOT / 'data/content.json').read_text())
 STYLE_VERSION = sha256((ROOT / 'assets/style.css').read_bytes()).hexdigest()[:12]
+FONTS_VERSION = sha256((ROOT / 'assets/fonts/fonts.css').read_bytes()).hexdigest()[:12]
 INTEREST = D['links']['INTEREST FORM']
 APPLICATION = D['links']['APPLICATION']
 INSTAGRAM = D['links']['Instagram']
@@ -155,7 +156,7 @@ DESCRIPTIONS={
  'prospective-members.html':'Discover the ATG new member experience, six investment sectors, and Fall 2026 recruitment schedule.'}
 
 def document(page,title,content):
-    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1d33"><title>{title} — Apex Trading Group | University of Michigan</title><meta name="description" content="{e(DESCRIPTIONS.get(page,DESCRIPTIONS['index.html']))}"><link rel="icon" href="assets/images/atg-logo.png"><link rel="stylesheet" href="assets/fonts/fonts.css"><link rel="stylesheet" href="assets/style.css?v={STYLE_VERSION}"></head><body id="top">{header(page)}<main id="main">{content}</main>{footer(page)}<script src="assets/main.js" defer></script></body></html>'''
+    return f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b1d33"><title>{title} — Apex Trading Group | University of Michigan</title><meta name="description" content="{e(DESCRIPTIONS.get(page,DESCRIPTIONS['index.html']))}"><link rel="icon" href="assets/images/atg-logo.png"><link rel="stylesheet" href="assets/fonts/fonts.css?v={FONTS_VERSION}"><link rel="stylesheet" href="assets/style.css?v={STYLE_VERSION}"></head><body id="top">{header(page)}<main id="main">{content}</main>{footer(page)}<script src="assets/main.js" defer></script></body></html>'''
 
 for path,title,render in [('index.html','Home',home),('about.html','About',about),('placement.html','Placement',placement),('prospective-members.html','Prospective Members',prospective)]:
     (ROOT/path).write_text(document(path,title,render()))

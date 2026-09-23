@@ -21,7 +21,7 @@ The site works at a project URL or a custom domain. No application server, packa
 - `assets/style.css`: responsive design, typography, navy/silver palette.
 - `assets/main.js`: mobile navigation, keyboard-accessible placement year filters, photo carousel/lightbox, and scroll reveals.
 - `assets/images/`: self-hosted optimized original ATG imagery and licensed stock photography.
-- `assets/fonts/`: self-hosted Cormorant Garamond and IBM Plex Sans.
+- `assets/fonts/`: self-hosted Cormorant Garamond, Raleway italic, and IBM Plex Sans.
 
 After editing content or templates, run `python3 scripts/build.py` and commit the generated HTML with the changed source. Editing CSS or JavaScript takes effect directly.
 
