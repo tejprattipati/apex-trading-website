@@ -120,7 +120,7 @@
     },
     {
       "name": "Massimo Garcia",
-      "role": "VP of Professional Development",
+      "role": "VP of Education",
       "email": "massimog@umich.edu",
       "photo": {
         "name": "massimo-garcia",
@@ -169,23 +169,6 @@
         "optimized_width": 600,
         "optimized_height": 900,
         "file": "assets/images/julia-zou.webp"
-      }
-    },
-    {
-      "name": "Zach Hammerman",
-      "role": "VP of Sophomore Education",
-      "email": "zdhammer@umich.edu",
-      "photo": {
-        "name": "zach-hammerman",
-        "category": "headshot",
-        "source_url": "https://static.wixstatic.com/media/044a0c_a4ea1d7a407a44c1979da81a6cabb2e9~mv2.jpeg",
-        "source_alt": "zachh.jpeg",
-        "maxwidth": 900,
-        "page": "about",
-        "source_image_index": 9,
-        "optimized_width": 800,
-        "optimized_height": 800,
-        "file": "assets/images/zach-hammerman.webp"
       }
     },
     {
