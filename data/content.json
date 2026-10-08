@@ -1710,14 +1710,15 @@
         "photographer": "Simon Kadula"
       }
     ],
+    "pitch_returns_note": "Returns as of October 8, 2026 · GKOS as of September 2026",
     "pitch_highlights": [
       {
         "company": "Vertiv Holdings",
         "ticker": "VRT",
         "pitch_term": "February 2026",
         "pitch_price": 178.03,
-        "closing_price": 250.86,
-        "closing_date": "2026-09-21",
+        "closing_price": 243.7,
+        "closing_date": "2026-10-08",
         "price_source": "https://stockanalysis.com/stocks/vrt/history/"
       },
       {
@@ -1734,18 +1735,18 @@
         "ticker": "TTMI",
         "pitch_term": "February 2026",
         "pitch_price": 95.47,
-        "closing_price": 124.02,
-        "closing_date": "2026-09-21",
-        "price_source": "https://www.investing.com/equities/ttm-technologies-historical-data"
+        "closing_price": 117.47,
+        "closing_date": "2026-10-08",
+        "price_source": "https://stockanalysis.com/stocks/ttmi/history/"
       },
       {
         "company": "Grocery Outlet Holding",
         "ticker": "GO",
         "pitch_term": "March 2026",
         "pitch_price": 6.2,
-        "closing_price": 11.23,
-        "closing_date": "2026-09-21",
-        "price_source": "https://stockanalysis.com/stocks/go/history/"
+        "closing_price": 11.93,
+        "closing_date": "2026-10-08",
+        "price_source": "https://stockanalysis.com/stocks/go/"
       }
     ]
   },
