@@ -1710,7 +1710,7 @@
         "photographer": "Simon Kadula"
       }
     ],
-    "pitch_returns_note": "Returns as of October 8, 2026 · GKOS as of September 2026",
+    "pitch_returns_note": "Returns as of October 8, 2026",
     "pitch_highlights": [
       {
         "company": "Vertiv Holdings",
@@ -1725,9 +1725,15 @@
         "company": "Glaukos Corporation",
         "ticker": "GKOS",
         "pitch_term": "March 2026",
-        "return_percent": 49.63,
+        "baseline_price": 95.87,
+        "baseline_date": "2026-03-13",
+        "baseline_type": "March 2026 intraday low",
+        "baseline_source": "https://www.quiverquant.com/stock/GKOS/historical-prices/",
+        "closing_price": 161.32,
+        "closing_date": "2026-10-08",
+        "price_source": "https://stockanalysis.com/stocks/gkos/history/",
         "return_precision": 2,
-        "return_source": "ATG-provided return, September 2026",
+        "return_label": "Return from March intraday low",
         "company_source": "https://www.glaukos.com/about-us/"
       },
       {

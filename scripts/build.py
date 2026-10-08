@@ -143,9 +143,9 @@ def pitch_highlights():
     if not entries:return ''
     rows=''
     for p in entries:
-        gain=p['return_percent'] if 'return_percent' in p else (p['closing_price']/p['pitch_price']-1)*100
+        gain=p['return_percent'] if 'return_percent' in p else (p['closing_price']/(p['baseline_price'] if 'baseline_price' in p else p['pitch_price'])-1)*100
         precision=p.get('return_precision',1)
-        rows+=f'''<article class="pitch-result"><div><p class="pitch-ticker">{e(p['ticker'])} <span>· {e(p['pitch_term'])}</span></p><h4>{e(p['company'])}</h4></div><div><strong>{gain:+.{precision}f}%</strong><p>Price return since pitch</p></div></article>'''
+        rows+=f'''<article class="pitch-result"><div><p class="pitch-ticker">{e(p['ticker'])} <span>· {e(p['pitch_term'])}</span></p><h4>{e(p['company'])}</h4></div><div><strong>{gain:+.{precision}f}%</strong><p>{e(p.get('return_label','Price return since pitch'))}</p></div></article>'''
     return f'''<div class="pitch-highlights"><p class="eyebrow">Selected pitch highlights</p>{rows}<p class="returns-date">{e(D['prospective_members']['pitch_returns_note'])}</p></div>'''
 
 def prospective():
