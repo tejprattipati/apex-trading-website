@@ -1721,7 +1721,7 @@
         "baseline_date": "2026-02-05",
         "baseline_type": "February 2026 intraday low",
         "baseline_source": "https://www.quiverquant.com/stock/VRT/historical-prices/",
-        "return_label": "Return from February intraday low",
+        "return_label": "Return since pitch",
         "closing_price": 232.5,
         "closing_date": "2026-10-30",
         "price_source": "https://stockanalysis.com/stocks/vrt/history/"
@@ -1738,7 +1738,7 @@
         "closing_date": "2026-10-30",
         "price_source": "https://stockanalysis.com/stocks/gkos/history/",
         "return_precision": 2,
-        "return_label": "Return from March intraday low",
+        "return_label": "Return since pitch",
         "company_source": "https://www.glaukos.com/about-us/"
       },
       {
@@ -1750,7 +1750,7 @@
         "baseline_date": "2026-02-05",
         "baseline_type": "February 2026 intraday low",
         "baseline_source": "https://www.quiverquant.com/stock/TTMI/historical-prices/",
-        "return_label": "Return from February intraday low",
+        "return_label": "Return since pitch",
         "closing_price": 82.94,
         "closing_date": "2026-10-30",
         "price_source": "https://stockanalysis.com/stocks/ttmi/history/"
@@ -1764,12 +1764,13 @@
         "baseline_date": "2026-03-09",
         "baseline_type": "March 2026 intraday low",
         "baseline_source": "https://www.quiverquant.com/stock/GO/historical-prices/",
-        "return_label": "Return from March intraday low",
+        "return_label": "Return since pitch",
         "closing_price": 12.93,
         "closing_date": "2026-10-30",
         "price_source": "https://stockanalysis.com/stocks/go/history/"
       }
-    ]
+    ],
+    "pitch_returns_basis": "Calculated from the lowest price during the pitch month; not actual fund returns."
   },
   "recruitment": {
     "title": "Fall 2026 Recruitment",
