@@ -1742,20 +1742,6 @@
         "company_source": "https://www.glaukos.com/about-us/"
       },
       {
-        "company": "TTM Technologies",
-        "ticker": "TTMI",
-        "pitch_term": "February 2026",
-        "pitch_price": 95.47,
-        "baseline_price": 81.8,
-        "baseline_date": "2026-02-05",
-        "baseline_type": "February 2026 intraday low",
-        "baseline_source": "https://www.quiverquant.com/stock/TTMI/historical-prices/",
-        "return_label": "Return since pitch",
-        "closing_price": 82.94,
-        "closing_date": "2026-10-30",
-        "price_source": "https://stockanalysis.com/stocks/ttmi/history/"
-      },
-      {
         "company": "Grocery Outlet Holding",
         "ticker": "GO",
         "pitch_term": "March 2026",
@@ -1768,6 +1754,21 @@
         "closing_price": 12.93,
         "closing_date": "2026-10-30",
         "price_source": "https://stockanalysis.com/stocks/go/history/"
+      },
+      {
+        "company": "Zebra Technologies",
+        "ticker": "ZBRA",
+        "pitch_term": "March 2026",
+        "pitch_price": 202.72,
+        "pitch_source": "https://drive.google.com/file/d/1l1iSJO3svkd9XLdgTZolCfodx0Qk2uTV/view",
+        "baseline_price": 199.05,
+        "baseline_date": "2026-03-30",
+        "baseline_type": "March 2026 intraday low",
+        "baseline_source": "https://ca.finance.yahoo.com/quote/ZBRA/history/",
+        "return_label": "Return since pitch",
+        "closing_price": 361.26,
+        "closing_date": "2026-10-30",
+        "price_source": "https://stockanalysis.com/stocks/zbra/history/"
       }
     ],
     "pitch_returns_basis": "Calculated from the lowest price during the pitch month; not actual fund returns."
