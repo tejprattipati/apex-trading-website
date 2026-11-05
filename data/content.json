@@ -363,19 +363,17 @@
       }
     },
     {
-      "name": "Christian Gojcaj",
+      "name": "Chris Louie",
       "role": "TMT Sector Head",
       "photo": {
-        "name": "christian-gojcaj",
+        "name": "chris-louie",
         "category": "headshot",
-        "source_url": "https://static.wixstatic.com/media/044a0c_3bafd138939f484bbaf90194a61457db~mv2.jpg",
-        "source_alt": "christiang_edited.jpg",
-        "maxwidth": 900,
+        "source_url": "https://www.linkedin.com/in/crlouie/",
+        "source_alt": "Chris Louie headshot",
         "page": "about",
-        "source_image_index": 23,
-        "optimized_width": 579,
-        "optimized_height": 599,
-        "file": "assets/images/christian-gojcaj.webp"
+        "optimized_width": 800,
+        "optimized_height": 800,
+        "file": "assets/images/chris-louie.jpg"
       }
     },
     {

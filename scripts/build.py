@@ -115,7 +115,7 @@ def people(entries):
 def about():
     leaders=D['chairs_and_sector_heads']
     sectors=[p for p in leaders if 'Sector Head' in p['role']]
-    sectors.sort(key=lambda p: {'Tej Prattipati':0,'Christian Gojcaj':1,'Eddie Chen':2}.get(p['name'],3))
+    sectors.sort(key=lambda p: {'Tej Prattipati':0,'Chris Louie':1,'Eddie Chen':2}.get(p['name'],3))
     chairs=[p for p in leaders if 'Sector Head' not in p['role'] and 'Chair' in p['role']]
     chairs.sort(key=lambda p: {'Shivam Shah':0,'Emanuel Rodriguez':1,'Matthew Hunt':2}.get(p['name'],3))
     return subhero('About Apex Trading Group','Shared ambition.<br><em>Individual potential.</em>','The University of Michigan’s premier student investment organization. Built around real-world experience, professional growth, and the people who make it possible.')+f'''
