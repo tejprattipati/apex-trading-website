@@ -271,22 +271,6 @@
       }
     },
     {
-      "name": "Zoya Malik",
-      "role": "Consumer & Retail Sector Head",
-      "photo": {
-        "name": "zoya-malik",
-        "category": "headshot",
-        "source_url": "https://static.wixstatic.com/media/044a0c_f2976ccd6b3d49db8d9ca528d0afa54b~mv2.jpeg",
-        "source_alt": "zoyam.jpeg",
-        "maxwidth": 900,
-        "page": "about",
-        "source_image_index": 17,
-        "optimized_width": 800,
-        "optimized_height": 800,
-        "file": "assets/images/zoya-malik.webp"
-      }
-    },
-    {
       "name": "Tej Prattipati",
       "role": "Global Equities Sector Head",
       "photo": {
@@ -332,7 +316,7 @@
     },
     {
       "name": "Ava Goldsmith",
-      "role": "PUI Sector Head | Member Experience Chair",
+      "role": "PUI Sector Head",
       "photo": {
         "name": "ava-goldsmith",
         "category": "headshot",
@@ -1639,7 +1623,7 @@
       "Healthcare",
       "Global Equities",
       "Industrials",
-      "Consumer & Retail"
+      "Fixed Income / Special Situations"
     ],
     "sector_cards": [
       {
@@ -1675,15 +1659,15 @@
         "photographer": "Sofia Cancela"
       },
       {
-        "name": "Consumer & Retail",
+        "name": "Fixed Income / Special Situations",
         "image": {
-          "file": "assets/images/sector-consumer-retail.jpg",
+          "file": "assets/images/sector-fixed-income.jpg",
           "optimized_width": 1200,
           "optimized_height": 900
         },
-        "alt": "Glass roof and retail storefronts in Westfield London",
-        "source_url": "https://unsplash.com/photos/a-glass-ceiling-in-a-shopping-mall-with-people-walking-around-97yKnJpF2N4",
-        "photographer": "Brett Jordan"
+        "alt": "The New York Stock Exchange building in the Financial District",
+        "source_url": "https://unsplash.com/photos/mHdATQY9fIU",
+        "photographer": "Aditya Vyas"
       },
       {
         "name": "Healthcare",
