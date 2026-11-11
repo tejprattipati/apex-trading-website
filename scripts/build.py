@@ -109,7 +109,7 @@ def people(entries):
         if photo.get('zoom'): styles.append(f"--photo-zoom:{photo['zoom']}")
         if photo.get('position'): styles.append(f"object-position:{photo['position']}")
         photo_style=f'style="{e(";".join(styles))}"' if styles else ''
-        cards+=f'''<article class="person reveal"><div class="person-photo">{image(person['photo'],person['name'],extra=photo_style)}</div><div class="person-info"><p>{e(person['role'])}</p><h3>{e(person['name'])}</h3>{f'<a href="mailto:{email}">{email} <span>↗</span></a>' if email else ''}</div></article>'''
+        cards+=f'''<article class="person reveal"><div class="person-photo">{image(person['photo'],person['name'],extra=photo_style)}</div><div class="person-info"><p>{e(person['role'])}{f"<br>{e(person['secondary_role'])}" if person.get('secondary_role') else ''}</p><h3>{e(person['name'])}</h3>{f'<a href="mailto:{email}">{email} <span>↗</span></a>' if email else ''}</div></article>'''
     return f'<div class="people-grid">{cards}</div>'
 
 def about():
