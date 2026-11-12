@@ -284,22 +284,6 @@
       "secondary_role": "Head of Investments Committee"
     },
     {
-      "name": "John McWilliams",
-      "role": "Healthcare Sector Head",
-      "photo": {
-        "name": "john-mcwilliams",
-        "category": "headshot",
-        "source_url": "https://static.wixstatic.com/media/044a0c_cd3eac070c2645eebc8802aeb03845bf~mv2.jpeg",
-        "source_alt": "johnmcw.jpeg",
-        "maxwidth": 900,
-        "page": "about",
-        "source_image_index": 19,
-        "optimized_width": 800,
-        "optimized_height": 800,
-        "file": "assets/images/john-mcwilliams.webp"
-      }
-    },
-    {
       "name": "Marc Akella",
       "role": "Industrials Sector Head",
       "photo": {
